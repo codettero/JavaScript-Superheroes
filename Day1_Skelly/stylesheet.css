@@ -1,0 +1,26 @@
+.hero {
+	width: 500px;
+	margin: 24px;
+	border: 1px solid #000;
+}
+
+.hero__image {
+	width: 200px;
+	height: 280px;
+	margin: 4px;
+}
+
+.hero--right {
+	width: 290px;
+	float: right;
+	padding: 10px;
+}
+
+.hero--previous {
+	width: 50%;
+}
+
+.hero--next {
+	width: 50%;
+	float: right;
+}
