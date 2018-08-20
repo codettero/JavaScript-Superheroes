@@ -1,26 +1,40 @@
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #212529;
+  font-family: "Open Sans", sans-serif;
+}
+
 .hero {
-	width: 500px;
-	margin: 24px;
-	border: 1px solid #000;
+  width: 550px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+h1 {
+  text-align: center;
 }
 
 .hero__image {
-	width: 200px;
-	height: 280px;
-	margin: 4px;
+  width: 200px;
+  height: 280px;
+  margin: 4px;
 }
 
 .hero--right {
-	width: 290px;
-	float: right;
-	padding: 10px;
+  width: 300px;
+  float: right;
+  padding: 10px;
 }
 
 .hero--previous {
-	width: 50%;
+  width: 50%;
+  float: left;
 }
 
 .hero--next {
-	width: 50%;
-	float: right;
+  width: 50%;
+  float: right;
 }
