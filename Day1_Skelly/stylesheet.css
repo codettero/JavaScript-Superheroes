@@ -8,33 +8,136 @@ body {
 }
 
 .hero {
-  width: 550px;
+  width: 70%;
   margin: 0 auto;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
 
 h1 {
   text-align: center;
+  margin-bottom: 70px;
+  font-family: 'Oswald', sans-serif;
 }
 
-.hero__image {
-  width: 200px;
-  height: 280px;
+h2 {
+  font-family: 'Oswald', sans-serif;
+}
+.clearfix {
+  overflow: auto;
+}
+.hero--name {
+  font-weight: 900;
+  font-size: 42px;
+  margin-top: 5px;
+}
+.hero--image {
+  width: 100%;
+  height: auto;
   margin: 4px;
 }
-
-.hero--right {
-  width: 300px;
-  float: right;
-  padding: 10px;
+.hero--left {
+  width: 40%;
+  float: left;
+  position: relative;
 }
-
-.hero--previous {
-  width: 50%;
+.hero--right {
+  width: 60%;
+  float: right;
+}
+.hero--details-left {
+  width: 70%;
   float: left;
 }
 
-.hero--next {
-  width: 50%;
+.hero--details-right {
+  width: 30%;
   float: right;
 }
+
+.hero--right-inner {
+  padding-left: 50px;
+}
+.hero--right-inner h4 {
+  margin-bottom: 0;
+}
+.hero--right-inner p {
+  margin-top: 0;
+  color: #808488;
+}
+.hero--power span{
+  border-bottom: 5px solid #ff4ca5;
+  color: #808488;
+
+}
+
+.badge {text-shadow: none;
+  font-size: 12px;
+  padding: 1px 15px;
+  font-weight: normal;
+  line-height: 15px;
+  border-radius: 20px;
+  color: #fff;
+}
+.badge-purple { 
+  background-color: #9585bf;
+}
+.badge-blue { 
+  background-color: #305ecc;
+}
+.badge-pink { 
+  background-color: #ff4ca5;
+}
+.hero--allies {
+  padding: 0;
+  margin: 0;
+}
+.hero--allies li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.hero--allies li h5 {
+  margin-top: 0;
+}
+
+.img-round {
+  width: 50px;
+  border-radius: 50%;
+}
+.link-btns {
+  position: absolute;
+  width: 112%;
+  bottom: 25px;
+  margin-left: -20px;
+}
+.hero--btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgb(249, 243, 243);
+  color: #000;
+  font-size: 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2.5;
+  -webkit-box-shadow: 4px 4px 5px 2px rgba(133,133,133,1);
+  -moz-box-shadow: 4px 4px 5px 2px rgba(133,133,133,1);
+  box-shadow: 4px 4px 5px 2px rgba(133,133,133,1);
+}
+.hero--btn:hover {
+  background: #9585bf;
+  color: #fff;
+  -webkit-transform: scale(1.1); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+      -ms-transform: scale(1.1); /* IE 9 */
+          transform: scale(1.1); /* IE 10, Fx 16+, Op 12.1+ */
+}
+.previous {
+  float: left;
+}
+
+.next {
+  float: right;
+}
+
+
