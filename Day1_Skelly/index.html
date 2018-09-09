@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
   <link rel="stylesheet" href="stylesheet.css">
+  <script type="text/javascript" src="script.js"></script>
 
   <title>My Hero App</title>
 </head>
@@ -18,62 +19,57 @@
   <h1>My First Hero App</h1>
   <div class="hero">
     <div class="hero--left">
-      <img class="hero--image" src="img/Jean_Grey.jpg" alt="Jean Grey" />
-      <div class="link-btns">
-        <a class="hero--btn previous" href="#">&#60;</a>
-        <a class="hero--btn next" href="#">&#62;</a>
-      </div>
+      <img class="hero--image" id="image" src="" alt="Jean Grey" />
+      <a class="hero--btn previous" href="#" onclick="previousHero()">&#60;</a>
     </div>
     <div class="hero--right">
       <div class="hero--right-inner">
-        <h2 class="hero--name">Jean Grey</h2>
+        <h2 class="hero--name" id="heroName"></h2>
         <h4 class="hero--power">Power level:
-          <span>Omega-level mutant</span>
+          <span id="power"></span>
         </h4>
         <h4>Hero description:</h4>
-        <p class="hero--description">She is an important figure in the lives of other Marvel Universe characters, mostly the X-Men, including her husband
-          Cyclops, her mentor and father figure Charles Xavier, her unrequited love interest Wolverine, her best friend and
-          sister-like figure Storm, and her genetic children Rachel Summers, Cable, Stryfe and X-Man.
-        </p>
+        <p class="hero--description" id="description"></p>
         <div class="hero--details">
           <h4>Abilities:
-            <span class="badge badge-purple">Telepathy</span>
-            <span class="badge badge-blue">Telekinesis</span>
-            <span class="badge badge-pink">The Phoenix Force</span>
+            <span class="badge badge-purple" id="ability-1"></span>
+            <span class="badge badge-blue" id="ability-2"></span>
+            <span class="badge badge-pink" id="ability-3"></span>
           </h4>
           <div class="hero--details-left">
             <h4>Allies:</h4>
             <ul class="hero--allies">
-              <li>
-                <h5>Cyclops</h5>
-                <img src="img/cyclops.jpg" class="img-round" />
+              <li id="ally-1">
+                <h5></h5>
+                <img src="" class="img-round" />
               </li>
-              <li>
-                <h5>Havok</h5>
-                <img src="img/havok.jpg" class="img-round" />
+              <li id="ally-2">
+                <h5></h5>
+                <img src="" class="img-round" />
               </li>
-              <li>
-                <h5>Corsair</h5>
-                <img src="img/corsair.jpg" class="img-round" />
+              <li id="ally-3">
+                <h5></h5>
+                <img src="" class="img-round" />
               </li>
-              <li>
-                <h5>Storm</h5>
-                <img src="img/storm.jpg" class="img-round" />
+              <li id="ally-4">
+                <h5></h5>
+                <img src="" class="img-round" />
               </li>
             </ul>
           </div>
           <div class="hero--details-right">
             <h4>Enemies:</h4>
             <ol class="hero--enemies">
-              <li>Stryfe</li>
-              <li>Genesis</li>
-              <li>Emma Frost</li>
-              <li>Apocalypse</li>
+              <li id="enemy-1"></li>
+              <li id="enemy-2"></li>
+              <li id="enemy-3"></li>
+              <li id="enemy-4"></li>
             </ol>
           </div>
           <div class="clearfix"></div>
         </div>
       </div>
+      <a class="hero--btn next" href="#" onclick="nextHero()">&#62;</a>
     </div>
     <div class="clearfix"></div>
   </div>
