@@ -3,7 +3,11 @@
 ## 1. INTRO. THE HERO COMPONENT
 
 #### 1.1 Open the project and explore the structure  
-#### 1.2 Start the project -> navigate to the source code folder in your terminal and run `ng serve` and open the address `http://localhost:4200/` from your browser.  
+#### 1.2 Start the project 
+  * navigate to the source code folder in your terminal
+  * run `npm install` from your terminal
+  * run `ng serve` from your terminal
+  * open the address `http://localhost:4200/` from your browser.  
 #### 1.3 Create a hero component -> `ng generate component Hero`  
 #### 1.4 Use the `hero-component` in `AppComponent`  
 #### 1.5 Create a basic hero layout - static info (photo, name, alter ego, description, 'Call Hero' button, use predefined css and markup  
