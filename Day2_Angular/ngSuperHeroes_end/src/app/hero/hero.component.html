@@ -1,0 +1,20 @@
+<div class="hero">
+  <div class="photo">
+    <img [src]="hero.photo">
+  </div>
+  <div class="details">
+    <span class="detail-title">Name</span>
+    <p class="detail-text">{{hero.name | uppercase}}</p>
+    <span class="detail-title">Alter ego</span>
+    <p class="detail-text">{{hero.alterEgo}}</p>
+    <span class="detail-title">Description</span>
+    <p class="detail-text">{{hero.description}}</p>
+  </div>
+  <button (click)="callHero()">CALL HERO</button>
+  <button (click)="editHero(hero.id)">EDIT DETAILS</button>
+</div>
+<!-- <div>
+  <label>name:
+    <input [(ngModel)]="hero.name" placeholder="name">
+  </label>
+</div> -->
