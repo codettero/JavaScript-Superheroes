@@ -11,15 +11,20 @@
   <link rel="stylesheet" href="stylesheet.css">
   <script type="text/javascript" src="script.js"></script>
 
-  <title>My Hero App</title>
+  <title>My First Hero App</title>
 </head>
 
 <body>
 
-  <h1>My First Hero App</h1>
-  <div class="hero">
+  <header>
+    <h1>My First Hero App</h1>
+  </header>
+  <div class="hero" id="hero">
     <div class="hero--left">
-      <img class="hero--image" id="image" src="" alt="Jean Grey" />
+      <div class="hero--image-container">
+        <img class="hero--image" id="image" src=""/>
+        <img class="hero--image-back" id="imageBack" src=""/>
+      </div>
       <a class="hero--btn previous" href="#" onclick="previousHero()">&#60;</a>
     </div>
     <div class="hero--right">

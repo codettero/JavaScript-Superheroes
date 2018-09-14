@@ -1,5 +1,24 @@
+/*
+ * Hero default
+{
+  "image": "",
+  "imageBack": "",  // pentru tranzitia de hover pe imagine
+  "name": "",
+  "power": "",
+  "description": ``,
+  "abilities": [],
+  "allies": [
+    {
+      "name": "",
+      "image": ""
+    }
+  ],
+  "enemies": []
+}
+*/
 const myHeroes = [{
   "image": "img/Jean_Grey.jpg",
+  "imageBack": "img/Jean_Grey_2.jpg",
   "name": "Jean Grey",
   "power": "Omega-level mutant",
   "description": `She is an important figure in the lives of other Marvel Universe characters, mostly the X-Men, including her husband
@@ -24,6 +43,7 @@ const myHeroes = [{
   "enemies": ["Stryfe", "Genesis", "Emma Frost", "Apocalypse"]
 }, {
   "image": "img/Cyclops.jpg",
+  "imageBack": "img/Cyclops_2.jpg",
   "name": "Cyclops",
   "power": "Alpha-Level Mutant",
   "description": `Cyclops is a member of a the mutants, and typically considered the first of the X-Men, a team of mutant heroes
@@ -47,6 +67,8 @@ const myHeroes = [{
   ],
   "enemies": ["Magneto", "Magik", "Emma Frost", "Apocalypse"]
 }, {
+  "image": "img/Doctor_Strange.jpg",
+  "imageBack": "img/Doctor_Strange_2.jpg",
   "name": "Doctor Strange",
   "power": "Master of the Mystic Arts",
   "description": `Dr. Strange is the Sorcerer Supreme of Earth's Universe; he has unparalleled mastery of the mystic
@@ -56,33 +78,20 @@ const myHeroes = [{
   "abilities": ["Hypokinesis", "Banish", "Summoning", "Telekinesis", "Time Manipulation"],
   "allies": [
     {
-      "name": "Valkyre",
-      "image": "img/valkyre.jpg"
+      "name": "Valkyrie",
+      "image": "img/small-valkyrie.jpg"
     }, {
       "name": "Iron Man",
-      "image": "img/ironman.jpg"
+      "image": "img/small-ironman.jpg"
     }, {
       "name": "Hulk",
-      "image": "img/hulk.jpg"
+      "image": "img/small-hulk.jpg"
     }, {
       "name": "Scarlet Witch",
-      "image": "img/scarletwitch.jpg"
+      "image": "img/small-scarletwitch.jpg"
     }
   ],
   "enemies": ["Mordo", "Kaecilius", "Enchantress", "Dormammu"]
-}, {
-  "image": "",
-  "name": "",
-  "power": "",
-  "description": ``,
-  "abilities": [],
-  "allies": [
-    {
-      "name": "",
-      "image": ""
-    }
-  ],
-  "enemies": []
 }];
 
 let currentHero;
@@ -102,6 +111,9 @@ let loadHero = function(heroNumber) {
   document.getElementById("enemy-4").innerHTML = myHeroes[heroNumber].enemies[3];
 
   document.getElementById("image").src = myHeroes[heroNumber].image;
+  document.getElementById("image").alt = myHeroes[heroNumber].name;
+  document.getElementById("imageBack").src = myHeroes[heroNumber].imageBack;
+  document.getElementById("imageBack").alt = myHeroes[heroNumber].name;
 
   document.getElementById("ally-1").getElementsByTagName("h5")[0].innerHTML = myHeroes[heroNumber].allies[0].name;
   document.getElementById("ally-1").getElementsByTagName("img")[0].src = myHeroes[heroNumber].allies[0].image;
@@ -119,7 +131,14 @@ let previousHero = function() {
   } else {
     currentHero--;
   }
-  loadHero(currentHero);
+
+  document.getElementById("hero").classList.add("hero-transition-previous");
+  setTimeout(function() {
+    loadHero(currentHero);
+    setTimeout(function() {
+      document.getElementById("hero").classList.remove("hero-transition-previous");
+    }, 375);
+  }, 375);
 };
 
 let nextHero = function() {
@@ -128,7 +147,14 @@ let nextHero = function() {
   } else {
     currentHero++;
   }
-  loadHero(currentHero);
+
+  document.getElementById("hero").classList.add("hero-transition-next");
+  setTimeout(function() {
+    loadHero(currentHero);
+    setTimeout(function() {
+      document.getElementById("hero").classList.remove("hero-transition-next");
+    }, 375);
+  }, 375);
 };
 
 window.onload = function() {
