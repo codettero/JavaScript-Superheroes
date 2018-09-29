@@ -9,19 +9,19 @@
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
   <link rel="stylesheet" href="stylesheet.css">
+  <script type="text/javascript" src="script.js"></script>
 
-  <title>My Hero App</title>
+  <title>My First Hero App</title>
 </head>
 
 <body>
 
   <h1>My First Hero App</h1>
-  <div class="hero">
+  <div class="hero firsthero" id="hero0">
     <div class="hero--left">
-      <img class="hero--image" src="img/Jean_Grey.jpg" alt="Jean Grey" />
-      <div class="link-btns">
-        <a class="hero--btn previous" href="#">&#60;</a>
-        <a class="hero--btn next" href="#">&#62;</a>
+      <div class="hero--image-container">
+        <img class="hero--image" src="img/Jean_Grey.jpg"/>
+        <img class="hero--image-back" src="img/Jean_Grey_2.jpg"/>
       </div>
     </div>
     <div class="hero--right">
@@ -33,8 +33,7 @@
         <h4>Hero description:</h4>
         <p class="hero--description">She is an important figure in the lives of other Marvel Universe characters, mostly the X-Men, including her husband
           Cyclops, her mentor and father figure Charles Xavier, her unrequited love interest Wolverine, her best friend and
-          sister-like figure Storm, and her genetic children Rachel Summers, Cable, Stryfe and X-Man.
-        </p>
+          sister-like figure Storm, and her genetic children Rachel Summers, Cable, Stryfe and X-Man.</p>
         <div class="hero--details">
           <h4>Abilities:
             <span class="badge badge-purple">Telepathy</span>
@@ -46,19 +45,19 @@
             <ul class="hero--allies">
               <li>
                 <h5>Cyclops</h5>
-                <img src="img/cyclops.jpg" class="img-round" />
+                <img src="img/small-cyclops.jpg" class="img-round" />
               </li>
               <li>
                 <h5>Havok</h5>
-                <img src="img/havok.jpg" class="img-round" />
+                <img src="img/small-havok.jpg" class="img-round" />
               </li>
               <li>
                 <h5>Corsair</h5>
-                <img src="img/corsair.jpg" class="img-round" />
+                <img src="img/small-corsair.jpg" class="img-round" />
               </li>
               <li>
                 <h5>Storm</h5>
-                <img src="img/storm.jpg" class="img-round" />
+                <img src="img/small-storm.jpg" class="img-round" />
               </li>
             </ul>
           </div>
@@ -69,6 +68,131 @@
               <li>Genesis</li>
               <li>Emma Frost</li>
               <li>Apocalypse</li>
+            </ol>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <a class="hero--btn next" href="#" onclick="nextHero()">&#62;</a>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="hero firsthero" id="hero1">
+    <a class="hero--btn previous" href="#" onclick="previousHero()">&#60;</a>
+    <div class="hero--left">
+      <div class="hero--image-container">
+        <img class="hero--image" src="img/Cyclops.jpg"/>
+        <img class="hero--image-back" src="img/Cyclops_2.jpg"/>
+      </div>
+    </div>
+    <div class="hero--right">
+      <div class="hero--right-inner">
+        <h2 class="hero--name">Cyclops</h2>
+        <h4 class="hero--power">Power level:
+          <span>Alpha-Level Mutant</span>
+        </h4>
+        <h4>Hero description:</h4>
+        <p class="hero--description">Cyclops is a member of a the mutants, and typically considered the first of the X-Men, a team of mutant heroes
+          who fight for peace and equality between mutants and humans, and one of the team's primary leaders. Cyclops can emit powerful beams of
+          energy from his eyes that he cannot control without the aid of special eyewear which he must wear at all times.</p>
+        <div class="hero--details">
+          <h4>Abilities:
+            <span class="badge badge-purple">Optic Blast</span>
+            <span class="badge badge-blue">Spatial Awareness</span>
+            <span class="badge badge-pink">Energy Resistance</span>
+          </h4>
+          <div class="hero--details-left">
+            <h4>Allies:</h4>
+            <ul class="hero--allies">
+              <li>
+                <h5>Jean Grey</h5>
+                <img src="img/small-jeangrey.jpg" class="img-round" />
+              </li>
+              <li>
+                <h5>Havok</h5>
+                <img src="img/small-havok.jpg" class="img-round" />
+              </li>
+              <li>
+                <h5>Corsair</h5>
+                <img src="img/small-corsair.jpg" class="img-round" />
+              </li>
+              <li>
+                <h5>Storm</h5>
+                <img src="img/small-storm.jpg" class="img-round" />
+              </li>
+            </ul>
+          </div>
+          <div class="hero--details-right">
+            <h4>Enemies:</h4>
+            <ol class="hero--enemies">
+              <li>Magneto</li>
+              <li>Magik</li>
+              <li>Emma Frost</li>
+              <li>Apocalypse</li>
+            </ol>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <a class="hero--btn next" href="#" onclick="nextHero()">&#62;</a>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="hero firsthero" id="hero2">
+    <a class="hero--btn previous" href="#" onclick="previousHero()">&#60;</a>
+    <div class="hero--left">
+      <div class="hero--image-container">
+        <img class="hero--image" src="img/Doctor_Strange.jpg"/>
+        <img class="hero--image-back" src="img/Doctor_Strange_2.jpg"/>
+      </div>
+    </div>
+    <div class="hero--right">
+      <div class="hero--right-inner">
+        <h2 class="hero--name">Doctor Strange</h2>
+        <h4 class="hero--power">Power level:
+          <span>Master of the Mystic Arts</span>
+        </h4>
+        <h4>Hero description:</h4>
+        <p class="hero--description">Dr. Strange is the Sorcerer Supreme of Earth's Universe; he has unparalleled mastery of the mystic
+          arts, which he uses to defend his reality from otherworldly threats; his primary magical patrons are a group of
+          entities known as "the Vishanti." Dr. Strange can channel the virtually unlimited extra-dimensional energy of
+          nigh-omnipotent mystical and non-mystical beings in multiple dimensions (known as Principalities) to empower his spells.</p>
+        <div class="hero--details">
+          <h4>Abilities:
+            <span class="badge badge-purple">Hypokinesis</span>
+            <span class="badge badge-blue">Time Manipulation</span>
+            <span class="badge badge-pink">Summoning</span>
+          </h4>
+          <div class="hero--details-left">
+            <h4>Allies:</h4>
+            <ul class="hero--allies">
+              <li>
+                <h5>Valkyrie</h5>
+                <img src="img/small-valkyrie.jpg" class="img-round" />
+              </li>
+              <li>
+                <h5>Iron Man</h5>
+                <img src="img/small-ironman.jpg" class="img-round" />
+              </li>
+              <li>
+                <h5>Hulk</h5>
+                <img src="img/small-hulk.jpg" class="img-round" />
+              </li>
+              <li>
+                <h5>Scarlet Witch</h5>
+                <img src="img/small-scarletwitch.jpg" class="img-round" />
+              </li>
+            </ul>
+          </div>
+          <div class="hero--details-right">
+            <h4>Enemies:</h4>
+            <ol class="hero--enemies">
+              <li>Mordo</li>
+              <li>Kaecilius</li>
+              <li>Enchantress</li>
+              <li>Dormammu</li>
             </ol>
           </div>
           <div class="clearfix"></div>
