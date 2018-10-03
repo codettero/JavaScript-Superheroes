@@ -5,12 +5,51 @@ body {
   line-height: 1.5rem;
   color: #212529;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+  position: relative;
 }
 
 .hero {
   width: 70%;
-  margin: 0 auto;
-  /* border: 1px solid #000; */
+  min-width: 900px;
+  position: absolute;
+  left: 15%;
+  top: 115px;
+  will-change: auto;
+  transition: left .45s ease-out;
+}
+#hero0.firsthero {
+  left: 15%;
+}
+#hero1.firsthero {
+  left: 115%;
+}
+#hero2.firsthero {
+  left: 215%;
+}
+#hero0.secondhero {
+  left: -85%;
+}
+#hero1.secondhero {
+  left: 15%;
+}
+#hero2.secondhero {
+  left: 115%;
+}
+#hero0.thirdhero {
+  left: -185%;
+}
+#hero1.thirdhero {
+  left: -85%;
+}
+#hero2.thirdhero {
+  left: 15%;
+}
+.hero-transition-next {
+  animation: next .75s
+}
+.hero-transition-previous {
+  animation: previous .75s
 }
 
 h1 {
@@ -28,21 +67,45 @@ h2 {
 .hero--name {
   font-weight: 900;
   font-size: 42px;
-  margin-top: 5px;
+  margin-top: 6px;
+}
+.hero--left {
+  width: 40%;
+  position: relative;
 }
 .hero--image {
   width: 100%;
   height: auto;
-  margin: 4px;
+  position: absolute;
+  backface-visibility: hidden;
 }
-.hero--left {
-  width: 40%;
-  float: left;
+.hero--image-back {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+.hero--image-container {
+  min-height: 660px;
   position: relative;
+  transform-style: preserve-3d;
+  transition: transform .6s cubic-bezier(.55,.09,.68,.53) .05s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform .6s cubic-bezier(.55,.09,.68,.53) .05s;
+}
+.hero--left:hover .hero--image-container {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 .hero--right {
   width: 60%;
-  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 40%;
 }
 .hero--details-left {
   width: 70%;
@@ -67,10 +130,10 @@ h2 {
 .hero--power span{
   border-bottom: 5px solid #ff4ca5;
   color: #808488;
-
 }
 
-.badge {text-shadow: none;
+.badge {
+  text-shadow: none;
   font-size: 12px;
   padding: 1px 15px;
   font-weight: normal;
@@ -78,13 +141,13 @@ h2 {
   border-radius: 20px;
   color: #fff;
 }
-.badge-purple { 
+.badge-purple {
   background-color: #9585bf;
 }
-.badge-blue { 
+.badge-blue {
   background-color: #305ecc;
 }
-.badge-pink { 
+.badge-pink {
   background-color: #ff4ca5;
 }
 .hero--allies {
@@ -93,7 +156,7 @@ h2 {
 }
 .hero--allies li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 18px;
 }
 
 .hero--allies li h5 {
@@ -104,15 +167,13 @@ h2 {
   width: 50px;
   border-radius: 50%;
 }
-.link-btns {
-  position: absolute;
-  width: 112%;
-  bottom: 25px;
-  margin-left: -20px;
-}
 .hero--btn {
+  display: block;
   width: 50px;
   height: 50px;
+  margin-top: -25px;
+  position: absolute;
+  top: 50%;
   border-radius: 50%;
   background: rgb(249, 243, 243);
   color: #000;
@@ -125,6 +186,9 @@ h2 {
   -moz-box-shadow: 4px 4px 5px 2px rgba(133,133,133,1);
   box-shadow: 4px 4px 5px 2px rgba(133,133,133,1);
 }
+.hero-btn:focus, .hero-btn:active, .hero-btn:visited {
+  outline: none;
+}
 .hero--btn:hover {
   background: #9585bf;
   color: #fff;
@@ -133,11 +197,10 @@ h2 {
           transform: scale(1.1); /* IE 10, Fx 16+, Op 12.1+ */
 }
 .previous {
-  float: left;
+  margin-left: -62px;
 }
 
 .next {
-  float: right;
+  right: 0;
+  margin-right: -62px;
 }
-
-
