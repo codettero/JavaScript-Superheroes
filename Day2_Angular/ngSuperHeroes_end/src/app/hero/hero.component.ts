@@ -13,6 +13,7 @@ export class HeroComponent {
   @Output()
   edit = new EventEmitter();
 
+
   callHero() {
     alert(`${this.hero.name} has been called!`);
   }
@@ -20,4 +21,6 @@ export class HeroComponent {
   editHero(heroId) {
     this.edit.emit(heroId);
   }
+
+
 }

@@ -12,7 +12,7 @@ export class HeroListComponent implements OnInit {
   public heros: Hero[];
   selectedUniverse = 'all';
 
-  constructor(private heroService: HeroService) {}
+  constructor(private heroService: HeroService) { }
 
   ngOnInit() {
     this.heros = this.heroService.getHeroes();

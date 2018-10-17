@@ -1,15 +1,15 @@
 <div class="edit-hero">
   <h4>Edit hero</h4>
   <form (ngSubmit)="onSubmit()">
-    <label>name:
+    <label>Name:
       <input [(ngModel)]="hero.name" placeholder="Hero name" name="name">
     </label>
     <br>
-    <label>alter-ego:
+    <label>Alter Ego:
       <input [(ngModel)]="hero.alterEgo" placeholder="Hero name" name="alterEgo">
     </label>
     <br>
-    <label>description:
+    <label>Description:
       <input [(ngModel)]="hero.description" placeholder="Hero description" name="description">
     </label>
     <br>
@@ -22,6 +22,6 @@
       </select>
     </label>
     <br>
-    <button type="submit">Save</button>
+    <button type="submit" class="btn btn-xl btn-orange m-y-2">Save</button>
   </form>
 </div>

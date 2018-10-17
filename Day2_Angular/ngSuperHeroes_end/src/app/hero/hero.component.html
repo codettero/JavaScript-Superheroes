@@ -10,9 +10,10 @@
     <span class="detail-title">Description</span>
     <p class="detail-text">{{hero.description}}</p>
   </div>
-  <button (click)="callHero()">CALL HERO</button>
-  <button (click)="editHero(hero.id)">EDIT DETAILS</button>
+  <button (click)="callHero()" class="btn btn-xl btn-purple">CALL HERO</button>
+  <button (click)="editHero(hero.id)" class="btn btn-xl btn-blue">EDIT DETAILS</button>
 </div>
+
 <!-- <div>
   <label>name:
     <input [(ngModel)]="hero.name" placeholder="name">
