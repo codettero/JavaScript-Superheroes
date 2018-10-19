@@ -1,6 +1,6 @@
 ## Day 1 Skelly
 
-Am construit skeletul pentru prima zi, o versiune aproape minimala. Am introdus tagurile meta din head care sunt necesare (`content` si `viewport`), si un stylsheet la `bootstrap-reboot.css` pentru a avea consistent rendering in orice browser. **HTML**ul respecta structura stabilita si **CSS**ul foloseste doar atributele discutate, pentru o interfata de baza.
+Am construit skeletul pentru prima zi, o versiune aproape minimala. Am introdus tagurile meta din head care sunt necesare (`content` si `viewport`), si un stylsheet .css pentru a avea consistent rendering in orice browser. **HTML**ul respecta structura stabilita si **CSS**ul foloseste doar atributele discutate, pentru o interfata de baza.
 
 Informatiile au fost luate de pe Wikipedia si [Superhero API](http://superheroapi.com/), unde cheia este oferita la autentificare cu Facebook.
 
