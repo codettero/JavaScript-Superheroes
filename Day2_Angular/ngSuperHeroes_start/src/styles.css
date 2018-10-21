@@ -7,3 +7,7 @@ body {
   padding: 0;
   font-family: 'Open Sans', sans-serif;
 }
+
+body {
+  padding-top: 16px;
+}
