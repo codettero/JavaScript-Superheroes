@@ -18,31 +18,31 @@ body {
   will-change: auto;
   transition: left .45s ease-out;
 }
-#hero0.firsthero {
+#jean.leftScreen {
   left: 15%;
 }
-#hero1.firsthero {
+#cyclops.leftScreen {
   left: 115%;
 }
-#hero2.firsthero {
+#strange.leftScreen {
   left: 215%;
 }
-#hero0.secondhero {
+#jean.mainScreen {
   left: -85%;
 }
-#hero1.secondhero {
+#cyclops.mainScreen {
   left: 15%;
 }
-#hero2.secondhero {
+#strange.mainScreen {
   left: 115%;
 }
-#hero0.thirdhero {
+#jean.rightScreen {
   left: -185%;
 }
-#hero1.thirdhero {
+#cyclops.rightScreen {
   left: -85%;
 }
-#hero2.thirdhero {
+#strange.rightScreen {
   left: 15%;
 }
 .hero-transition-next {
@@ -127,7 +127,7 @@ h2 {
 }
 
 .hero--details-right {
-  
+
 }
 
 .hero--right-inner {
@@ -183,13 +183,13 @@ h2 {
   Adaugati in clasa img-round un atribut astfel incat sa setati dimensiunea imaginilor
   la 50px.
 
-  TODO 5: 
-  Adaugati in clasa img-round un atribut pentru a obtine imaginea rotunda. Se numeste 
+  TODO 5:
+  Adaugati in clasa img-round un atribut pentru a obtine imaginea rotunda. Se numeste
   border-radius si se exprima in procente. Testati mai multe valori pentru a vedea rezultatele.
 */
 
 .img-round {
-  
+
 }
 
 .hero--btn {
