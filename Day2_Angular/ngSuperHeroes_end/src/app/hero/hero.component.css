@@ -1,0 +1,27 @@
+.hero {
+  min-width: 50vw;
+  padding: 16px;
+  margin: 16px 16px 64px 16px;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.photo {
+  float: left;
+  margin: 0 24px 8px 0;
+}
+
+.detail-title {
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
+img {
+  width: 270px;
+  margin-right: 10px;
+}
+
+p {
+  margin-top: 8px;
+}
+

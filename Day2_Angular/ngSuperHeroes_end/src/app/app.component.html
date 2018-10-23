@@ -1,0 +1,5 @@
+<h2>{{title}}</h2>
+<div class="heros-app">
+  <ngsh-hero-list (heroSelected)="heroSelectedHandler($event)"></ngsh-hero-list>
+  <ngsh-edit-hero [hero]="selectedHero" *ngIf="selectedHero" (heroSaved)="heroSavedHandler()"></ngsh-edit-hero>
+</div>
