@@ -18,31 +18,31 @@ body {
   will-change: auto;
   transition: left .45s ease-out;
 }
-#hero0.firsthero {
+#jean.leftScreen {
   left: 15%;
 }
-#hero1.firsthero {
+#cyclops.leftScreen {
   left: 115%;
 }
-#hero2.firsthero {
+#strange.leftScreen {
   left: 215%;
 }
-#hero0.secondhero {
+#jean.mainScreen {
   left: -85%;
 }
-#hero1.secondhero {
+#cyclops.mainScreen {
   left: 15%;
 }
-#hero2.secondhero {
+#strange.mainScreen {
   left: 115%;
 }
-#hero0.thirdhero {
+#jean.rightScreen {
   left: -185%;
 }
-#hero1.thirdhero {
+#cyclops.rightScreen {
   left: -85%;
 }
-#hero2.thirdhero {
+#strange.rightScreen {
   left: 15%;
 }
 .hero-transition-next {
