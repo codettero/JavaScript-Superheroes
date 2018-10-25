@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #212529;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.hero {
+  width: 70%;
+  min-width: 900px;
+  position: absolute;
+  left: 15%;
+  top: 115px;
+  will-change: auto;
+  transition: left .45s ease-out;
+}
+#hero0.firsthero {
+  left: 15%;
+}
+#hero1.firsthero {
+  left: 115%;
+}
+#hero2.firsthero {
+  left: 215%;
+}
+#hero0.secondhero {
+  left: -85%;
+}
+#hero1.secondhero {
+  left: 15%;
+}
+#hero2.secondhero {
+  left: 115%;
+}
+#hero0.thirdhero {
+  left: -185%;
+}
+#hero1.thirdhero {
+  left: -85%;
+}
+#hero2.thirdhero {
+  left: 15%;
+}
+.hero-transition-next {
+  animation: next .75s
+}
+.hero-transition-previous {
+  animation: previous .75s
+}
+
+h1 {
+  /*
+    TODO 0:
+    Setati alinierea textului la centru (folosind atributul text-align),
+    numele fontului la Oswald (folosind atributul font-family) si
+    marginea din partea de jos la 70 de pixeli (folosind atributul margin-bottom)
+  */
+}
+
+
+h2 {
+  /*
+    TODO 1:
+    Setati pentru etichetele h2 font-ul la Oswald.
+  */
+}
+.clearfix {
+  overflow: auto;
+}
+.hero--name {
+  font-weight: 900;
+  font-size: 42px;
+  margin-top: 6px;
+}
+.hero--left {
+  width: 40%;
+  position: relative;
+}
+.hero--image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  backface-visibility: hidden;
+}
+.hero--image-back {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+.hero--image-container {
+  min-height: 660px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform .6s cubic-bezier(.55,.09,.68,.53) .05s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform .6s cubic-bezier(.55,.09,.68,.53) .05s;
+}
+.hero--left:hover .hero--image-container {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+.hero--right {
+  width: 60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 40%;
+}
+
+/*
+  TODO 2:
+  Pentru cele doua clase de mai jos setati latimea si afisarea in pagina.
+  Detaliile din partea stanga au o latime de 70%, iar restul cele din partea dreapta.
+  Folositi atributele de width si float.
+*/
+
+.hero--details-left {
+
+}
+
+.hero--details-right {
+  
+}
+
+.hero--right-inner {
+  padding-left: 50px;
+}
+.hero--right-inner h4 {
+  margin-bottom: 0;
+}
+.hero--right-inner p {
+  margin-top: 0;
+  color: #808488;
+}
+.hero--power span{
+  border-bottom: 5px solid #ff4ca5;
+  color: #808488;
+}
+
+.badge {
+  text-shadow: none;
+  font-size: 12px;
+  padding: 1px 15px;
+  font-weight: normal;
+  line-height: 15px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+/*
+  TODO 3
+  Creati o stilizare pentru 3 clase, numite badge-purle, badge-blue si badge-pink.
+  Acestea au un singur atribut care defineste culoarea de fundal.
+
+  Cautati pe net reprezentarea culorilor in HEX si alegeti 3 culori, cate una pentru
+  fiecare clasa, relevante pentru culoarea din numele clasei.
+*/
+
+
+.hero--allies {
+  padding: 0;
+  margin: 0;
+}
+.hero--allies li {
+  display: inline-block;
+  margin-right: 18px;
+}
+
+.hero--allies li h5 {
+  margin-top: 0;
+}
+
+/*
+  TODO 4:
+  Adaugati in clasa img-round un atribut astfel incat sa setati dimensiunea imaginilor
+  la 50px.
+
+  TODO 5: 
+  Adaugati in clasa img-round un atribut pentru a obtine imaginea rotunda. Se numeste 
+  border-radius si se exprima in procente. Testati mai multe valori pentru a vedea rezultatele.
+*/
+
+.img-round {
+  
+}
+
+.hero--btn {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  background: rgb(249, 243, 243);
+  color: #000;
+  font-size: 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2.5;
+  -webkit-box-shadow: 4px 4px 5px 2px rgba(133,133,133,1);
+  -moz-box-shadow: 4px 4px 5px 2px rgba(133,133,133,1);
+  box-shadow: 4px 4px 5px 2px rgba(133,133,133,1);
+}
+.hero-btn:focus, .hero-btn:active, .hero-btn:visited {
+  outline: none;
+}
+.hero--btn:hover {
+  background: #9585bf;
+  color: #fff;
+  -webkit-transform: scale(1.1); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+      -ms-transform: scale(1.1); /* IE 9 */
+          transform: scale(1.1); /* IE 10, Fx 16+, Op 12.1+ */
+}
+.previous {
+  margin-left: -62px;
+}
+
+.next {
+  right: 0;
+  margin-right: -62px;
+}
