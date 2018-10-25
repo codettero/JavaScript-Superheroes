@@ -12,9 +12,9 @@
   <script type="text/javascript" src="script.js"></script>
 
   <!--
-    -- TODO 0: 
-    Adauga un titlu paginii web din browser, relevant pentru tematica de super eroi. 
-    Foloseste eticheta pentru titlul.  
+    -- TODO 0:
+    Adauga un titlu paginii web din browser, relevant pentru tematica de super eroi.
+    Foloseste eticheta pentru titlul.
   -->
 
 </head>
@@ -23,13 +23,13 @@
 
   <!--
     -- TODO 1:
-    Adauga un titlu in continutul paginii web. 
+    Adauga un titlu in continutul paginii web.
     Acesta ar trebui sa fie acelasi ca cel din browser, sau tot ceva relevant pentru tematica paginii.
     Foloseste o eticheta care sa mareasca scrisul si sa il faca ingrosat.
     Testeaza mai multe etichete de acest fel si observa diferentele de afisare intre acestea.
   -->
 
-  <div class="hero firsthero" id="hero0">
+  <div class="hero leftScreen" id="jean">
     <div class="hero--left">
       <div class="hero--image-container">
         <img class="hero--image" src="img/Jean_Grey.jpg"/>
@@ -37,7 +37,7 @@
         <!--
           -- TODO 2:
           Adauga inca o imagine cu clasa hero--image-back. Poza se gaseste in folderul img,
-          iar numele imaginii este Jean_Grey_2.jpg. 
+          iar numele imaginii este Jean_Grey_2.jpg.
           Foloseste-te de modelul imaginii adaugate mai sus.
         -->
 
@@ -96,13 +96,13 @@
           <div class="clearfix"></div>
         </div>
       </div>
-      <a class="hero--btn next" href="#" onclick="nextHero()">&#62;</a>
+      <a class="hero--btn next" href="#">&#62;</a>
     </div>
     <div class="clearfix"></div>
   </div>
 
-  <div class="hero firsthero" id="hero1">
-    <a class="hero--btn previous" href="#" onclick="previousHero()">&#60;</a>
+  <div class="hero leftScreen" id="cyclops">
+    <a class="hero--btn previous" href="#">&#60;</a>
     <div class="hero--left">
       <div class="hero--image-container">
         <img class="hero--image" src="img/Cyclops.jpg"/>
@@ -147,7 +147,7 @@
 
               <!--
                 -- TODO 5
-                Adauga inca un element la lista neordonata de aliati. 
+                Adauga inca un element la lista neordonata de aliati.
                 Acum este vorba de Storm, a carei poza se gaseste in folderul img, sub denumirea de
                 small-storm.jpg. Te poti ghida dupa modelele aliatilor de mai sus.
               -->
@@ -167,33 +167,59 @@
           <div class="clearfix"></div>
         </div>
       </div>
-      <a class="hero--btn next" href="#" onclick="nextHero()">&#62;</a>
+      <a class="hero--btn next" href="#">&#62;</a>
     </div>
     <div class="clearfix"></div>
   </div>
 
-  <div class="hero firsthero" id="hero2">
-    <a class="hero--btn previous" href="#" onclick="previousHero()">&#60;</a>
+  <div class="hero leftScreen" id="strange">
+    <a class="hero--btn previous" href="#">&#60;</a>
     <div class="hero--left">
       <div class="hero--image-container">
-        <img class="hero--image" src="img/Doctor_Strange.jpg"/>
-        <img class="hero--image-back" src="img/Doctor_Strange_2.jpg"/>
       </div>
     </div>
     <div class="hero--right">
       <div class="hero--right-inner">
 
-        <!-- TODO 7
+        <!-- TODO 7.0
           Adauga inca un super erou, dupa modelul lui Jean Grey si Cyclops de mai sus.
           Foloseste acelasi sablon ca pentru ceilalti doi eroi, si completeaza datele astel:
+        -->
 
+        <!-- TODO 7.1
           Nume: Doctor Strange
+          Foloseste h1 (headingul asociat).
+        -->
+
+        <!-- TODO 7.2
           Power level: Master of Mystic Arts
+          Foloseste un alt heading, in combinatie cu span.
+        -->
+
+        <!-- TODO 7.3
           Poze: Doctor_Strange.jpg, Doctor_Strange_2.jpg
+          Adauga in .hero--image-container imaginile de mai sus, asociand clasele specifice
+        -->
+
+        <!-- TODO 7.4
           Hero description: (la alegere de pe net)
+          Adaug un heading pentru hero description, si un paragraf pentru textul gasit
+        -->
+
+        <!-- TODO 7.5
           Abilitati: Hypokinesis, Time Manipulation, Summoning (sau altele de pe net)
+          Dupa ce adaugi un div cu clasa .hero--details, adauga abilitatile folosind span,
+          stilizand folosind culori.
+        -->
+
+        <!-- TODO 7.6
           Aliati: Valkyrie, Iron Man, Hulk, Scarlet Witch (insotiti de icon-uri din folderul img)
+          Nu uita sa adaugi un div pentru hero--details-left
+        -->
+
+        <!-- TODO 7.7
           Inamici: Mordo, Kaecilius, Enchantress, Dormammu
+          Foloseste o lista ordonata pentru inamici.
         -->
           <div class="clearfix"></div>
         </div>
