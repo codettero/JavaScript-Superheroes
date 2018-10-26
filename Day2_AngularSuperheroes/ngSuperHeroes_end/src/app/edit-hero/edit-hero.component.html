@@ -1,0 +1,26 @@
+<div class="edit-hero">
+  <h4>Edit hero</h4>
+  <form (ngSubmit)="saveHero()">
+    <label>Name:
+      <input  placeholder="Hero name" name="name" [(ngModel)]="hero.name">
+    </label>
+    <br>
+    <label>Alter Ego:
+      <input placeholder="Hero alter-ego" name="alterEgo" [(ngModel)]="hero.alterEgo">
+    </label>
+    <br>
+    <label>Description:
+      <input placeholder="Hero description" name="description" [(ngModel)]="hero.description">
+    </label>
+    <br>
+    <label>
+      Hero Universe:
+      <select name="universe" [(ngModel)]="hero.universe">
+        <option value="DC">DC</option>
+        <option value="Marvel">Marvel</option>
+      </select>
+    </label>
+    <br>
+    <button type="submit" class="btn btn-xl btn-orange m-y-2">Save</button>
+  </form>
+</div>

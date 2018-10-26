@@ -1,0 +1,15 @@
+<div class="select-destiny">
+  <h3>Choose your Hero Universe:</h3>
+  <select (change)="changeUniverse($event.target.value)">
+    <option value="all">All</option>
+    <option value="DC">DC</option>
+    <option value="Marvel">Marvel</option>
+  </select>
+</div>
+<div *ngFor="let hero of heros">
+  <jsh-hero
+    *ngIf="selectedUniverse === 'all' || selectedUniverse===hero.universe"
+    [hero]="hero"
+    (edit)="editHandler($event)"
+  ></jsh-hero>
+</div>

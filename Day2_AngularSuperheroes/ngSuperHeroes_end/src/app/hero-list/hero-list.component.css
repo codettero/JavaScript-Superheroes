@@ -1,0 +1,18 @@
+select {
+  height: 29px;
+  overflow: hidden;
+  width: 240px;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 2px solid #9585bf;
+  margin-left: 16px;
+}
+
+h3 {
+ font-family: 'Oswald', sans-serif;
+}
+
+.select-destiny {
+ margin-bottom: 32px;
+ text-align: center;
+}

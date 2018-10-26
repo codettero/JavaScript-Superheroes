@@ -1,0 +1,20 @@
+<div class="hero">
+  <!-- IMAGE -->
+  <div class="photo">
+    <img [src]="hero.photo">
+  </div>
+  <div class="details">
+    <!-- NAME -->
+    <span class="detail-title">Name</span>
+    <p class="detail-text">{{hero.name | uppercase}}</p>
+    <!-- ALTER EGO -->
+    <span class="detail-title">Alter ego</span>
+    <p class="detail-text">{{hero.alterEgo}}</p>
+    <!-- DESCRIPTION -->
+    <span class="detail-title">Description</span>
+    <p class="detail-text">{{hero.description}}</p>
+    <!-- BUTTON -->
+    <button (click)="callHero()" class="btn btn-xl btn-purple">CALL HERO</button>
+    <button class="btn btn-xl btn-blue" (click)="editHero()">EDIT HERO</button>
+  </div>
+</div>
