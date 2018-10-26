@@ -8,7 +8,19 @@ body {
   overflow-x: hidden;
   position: relative;
 }
-
+#cyclops {
+  left: 15% !important;
+  top: 200vh;
+}
+#strange {
+  left: 15% !important;
+  top: 400vh;
+}
+  /*
+    TODO 0:
+    Eliminati regulile pentru #cyclops si #strange de mai sus.
+    Acestea au fost folosite pentru sesiunea de HTML.
+  */
 .hero {
   width: 70%;
   min-width: 900px;
@@ -54,7 +66,7 @@ body {
 
 h1 {
   /*
-    TODO 0:
+    TODO 1:
     Setati alinierea textului la centru (folosind atributul text-align),
     numele fontului la Oswald (folosind atributul font-family) si
     marginea din partea de jos la 70 de pixeli (folosind atributul margin-bottom)
@@ -64,7 +76,7 @@ h1 {
 
 h2 {
   /*
-    TODO 1:
+    TODO 2:
     Setati pentru etichetele h2 font-ul la Oswald.
   */
 }
@@ -116,7 +128,7 @@ h2 {
 }
 
 /*
-  TODO 2:
+  TODO 3:
   Pentru cele doua clase de mai jos setati latimea si afisarea in pagina.
   Detaliile din partea stanga au o latime de 70%, iar restul cele din partea dreapta.
   Folositi atributele de width si float.
@@ -152,11 +164,12 @@ h2 {
   font-weight: normal;
   line-height: 15px;
   border-radius: 20px;
-  color: #fff;
 }
 
 /*
-  TODO 3
+  TODO 4:
+  Adaugati culoarea #fff (alb) pe clasa .badge de mai sus.
+
   Creati o stilizare pentru 3 clase, numite badge-purle, badge-blue si badge-pink.
   Acestea au un singur atribut care defineste culoarea de fundal.
 
@@ -179,11 +192,11 @@ h2 {
 }
 
 /*
-  TODO 4:
+  TODO 5:
   Adaugati in clasa img-round un atribut astfel incat sa setati dimensiunea imaginilor
   la 50px.
 
-  TODO 5:
+  TODO 6:
   Adaugati in clasa img-round un atribut pentru a obtine imaginea rotunda. Se numeste
   border-radius si se exprima in procente. Testati mai multe valori pentru a vedea rezultatele.
 */
