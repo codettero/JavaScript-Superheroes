@@ -204,3 +204,39 @@ h2 {
   right: 0;
   margin-right: -62px;
 }
+
+body {
+  height: 100%;
+}
+
+.flyingHero {
+  position: fixed;
+  left: -500px;
+  top: 50%;
+  animation: fly 6s 3;
+}
+
+.flyingHero img {
+  position: relative;
+  height: 400px;
+  transform: rotate(45deg);
+}
+
+@keyframes fly {
+  0% {
+    left: -450px;
+    top: calc(50vh - 200px);
+  }
+  30% {
+    left: calc(100vw - 450px);
+    top: calc(100vh - 400px);
+  }
+  60% {
+    left: calc(100vw - 450px);
+    top: 0;
+  }
+  100% {
+    left: -450px;
+    top: calc(50vh - 200px);
+  }
+}
