@@ -51,9 +51,15 @@ let nextHero = function() {
 };
 
 /*
-  TODO 2:
-  Adaugati atributul onclick si ca valoare functia nextHero() linkurilor care au clasa
-  .next, respectiv previousHero() celor cu clasa .previous.
+  Bonus: 
+  1) Implementati lista de eroi circulara (Doctor Strange -> Jean Grey si Doctor Strange <- Jean Grey)
+  Adaugati noul caz in functiile de mai sus, nextHero si previousHero.
+
+  2) Adaugati in HTML link-ul (a href) de mers spre stanga pentru Jean Grey si cel de mers spre dreapta pentru
+  Doctor Strange. Puteti urmari exemplul de la Cyclops, deoarece are deja ambele butoane.
+
+  2) Adaugati in HTML atributul onclick noilor link-uri si ca valoare functia nextHero() 
+  pentru clasa .next, respectiv previousHero() pentru clasa .previous pentru a obtine lista circulara.
 */
 
 window.onkeydown = function(event) {

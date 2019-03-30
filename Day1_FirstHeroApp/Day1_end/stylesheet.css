@@ -52,15 +52,26 @@ body {
   animation: previous .75s
 }
 
+/*
+    TODO 1: Solved
+    Setati alinierea textului la centru (folosind atributul text-align),
+    numele fontului la Oswald (folosind atributul font-family) si
+    marginea din partea de jos la 70 de pixeli (folosind atributul margin-bottom)
+*/
 h1 {
   text-align: center;
   margin-bottom: 70px;
   font-family: 'Oswald', sans-serif;
 }
 
+/*
+    TODO 2: Solved
+    Setati pentru etichetele h2 font-ul la Oswald.
+*/
 h2 {
   font-family: 'Oswald', sans-serif;
 }
+
 .clearfix {
   overflow: auto;
 }
@@ -107,6 +118,13 @@ h2 {
   bottom: 0;
   left: 40%;
 }
+
+/*
+  TODO 3: Solved
+  Pentru cele doua clase de mai jos setati latimea si afisarea in pagina.
+  Detaliile din partea stanga au o latime de 70%, iar restul cele din partea dreapta.
+  Folositi atributele de width si float.
+*/
 .hero--details-left {
   width: 70%;
   float: left;
@@ -132,6 +150,18 @@ h2 {
   color: #808488;
 }
 
+/*
+  TODO 4: Solved
+  Adaugati culoarea #fff (alb) pe clasa .badge de mai sus.
+
+  Creati o stilizare pentru 3 clase, numite badge-purle, badge-blue si badge-pink.
+  Acestea au un singur atribut care defineste culoarea de fundal.
+
+  Cautati pe net reprezentarea culorilor in HEX si alegeti 3 culori, cate una pentru
+  fiecare clasa, relevante pentru culoarea din numele clasei.
+
+  -> ultima linie a fost adaugata
+*/
 .badge {
   text-shadow: none;
   font-size: 12px;
@@ -141,6 +171,7 @@ h2 {
   border-radius: 20px;
   color: #fff;
 }
+
 .badge-purple {
   background-color: #9585bf;
 }
@@ -163,10 +194,20 @@ h2 {
   margin-top: 0;
 }
 
+/*
+  TODO 5: Solved
+  Adaugati in clasa img-round un atribut astfel incat sa setati dimensiunea imaginilor
+  la 50px.
+
+  TODO 6: Solved
+  Adaugati in clasa img-round un atribut pentru a obtine imaginea rotunda. Se numeste
+  border-radius si se exprima in procente. Testati mai multe valori pentru a vedea rezultatele.
+*/
 .img-round {
   width: 50px;
   border-radius: 50%;
 }
+
 .hero--btn {
   display: block;
   width: 50px;
@@ -203,4 +244,45 @@ h2 {
 .next {
   right: 0;
   margin-right: -62px;
+}
+
+/* Bonus: Solution
+    Urmariti tutorialul de la tabla si implementati o animatie cu un super-erou care apare 
+    dupa ce s-a incarcat pagina si zboara de 3 ori pe ecran, iar dupa aceea dispare. 
+*/
+
+body {
+  height: 100%;
+}
+
+.flyingHero {
+  position: fixed;
+  left: -500px;
+  top: 50%;
+  animation: fly 6s 3;
+}
+
+.flyingHero img {
+  position: relative;
+  height: 400px;
+  transform: rotate(45deg);
+}
+
+@keyframes fly {
+  0% {
+    left: -450px;
+    top: calc(50vh - 200px);
+  }
+  30% {
+    left: calc(100vw - 450px);
+    top: calc(100vh - 400px);
+  }
+  60% {
+    left: calc(100vw - 450px);
+    top: 0;
+  }
+  100% {
+    left: -450px;
+    top: calc(50vh - 200px);
+  }
 }
