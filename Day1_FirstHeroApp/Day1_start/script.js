@@ -14,8 +14,8 @@ let previousHero = function() {
       definita in CSS, care determina noua sa pozitie pe ecran
       */
     ["jean", "cyclops", "strange"].forEach(function(hero) {
-      document.getElementById(hero).classList.add("leftScreen");
-      document.getElementById(hero).classList.remove("mainScreen");
+      document.getElementById(hero).classList.add("jean");
+      document.getElementById(hero).classList.remove("cyclops");
     });
     currentHero = 0;
   } else if (currentHero === 2) {
@@ -34,8 +34,8 @@ let previousHero = function() {
 let nextHero = function() {
   if (currentHero === 0) {
     ["jean", "cyclops", "strange"].forEach(function(hero) {
-      document.getElementById(hero).classList.add("mainScreen");
-      document.getElementById(hero).classList.remove("leftScreen");
+      document.getElementById(hero).classList.add("cyclops");
+      document.getElementById(hero).classList.remove("jean");
     });
     currentHero = 1;
   } else if (currentHero === 1) {

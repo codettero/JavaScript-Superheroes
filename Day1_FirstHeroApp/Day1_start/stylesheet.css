@@ -30,31 +30,39 @@ body {
   will-change: auto;
   transition: left .45s ease-out;
 }
-#jean.leftScreen {
+
+/* Convention for the following 9 IDs:
+  (these positions are used for the transition between superheroes)
+
+  #jean.jean -> where Jean Grey is when it's on the main screen
+  #jean.cyclops -> where Jean Grey is when Cyclops is on the main screen
+  #jean.doctor -> where Jean Grey is when Dcotor Strange is on the main screen
+*/
+#jean.jean {
   left: 15%;
 }
-#cyclops.leftScreen {
+#cyclops.jean {
   left: 115%;
 }
-#strange.leftScreen {
+#strange.jean {
   left: 215%;
 }
-#jean.mainScreen {
+#jean.cyclops {
   left: -85%;
 }
-#cyclops.mainScreen {
+#cyclops.cyclops {
   left: 15%;
 }
-#strange.mainScreen {
+#strange.cyclops {
   left: 115%;
 }
-#jean.rightScreen {
+#jean.doctor {
   left: -185%;
 }
-#cyclops.rightScreen {
+#cyclops.doctor {
   left: -85%;
 }
-#strange.rightScreen {
+#strange.doctor {
   left: 15%;
 }
 .hero-transition-next {
