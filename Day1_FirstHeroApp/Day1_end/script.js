@@ -14,8 +14,8 @@ let previousHero = function() {
       definita in CSS, care determina noua sa pozitie pe ecran
       */
     ["jean", "cyclops", "strange"].forEach(function(hero) {
-      document.getElementById(hero).classList.add("leftScreen");
-      document.getElementById(hero).classList.remove("mainScreen");
+      document.getElementById(hero).classList.add("jean");
+      document.getElementById(hero).classList.remove("cyclops");
     });
     currentHero = 0;
   } else if (currentHero === 2) {
@@ -28,8 +28,8 @@ let previousHero = function() {
     */
 
     ["jean", "cyclops", "strange"].forEach(function(hero) {
-      document.getElementById(hero).classList.add("mainScreen");
-      document.getElementById(hero).classList.remove("rightScreen");
+      document.getElementById(hero).classList.add("cyclops");
+      document.getElementById(hero).classList.remove("doctor");
     });
     currentHero = 1;
   } 
@@ -39,8 +39,8 @@ let previousHero = function() {
     */
     else if (currentHero === 0) {
       ["jean", "cyclops", "strange"].forEach(function(hero) {
-        document.getElementById(hero).classList.add("rightScreen");
-        document.getElementById(hero).classList.remove("leftScreen");
+        document.getElementById(hero).classList.add("doctor");
+        document.getElementById(hero).classList.remove("jean");
       });
       currentHero = 2;
     }
@@ -49,8 +49,8 @@ let previousHero = function() {
 let nextHero = function() {
   if (currentHero === 0) {
     ["jean", "cyclops", "strange"].forEach(function(hero) {
-      document.getElementById(hero).classList.add("mainScreen");
-      document.getElementById(hero).classList.remove("leftScreen");
+      document.getElementById(hero).classList.add("cyclops");
+      document.getElementById(hero).classList.remove("jean");
     });
     currentHero = 1;
   } else if (currentHero === 1) {
@@ -63,8 +63,8 @@ let nextHero = function() {
     */
 
     ["jean", "cyclops", "strange"].forEach(function(hero) {
-      document.getElementById(hero).classList.add("rightScreen");
-      document.getElementById(hero).classList.remove("mainScreen");
+      document.getElementById(hero).classList.add("doctor");
+      document.getElementById(hero).classList.remove("cyclops");
     });
     currentHero = 2;
   }
@@ -73,8 +73,8 @@ let nextHero = function() {
     */
     else if (currentHero === 2) {
       ["jean", "cyclops", "strange"].forEach(function(hero) {
-        document.getElementById(hero).classList.add("leftScreen");
-        document.getElementById(hero).classList.remove("rightScreen");
+        document.getElementById(hero).classList.add("jean");
+        document.getElementById(hero).classList.remove("doctor");
       });
       currentHero = 0;
     }

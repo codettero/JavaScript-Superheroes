@@ -18,33 +18,34 @@ body {
   will-change: auto;
   transition: left .45s ease-out;
 }
-#jean.leftScreen {
+#jean.jean {
   left: 15%;
 }
-#cyclops.leftScreen {
+#cyclops.jean {
   left: 115%;
 }
-#strange.leftScreen {
+#strange.jean {
   left: 215%;
 }
-#jean.mainScreen {
+#jean.cyclops {
   left: -85%;
 }
-#cyclops.mainScreen {
+#cyclops.cyclops {
   left: 15%;
 }
-#strange.mainScreen {
+#strange.cyclops {
   left: 115%;
 }
-#jean.rightScreen {
+#jean.doctor {
   left: -185%;
 }
-#cyclops.rightScreen {
+#cyclops.doctor {
   left: -85%;
 }
-#strange.rightScreen {
+#strange.doctor {
   left: 15%;
 }
+
 .hero-transition-next {
   animation: next .75s
 }
@@ -181,6 +182,7 @@ h2 {
 .badge-pink {
   background-color: #ff4ca5;
 }
+
 .hero--allies {
   padding: 0;
   margin: 0;
