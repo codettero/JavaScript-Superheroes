@@ -6,6 +6,44 @@
 
 let currentHero = 0;
 
+let nextHero = function() {
+  if (currentHero === 0) {
+    ["jean", "cyclops", "strange"].forEach(function(hero) {
+      document.getElementById(hero).classList.add("cyclops");
+      document.getElementById(hero).classList.remove("jean");
+    });
+    currentHero = 1;
+  } else if (currentHero === 1) {
+    /*
+      TODO 0: Solved
+      Implementati trecerea de la al doilea erou la cel de-al treilea, care va avea loc
+      la apasarea butonului sageata dreapta. Urmariti exemplul de mai sus.
+
+      La final, nu uitati sa modificati variabila ce retine numarul eroului curent.
+
+      Functia aceasta ar trebui apelata in HTML.
+      Identifica butoanele din html care duc la eroul urmator (hint: au in clasa hero--btn).
+      Pe butoanele respective apeleaza functia cu ajutorul atributlui onclick.
+    */
+
+    ["jean", "cyclops", "strange"].forEach(function(hero) {
+      document.getElementById(hero).classList.add("strange");
+      document.getElementById(hero).classList.remove("cyclops");
+    });
+    currentHero = 2;
+  }
+    /* Bonus: Solved
+      Implementati lista de eroi circulara (Doctor Strange -> Jean Grey)
+    */
+    else if (currentHero === 2) {
+      ["jean", "cyclops", "strange"].forEach(function(hero) {
+        document.getElementById(hero).classList.add("jean");
+        document.getElementById(hero).classList.remove("strange");
+      });
+      currentHero = 0;
+    }
+};
+
 let previousHero = function() {
   if (currentHero === 1) {
 
@@ -20,16 +58,20 @@ let previousHero = function() {
     currentHero = 0;
   } else if (currentHero === 2) {
     /*
-      TODO 0: Solved
+      TODO 1: Solved
       Implementati trecerea de la ultimul erou la cel de-al doilea, care va avea loc
       la apasarea butonului sageata stanga. Urmariti exemplul de mai sus.
 
       La final, nu uitati sa modificati variabila ce retine numarul eroului curent.
+
+      Functia aceasta ar trebui apelata in HTML.
+      Identifica butoanele din html care duc la eroul precedent (hint: au in clasa hero--btn).
+      Pe butoanele respective apeleaza functia cu ajutorul atributlui onclick.
     */
 
     ["jean", "cyclops", "strange"].forEach(function(hero) {
       document.getElementById(hero).classList.add("cyclops");
-      document.getElementById(hero).classList.remove("doctor");
+      document.getElementById(hero).classList.remove("strange");
     });
     currentHero = 1;
   } 
@@ -39,44 +81,10 @@ let previousHero = function() {
     */
     else if (currentHero === 0) {
       ["jean", "cyclops", "strange"].forEach(function(hero) {
-        document.getElementById(hero).classList.add("doctor");
+        document.getElementById(hero).classList.add("strange");
         document.getElementById(hero).classList.remove("jean");
       });
       currentHero = 2;
-    }
-};
-
-let nextHero = function() {
-  if (currentHero === 0) {
-    ["jean", "cyclops", "strange"].forEach(function(hero) {
-      document.getElementById(hero).classList.add("cyclops");
-      document.getElementById(hero).classList.remove("jean");
-    });
-    currentHero = 1;
-  } else if (currentHero === 1) {
-    /*
-      TODO 1: Solved
-      Implementati trecerea de la al doilea erou la cel de-al treilea, care va avea loc
-      la apasarea butonului sageata dreapta. Urmariti exemplul de mai sus.
-
-      La final, nu uitati sa modificati variabila ce retine numarul eroului curent.
-    */
-
-    ["jean", "cyclops", "strange"].forEach(function(hero) {
-      document.getElementById(hero).classList.add("doctor");
-      document.getElementById(hero).classList.remove("cyclops");
-    });
-    currentHero = 2;
-  }
-    /* Bonus: Solved
-      Implementati lista de eroi circulara (Doctor Strange -> Jean Grey)
-    */
-    else if (currentHero === 2) {
-      ["jean", "cyclops", "strange"].forEach(function(hero) {
-        document.getElementById(hero).classList.add("jean");
-        document.getElementById(hero).classList.remove("doctor");
-      });
-      currentHero = 0;
     }
 };
 
