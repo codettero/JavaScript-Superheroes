@@ -228,7 +228,18 @@ Nu am specificat niciun marcator, deci se observă că marcatorii default sunt d
 </ul>
 ```
 
-Acum elementele listei sunt marcate pătrate. Pentru cercuri am fi specificat `<ul type="circle">`, pentru disc-uri `<ul type ="disc">`, iar pentru lipsa marcatorilor `<ul type="none">`.  
+Acum elementele listei sunt marcate pătrate. Pentru cercuri am fi specificat `<ul type="circle">`, pentru disc-uri `<ul type ="disc">`, iar pentru lipsa marcatorilor `<ul type="none">`.
+
+{% hint style="info" %}
+Tipul liste poate fi poziționat, după cum am văzut până acum, pe întreaga lista, ca atribut al etichetei `ul` sau `ol`. Însă fiecare element al listei poate avea un marcator separat, menționat în cadrul etichetei `li`.
+{% endhint %}
+
+#### Exerciții
+
+1. 1. Adăugați în conținut o listă ordonată cu minim 5 elemente cu materiile pe care le studiați la școală. Adăugați și un titlu listei, folosind heading-ul h5. Testați toate tipurile de marcatori pentru lista ordonată.
+   2. Schimbați lista adăugată din ordonată în neordonată. Testați toate tipurile de marcatori pentru lista neordonată. Adăugați 2 elemente în plus.
+
+  
   
 
 
