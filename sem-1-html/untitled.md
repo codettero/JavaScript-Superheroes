@@ -1,6 +1,6 @@
 # Lecția 1
 
-**Durata:** 50'
+**Durată:** 50 min
 
 **Cuvinte cheie:** web design, HTML, etichete
 
@@ -58,9 +58,9 @@ Browserele moderne permit, din motive de compatibilitate, scrierea paginilor web
 
 Ca și conținut putem avea: text și media \(organizat în paragrafe, imagini, video-uri, tabele, liste, link-uri\). Despre toate acestea vom vorbi imediat.
 
-Ca un rezumat, structura de bază a unei pagini HTML este evidențiată în imaginea următoare: \(TODO\)
+Ca un rezumat, structura de bază a unei pagini HTML este evidențiată în imaginea următoare:
 
-
+![](https://lh5.googleusercontent.com/klUpU9iCEI9l8of8_kSHC4dgCsbm76zfcXlTPeFVuXS32cU9R2LWiJ4RvS4jqbVvJSz7r6vlq0-lLb1rGaY67o-eemXVJIUJcRUcuHGn6EoVp_P1tNArhH6AHDshugq6GuE6fINP)
 
 ## Activitatea 3 - Exercițiu
 
