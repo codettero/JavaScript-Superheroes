@@ -1,11 +1,10 @@
 # Table of contents
 
 * [Initial page](README.md)
-* [Untitled](untitled.md)
 
 ## Sem 1 - HTML
 
-* [Untitled](sem-1-html/untitled.md)
+* [Lecția 1](sem-1-html/untitled.md)
 
 ## Sem 1 - CSS
 
