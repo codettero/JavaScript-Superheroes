@@ -1,23 +1,53 @@
+---
+description: 'Durată: 50'' | Cuvinte cheie: etichete nepereche, atribute, culori'
+---
+
 # Lecția 2
-
-**Durată:** 50 min
-
-**Cuvinte cheie:** atribute, culori, imagini, liste
 
 ## Activitate 1 - Recapitulare
 
-Durată: 5' \| Metodă: prelegere \| Materiale: -
+Durată: 10' \| Metodă: prelegere \| Materiale: -
 
 1. Ce este web designul?
 2. Ce este HTML? Enumerați caracteristicile acestuia.
 3. Care este structura de baza a unei pagini HTML?
 4. Dați exemple de etichete pereche învățate.
-5. Dați exemple de etichete nepereche învățate și rolul acestora.
+5. Care e diferența dintre etichete pereche și nepereche?
 6. Ce se adaugă în head și ce se adaugă în body?
 
-## Acti**vitate 2 - Atribute**
+## **Activitate 2 - Etichete nepereche**
 
-Durată: 5' \| Metodă: prelegere \| Materiale: videoproiector
+Durată: 10' \| Metode: prelegere, demo \| Materiale: videoproiector
+
+### **Line break**
+
+Am observat că închiderea etichetelor de paragraf `</p>` sau de heading `</h3>` introduc automat un rând nou. Putem introduce oricând un rând nou în conținutul paginii web cu ajutorul etichetei `<br>`. Aceasta nu are sens să se închidă, deoarece știm deja că ocupă un rând întreg, deci nu există eticheta `</br>`.
+
+#### **Exercițiu**
+
+În fișierul în care ați lucrat data trecută, adăugați eticheta `<br>` între două cuvinte oarecare dintr-un paragraf din body. Ce se întâmplă atunci când dați refresh? Dar dacă adăugați de mai multe ori eticheta `<br>` una după alta? Apar mai multe linii libere.
+
+```markup
+<body>
+<h3> Prima mea pagina web </h3>
+<p> 
+<h1> Titlul paragrafului </h1> 
+Lorem <br> <br> <br> ipsum… </p>
+<p> Duis <br> aute… </p>
+</body>
+```
+
+### Horizontal rule
+
+Putem folosi eticheta `<hr>` pentru a adăuga o linie orizontală care să delimiteze zonele paginii web. Numele vine de la horizontal rule și, întocmai ca `<br>`, nu are sens ca această etichetă să se închidă, deci nu există `</hr>`.
+
+#### Exercițiu
+
+Adăugați eticheta `<hr>` între cele două paragrafe din body. Ce se întâmplă atunci când dați refresh?
+
+## Acti**vitate 3 - Atribute**
+
+Durată: 10' \| Metodă: prelegere \| Materiale: videoproiector
 
 Am discutat în prima lecție despre etichete, structura standard a acestora fiind: ****`<tag> content </tag>`
 
@@ -39,9 +69,9 @@ Eticheta `<hr>` adaugă un o linie despărțitoare, neagră. Cu ajutorul atribut
 
 Testează mai multe culori în body, unde ai adăugat eticheta &lt;hr&gt; între cele două paragrafe. Valorile atributelor pot fi culorile în limba engleză: yellow, orange, green etc.
 
-## **Activitate 3 - Formarea culorilor**
+## **Activitate 4 - Formarea culorilor**
 
-Durată: 10' \| Metodă: prelegere \| Materiale: videoproiector
+Durată: 20' \| Metodă: prelegere \| Materiale: videoproiector
 
 ### Culori
 
@@ -90,7 +120,18 @@ Am menționat anterior că aceste trei culori sunt folosite pentru a format oric
 Nu trebuie să faceți aceste calcule de fiecare dată când formați o culoare, pentru că există o multitudine de site-uri care vă ajută la formarea culorilor și calculeaza automat codul pentru culoarea respectivă \([Colors picker](https://www.w3schools.com/colors/colors_picker.asp)\).
 {% endhint %}
 
-## **Activitate 4 - Adăugare de imagini**
+#### Exerciții
+
+1. Caută într-un color picker ce culori sunt reprezentate mai jos:
+
+   a. \#cccc00
+
+   b. rgb\(210, 32, 233\)
+
+   c. \#32aaf1
+
+2. Alege cu ajutorul unui color picker codul reprezentant al fiecărei culori a curcubeului \(ROGVAIV\)
+3. Adaugă în pagina ta web 7 linii despărțitoare `hr`, fiecare colorată într-o culoare a curcubeului.
 
 Durată: 10' \| Metodă: prelegere \| Materiale: videoproiector
 
@@ -164,105 +205,4 @@ Atributele pot fi adăugate în orice ordine, despărțite prin spații. Nu este
 2. Setați un titlu imaginii cu atributul title și observați cum apare atunci când cursorul mouse-ului este poziționat pe imagine.
 3. Modificați lățimea și înălțimea imaginii cu ajutorul atributelor. Încercați diverse valori pentru a vedea cum se deformează, imaginea nefiind scalată.
 4. Adăugați bordură imaginii și testați diverse valori pentru grosimea acesteia.
-
-## Liste ordonate
-
-Durată: 10' \| Metodă: prelegere \| Materiale: videoproiector
-
-Putem organiza conținutul paginii web și sub forma unei liste. Listele au proprietatea ca elementele lor sunt diferențiate de **marcatori**. Pentru listele ordonate, marcatorii păstrează ordinea și pot fi reprezentați de **cifre arabe, cifre romane, litere mari sau mici**. 
-
-Eticheta pentru listă ordonată este `<ol>` \(de la ordered list\) și este o etichetă pereche, închizându-se cu `</ol>`. Un element al listei este adăugat cu ajutorul etichetei `<li>` \(list item\) care se închide cu `</li>`.  
-
-
-#### Exemplu
-
-```markup
-<h3> Pentru a crea pagini web, învățăm: </h3>
-<ol>
-    <li> HTML </li>
-    <li> CSS </li>
-    <li> JavaScript </li>
-</ol>
-```
-
-Nu am specificat niciun marcator, deci se observă că marcatorii default sunt numerele arabe. Putem folosi un anumit tip de marcatori cu ajutorul atributelor. În exemplul următor vom adăuga un marcator pentru toată lista.
-
-```markup
-<h3> Pentru a crea pagini web, învățăm: </h3>
-<ol type="A">
-    <li> HTML </li>
-    <li> CSS </li>
-    <li> JavaScript </li>
-</ol>
-```
-
-Acum elementele listei sunt marcate cu A, B, C… Pentru litere mici am fi specificat `<ol type="a">`, pentru numere romane `<ol type="I">`, iar pentru numere arabe `<ol type="1">`.
-
-## Liste neordonate
-
-Durată: 10' \| Metodă: prelegere \| Materiale: videoproiector
-
-Listele neordonate sunt similare cu cele ordonate, doar că de data aceasta **marcatorii nu păstrează o anumită ordine a elementelor**. În loc sa fie numere sau litere, marcatorii pentru listele ordonate sunt **cerc, disc, pătrat sau inexistent**. 
-
-Eticheta pentru listă neordonată este `<ul>` \(de la unordered list\) și este o etichetă pereche, care se închide cu `</ul>`. Elementele se adaugă tot cu `<li> </li>`
-
-#### Exemplu
-
-```markup
-<h3> Lista de supereroi: </h3>
-<ul>
-    <li> Superman </li>
-    <li> Wonderwoman </li>
-    <li> Deadpool </li>
-</ul>
-```
-
-Nu am specificat niciun marcator, deci se observă că marcatorii default sunt disc-urile \(bullet points\). Putem folosi un anumit tip de marcatori cu ajutorul atributelor. În exemplul următor vom adăuga un marcator pentru toată lista.
-
-```markup
-<h3> Lista de supereroi: </h3>
-<ul type="square">
-    <li> Superman </li>
-    <li> Wonderwoman </li>
-    <li> Deadpool </li>
-</ul>
-```
-
-Acum elementele listei sunt marcate pătrate. Pentru cercuri am fi specificat `<ul type="circle">`, pentru disc-uri `<ul type ="disc">`, iar pentru lipsa marcatorilor `<ul type="none">`.
-
-{% hint style="info" %}
-Tipul liste poate fi poziționat, după cum am văzut până acum, pe întreaga lista, ca atribut al etichetei `ul` sau `ol`. Însă fiecare element al listei poate avea un marcator separat, menționat în cadrul etichetei `li`.
-{% endhint %}
-
-#### Exerciții
-
-1. 1. Adăugați în conținut o listă ordonată cu minim 5 elemente cu materiile pe care le studiați la școală. Adăugați și un titlu listei, folosind heading-ul h5. Testați toate tipurile de marcatori pentru lista ordonată.
-   2. Schimbați lista adăugată din ordonată în neordonată. Testați toate tipurile de marcatori pentru lista neordonată. Adăugați 2 elemente în plus.
-
-  
-  
-
-
-  
-
-
-  
-  
-
-
-  
-
-
-  
-
-
-
-
-  
-  
-
-
-  
-  
-
 

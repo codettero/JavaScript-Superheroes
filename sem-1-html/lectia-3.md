@@ -1,17 +1,29 @@
-# Lecția 3
+---
+description: 'Durată: 50'' | Cuvinte cheie: atribute, tabele'
+---
 
-**Durată:** 50 min
-
-**Cuvinte cheie:** atribute, tabele
+# Lecția 4
 
 ## Activitate 1 - Recapitulare
 
 Durată: 5' \| Metodă: prelegere \| Materiale: -
 
-1. Cum se scrie culoarea verde în format RGB? Dar roșu?
-2. Menționați eticheta pentru adăugarea unei imagini și dați exemplu de 3 atribute.
-3. Ce etichetă folosim pentru a adăuga o linie orizontală? Dar o linie liberă?
-4. Care este codul necesar pentru a forma urmatoarele liste:
+1. Menționați eticheta pentru adăugarea unei imagini și dați exemplu de 3 atribute.
+2. Care este calea pozei `"superhero.jpg"` dacă dorim să o punem în cadrul unei etichete `img` din index.html?
+
+   ```markup
+   project/
+   	index.html 
+   	resurse/
+   		img/
+   			cat.png
+   			dog.jpg
+   			eroi/
+   				superhero.jpg
+   		video/
+   ```
+
+3. Care este codul necesar pentru a forma urmatoarele liste:
 
    Lista 1:
 

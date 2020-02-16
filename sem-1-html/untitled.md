@@ -1,8 +1,8 @@
+---
+description: 'Durată: 50'' | Cuvinte cheie: web design, HTML, etichete pereche'
+---
+
 # Lecția 1
-
-**Durată:** 50 min
-
-**Cuvinte cheie:** web design, HTML, etichete
 
 ## Activitate 1 - Ce este Web Designul?
 
@@ -47,6 +47,7 @@ Etichetele pot fi **pereche** sau **nepereche**. Cele pereche se deschid \(de ex
 * titlul paginii web \(`<title> </title>`\), care reprezintă titlul afișat în tab
 * metadate: cuvinte cheie, descrierea paginii, informații despre autori și, cel mai important, informații pentru browsere pentru a ajuta la afișarea corectă a paginii
 * legături externe: către documente **CSS** și **JS**, care conțin cod util pentru pagina web, însă despre care vom vorbi în alte lecții
+* favicon: iconița asociată cu site-ul vizibilă în tab-ul browserului pe desktop
 
 #### Eticheta body
 
@@ -64,7 +65,7 @@ Ca un rezumat, structura de bază a unei pagini HTML este evidențiată în imag
 
 ## Activitatea 3 - Exercițiu
 
-Durată: 10' \| Metode: demo \| Materiale: videoproiector
+Durată: 15' \| Metode: demo \| Materiale: videoproiector
 
 Am dat deja exemplu de 4 etichete pereche:
 
@@ -111,7 +112,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Activitate 4 - Etichete pereche
 
-Durată: 10' \| Metode: prelegere, demo \| Materiale: videoproiector
+Durată: 15' \| Metode: prelegere, demo \| Materiale: videoproiector
 
 ### Eticheta de paragraf
 
@@ -188,7 +189,6 @@ După închiderea unei etichete de heading se adaugă automat un rând nou, înt
 
 1. Adăugați un titlu paginii web, în body, înainte de cele 2 paragrafe. Testați mai multe heading-uri si conținuturi de titlul și verificați cum se modifică acestea.
 2. Adăugați un heading în cadrul paragrafului. Eticheta de heading se va afla în cadrul etichetei de paragraf. Acest concept se numește **nested tags**.
-3. a
 
 {% hint style="info" %}
 **Exemplu:**
@@ -214,34 +214,4 @@ Eticheta de heading a fost deschisă după eticheta de paragraf și este închis
 {% hint style="info" %}
 Tot conținutul paragrafului, și anume textul acestuia, este acum scris sub forma de heading \(îngroșat și mărit\). Eticheta de heading nu a fost închisă așa că browser-ul consideră că tot conținutul paragrafului este, de fapt, parte a etichetei **h1** și îl formatează ca atare.
 {% endhint %}
-
-## **Activitate 5 - Etichete nepereche**
-
-Durată: 10' \| Metode: prelegere, demo \| Materiale: videoproiector
-
-### Line break
-
-Am observat că închiderea etichetelor de paragraf `</p>` sau de heading `</h3>` introduc automat un rând nou. Putem introduce oricând un rând nou în conținutul paginii web cu ajutorul etichetei `<br>`. Aceasta nu are sens să se închidă, deoarece știm deja că ocupă un rând întreg, deci nu există eticheta `</br>`.
-
-#### Exercițiu
-
-În fișierul în care ați lucrat până acum, adăugați eticheta `<br>` între doua cuvinte oarecare dintr-un paragraf din body. Ce se întâmplă atunci când dați refresh? Dar dacă adăugați de mai multe ori eticheta `<br>` una după alta? Apar mai multe linii libere.
-
-```markup
-<body>
-<h3> Prima mea pagina web </h3>
-<p> 
-<h1> Titlul paragrafului </h1> 
-Lorem <br> <br> <br> ipsum… </p>
-<p> Duis <br> aute… </p>
-</body>
-```
-
-### Horizontal rule
-
-Putem folosi eticheta `<hr>` pentru a adăuga o linie orizontală care să delimiteze zonele paginii web. Numele vine de la horizontal rule și, întocmai ca `<br>`, nu are sens ca această etichetă să se închidă, deci nu există `</hr>`.
-
-#### Exercițiu
-
-Adăugați eticheta `<hr>` între cele două paragrafe din body. Ce se întâmplă atunci când dați refresh?
 
