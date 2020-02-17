@@ -18,7 +18,7 @@
 
 ## Sem 2 - JS
 
-* [Untitled](sem-2-js/untitled.md)
+* [Lecția 1](sem-2-js/untitled.md)
 
 ## Sem 2 - Angular
 
