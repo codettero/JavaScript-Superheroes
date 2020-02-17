@@ -2,17 +2,21 @@
 description: 'Durată: 50'' | Cuvinte cheie: CSS, stilizare, clase'
 ---
 
-# Lecția 7
+# Lecția 1
 
 ## Activitatea 1 - Ce este CSS?
 
 Durată: 10' \| Metodă: prelegere \| Materiale: videoproiector
 
-CSS \(Cascading Style Sheets\) este un limbaj de stilizare aplicat documentelor scrise în HTML sau XML \(supertip pentru HTML\). Este unul din limbajele standard web, implementat în toate browserele moderne și, la fel ca și alte tehnologii specifice internetului, în continuă evoluție. Versiunea curentă este CSS3, împărțită în mai multe module adoptate treptat. Pentru a verifica compatibilitatea diferitor funcționalități cu browserele folosite, puteți folosi [această pagină](https://caniuse.com/#search=css3).
+**CSS \(Cascading Style Sheets\)** este un limbaj de stilizare aplicat documentelor scrise în HTML sau XML \(supertip pentru HTML\). Este unul din limbajele standard web, implementat în toate browserele moderne și, la fel ca și alte tehnologii specifice internetului, în continuă evoluție. Versiunea curentă este CSS3, împărțită în mai multe module adoptate treptat. 
 
-### Pentru ce e folosit?
+{% hint style="info" %}
+În caz ca nu sunteți siguri dacă anumite proprietăți sunt suportate de versiunea curentă a browser-ul vostru, puteți folosi [această pagină](https://caniuse.com/#search=css3) pentru a vă verifica.
+{% endhint %}
 
-CSS este un limbaj care, deși nu poate fi numit un limbaj de programare, este destul de puternic pentru a adăuga majoritatea efectelor vizuale pe care le vedeți în browserele moderne, de la culori, spațiere și aliniere la tranziții și animații. Pe parcursul următoarelor lecții vom încerca să prezentăm o gamă destul de extinsă de funcționalități pentru a face toate cele de mai sus și mai multe.
+### Pentru ce e folosit CSS-ul?
+
+CSS este un limbaj care, deși nu poate fi numit un limbaj de programare, este destul de puternic pentru a adăuga majoritatea efectelor vizuale pe care le vedeți în browserele moderne, de la culori, spațiere și aliniere la tranziții și animații. Pe parcursul următoarelor lecții vom încerca să prezentăm o gamă destul de extinsă de funcționalități pentru a face toate cele menționate mai sus, și multe altele.
 
 ### Cum adăugăm CSS în proiectele noastre?
 
@@ -33,6 +37,7 @@ Există trei modalități de a adăuga CSS în proiectele noastre, mai exact: î
   }
   </style>
 </head>
+
 <body>
   <!-- A treia modalitate -->
   <p style="color:red">Paragraf rosu</p>
@@ -42,7 +47,7 @@ Există trei modalități de a adăuga CSS în proiectele noastre, mai exact: î
 
 ## Activitatea 2 - Sintaxa CSS
 
-Durată: 10' \| Metodă: prelegere \| Materiale: videoproiector
+Durată: 20' \| Metodă: prelegere \| Materiale: videoproiector
 
 Sintaxa CSS este formată, în primele două modalități, din diferite reguli, identificate printr unul sau mai mulți selectori și un bloc de declarații de forma proprietate-valoare. Exemple:
 
@@ -102,7 +107,7 @@ Următoarele exemple pot fi testate
     <input type="text" value="High font size"/> 
     <label class="container">Checkbox
       <input type="checkbox">
-      <span class="checkmark"></span>
+      <div class="checkmark"></div>
     </label>
 </div>
 ```
@@ -203,11 +208,11 @@ Pentru CSS, există câteva proprietăți foarte importante care definesc limbaj
 * **specificitate**: dacă două reguli diferite se referă la acelaăi elemente, regula cu selectorul mai specific va fi aplicată
 * **moștenire**: majoritatea proprietăților, dacă nu sunt setate, vor moșteni valorile setate pe elementele părinte, până la body. Există și proprietăți care sunt excepții de la regula aceasta. De asemenea, fiecare broser aplică setul său propriu de proprietăți asupra elementelor generale \(cum ar fi etichete ca `div`, `body` și `input`, în special `body`\), și, dacă nu sunt resetate în mod specific, sunt moștenite.
 
-## Activitatea 3 - Proprietăți comune
+## Activitatea 3 - Proprietăți des întâlnite
 
 Durată: 10' \| Metodă: prelegere \| Materiale: videoproiector
 
-În următorul bloc vom da exemple de proprietăți comune care sunt aplicate anumitor etichete. Recomandăm să le testați pe toate care nu vi se par triviale.
+În următorul bloc vom da exemple de proprietăți des întâlnite care sunt aplicate anumitor etichete. Recomandăm să le testați pe toate care nu vi se par triviale.
 
 ```css
 .underlinedText {

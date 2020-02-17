@@ -10,11 +10,11 @@
 * [Lecția 4](sem-1-html/lectia-3.md)
 * [Lecția 5](sem-1-html/lectia-4.md)
 * [Lecția 6](sem-1-html/lectia-6.md)
-* [Lecția 7](sem-1-html/lectia-7.md)
 * [Răspunsuri](sem-1-html/raspunsuri.md)
 
 ## Sem 1 - CSS
 
+* [Lecția 1](sem-1-css/lectia-7.md)
 * [Untitled](sem-1-css/untitled.md)
 
 ## Sem 2 - JS
