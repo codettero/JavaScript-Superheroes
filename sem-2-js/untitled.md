@@ -25,7 +25,7 @@ Poate ați auzit de limbajul de programare Java, care nu este același lucru cu 
 {% endhint %}
 
 {% hint style="warning" %}
-În JS, nu este necesar să puneți punct și virgulă la finalul fiecărui rând. Nu va da eroare dacă lipseste, însă este bine să fiți consecvenți. Pe durata acestor linii, vom folosi totuși `;` la final de rând.
+În JS, nu este necesar să puneți punct și virgulă la finalul fiecărui rând. Nu va da eroare dacă lipseste, însă este bine să fiți consecvenți. Pe durata acestor linii, vom folosi totuși **`;`** la final de rând.
 {% endhint %}
 
 ## Activitate 2 - variabile și tipuri de date
@@ -34,13 +34,13 @@ Durată: 25' \| Metodă: prelegere \| Materiale: -
 
 ### Variabile și tipuri de date
 
-Spre deosebire de C/C++, în JavaScript, variabilele nu au nevoie de un tip de date, ci este dedus în funcție de valoaera asignată. Asta înseamnă ca o variabilă poate reține la un moment dat un număr, iar dupa poate reține un șir de caractere, fără să dea eroare de tip.
+Spre deosebire de C/C++, în JavaScript, variabilele nu au nevoie de un tip de date, ci este dedus în funcție de valoarea asignată. Asta înseamnă că o variabilă poate reține la un moment dat un număr, iar după poate reține un șir de caractere, fără să dea eroare de tip.
 
 {% hint style="info" %}
-JavaScript are tipare dinamica \(dynamic typing\), adică o variabilă poate reține, la momente de timp diferite, tipuri de date diferite. Acest lucru se întâmplă deoarece valoarea variabilelor e verificată abia când se execută linia respectivă. 
+JavaScript are tipare dinamică \(dynamic typing\), adică o variabilă poate reține, la momente de timp diferite, tipuri de date diferite. Acest lucru se întâmplă deoarece valoarea variabilelor e verificată abia când se execută linia respectivă. 
 {% endhint %}
 
-În JavaScript, variabilele se declară prin cuvântul cheie **var.** În exemplul de mai jos se observă declararea și atribuirea unei variabile numită x. 
+În JavaScript, variabilele se declară prin cuvântul cheie **var.** Alte două cuvinte cheie pentru declararea variabilelor, `let` și `const` vor fi introduse într-o secțiune ulterioară. În exemplul de mai jos se observă declararea și atribuirea unei variabile numită x. 
 
 ```javascript
 // JavaScript
@@ -61,10 +61,14 @@ Tipurile de date cele mai des întâlnite sunt:
 * Boolean \(poate lua doar valorile true sau false\)
 * Objects \(o grupare de mai multe elemente sub forma cheie-valoare; valorile pot fi, la rândul lor, Number, String sau alt Object\)
 * Array \(o grupare de variabile sau constante\) - array este, de asemenea, un Object
+* null, undefined, NaN \(absența unei valori\)
 
 ```javascript
 // Exemplu de obiect
-var x = {firstName:"John", lastName:"Doe"}
+var x = {
+    firstName: "John",
+    lastName: "Doe"
+}
 
 // cheile sunt firstName si lastName
 // valorile cheilor sunt String-urile "John" si "Doe"
@@ -84,7 +88,9 @@ var x = {firstName:"John", lastName:"Doe"}
 
 Am discutat mai devreme despre valorile pe care le poate lua o variabilă, cum ar fi un număr sau un șir de caractere. Dar ce se întâmplă dacă o variabilă nu are o valoare, dacă nu reține sau nu corespunde unui obiect din memoria calculatorului?
 
-În acest caz, spunem ca valoarea ei este `null`. La prima vedere, null si `undefined` sunt foarte asemănătoare. Atât `null`, cât și `undefined` pot atribuite de către programator. Diferența este dată de faptul că, atunci când o variabilă este doar declarată, fără să primească o valoare propriu-zisă, aceasta este `undefined`.
+În acest caz, spunem ca valoarea ei este `undefined`. La prima vedere, `null` si `undefined` sunt foarte asemănătoare. Atât `null`, cât și `undefined` pot atribuite de către programator. Diferența este dată de faptul că, atunci când o variabilă este doar declarată, fără să primească o valoare propriu-zisă, aceasta este `undefined`.
+
+Cauza pentru care există două valori atât de asemănătoare este că, deși ambele exprimă absența unei valori valide, null exprimă absența datelor, iar undefined lipsa asignării sau o stare de eroare.
 
 ```javascript
 var x = null; // valoarea este null, asignată de programator
@@ -97,7 +103,7 @@ Atât **null**, cât și **undefined**, reprezintă lipsa unei valori propriu-zi
 {% endhint %}
 
 {% hint style="danger" %}
-Când accesăm un câmp inexistent, valoarea obținută este undefined.
+Când accesăm un câmp inexistent, valoarea obținută este undefined, în semn de eroare.
 {% endhint %}
 
 ```javascript
@@ -108,6 +114,90 @@ console.log(x.age); // undefined, deoarece nu există câmpul age
 ```
 
 ### Var, let, const
+
+Declararea standard a variabilelor, în JavaScript, folosind cuvântul cheie `var` se supune unui proces numit `hoisting`. Acest lucru înseamnă că, de fiecare dată când declari o variabilă folosind `var`, aceasta va fi "**urcată**" spațial la începutul funcției în care ne aflăm, iar în cazul în care scriem în afara oricărei funcții, într-un fișier, aceasta va fi pusă la începutul fișierului. Pentru cei care sunt obișnuiti cu practicile din `C/C++`, unde este recomandat să declarați variabilele la începutul funcției, `hoisting` e ca și cum browserul face acest lucru pentru voi de fiecare dată când folosiți `var`. Spre exemplu:
+
+```javascript
+function f() {
+    var b = 5; // b este declarat și asignat la 5
+    c = 7; // c este asignat la 7
+    console.log(a, b, c);
+    var a = 6; // a este declarat și asignat la 6
+    var c; // c este declarat
+}
+
+// Funcția f este echivalentă cu funcția g
+function g() {
+    var a, b, c;
+    b = 5;
+    c = 7;
+    console.log(a, b, c);
+    a = 6;
+    console.log(d); // ReferenceError: d is not defined
+}
+
+f(); // output: undefined 5 7
+```
+
+{% hint style="info" %}
+Atenție: o linie cu codul **`var a = 6`** conține două operații: o declarație a variabilei **a** și o asignare a ei la numărul 6. Doar declarația este **hoisted**.
+{% endhint %}
+
+De asemenea, declarațiile folosind var sunt `function scoped`, adică există numai in cadrul primei funcții părinte în care au fost declarate. Spre exemplu:
+
+```javascript
+console.log(i); // ReferenceError: i is not defined
+
+function f() {
+    console.log(i); // undefined
+    
+    for (var i = 0; i < 5; i++) {
+    	console.log(i); // 0 1 2 3 4
+    }
+    
+    console.log(i); // 5
+}
+
+f();
+```
+
+Deși variabila `i` a fost declarată în cadrul for-ului, cu care sunteți familiari din alte limbaje de programare, această instrucțiune nu este o funcție, așa că **i** este **hoisted la începutul funcției f**, dar **există și după terminarea** for-ului. În schimb, variabila i **nu există în afara funcției f**.
+
+Acest comportament a provocat multe erori de-a lungul timpului \(pentru cei care nu au fost atenți la explicația de mai sus\), așa că, în 2015 au fost introduse în JavaScript două noi cuvinte cheie, `let` și `const`, suportate de toate versiunile curente ale browserelor moderne. Aceste cuvinte cheie pot fi folosite pentru a declara variabile care nu sunt `hoisted` și fac parte din `block scope`, nu _function scope_, ca mai sus. Spre exemplu:
+
+```javascript
+console.log(i); // ReferenceError: i is not defined
+
+function f() {
+    console.log(i); // ReferenceError: i is not defined
+    
+    for (let i = 0; i < 5; i++) {
+    	console.log(i); // 0 1 2 3 4
+    }
+    
+    console.log(i); // ReferenceError: i is not defined
+}
+```
+
+{% hint style="warning" %}
+Deoarece variabila i este declarată folosind **`let`** în interioriul blocului definit de for, aceasta există doar în cadrul acesui **bloc** \(între paranteze și acolade\). **Nu este hoisted** la începutul funcției și **nu există după for**.
+{% endhint %}
+
+{% hint style="info" %}
+Recomandam să folosiți **`let`** de fiecare dată când declarați o variabilă.
+{% endhint %}
+
+În legatură cu cuvântul cheie `const`, acesta are toate proprietățile lui **let**, și, în plus, variabilele declarate folosindu-l sunt **constante**, adică nu își pot schimba valoarea de-a lungul programului. Asta înseamnă că, de fiecare dată când declarați o variabilă folosind `const` **trebuie să o și initializați** la singura valoare pe care o va avea, altfel va produce o eroare.
+
+```javascript
+const C; // SyntaxError: missing = in const declaration
+const d = 10;
+d = 12; // TypeError: invalid assignment to const `c'
+```
+
+Un ultim exemplu folosind toate cele trei cuvinte cheie:
+
+![](../.gitbook/assets/screenshot-from-2020-02-18-09-30-39.png)
 
 ## Activitate 3 - Operații aritmetice
 
