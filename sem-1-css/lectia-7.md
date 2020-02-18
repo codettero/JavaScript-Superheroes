@@ -20,7 +20,17 @@ CSS este un limbaj care, deși nu poate fi numit un limbaj de programare, este d
 
 ### Cum adăugăm CSS în proiectele noastre?
 
-Există trei modalități de a adăuga CSS în proiectele noastre, mai exact: într-un fișier extern cu extensia `.css`, în interiorul unei etichete HTML de tip `style`, sau în atributul `style` al unui element HTML care poate fi stilizat. În blocul de cod următor puteți observa toate cele trei modalități:
+Există trei modalități de a adăuga CSS în proiectele noastre. 
+
+* într-un fișier extern cu extensia `.css`: fișierul conține numai CSS și va fi adăugat prin eticheta `<link>` care poate fi inclusă în `<head>` sau în `<body>`, dar prin convenție o vom pune în head.
+* în interiorul unei etichete HTML de tip `<style>`: aici scriem tot în CSS, ca și cum codul s-ar afla într-un fișier extern .css; vom vorbi imediat despre sintaxa CSS
+* în atributul `style` al unui element HTML care poate fi stilizat: acesta se mai numește si CSS în line și afectează doar elementul pe care este adăugat în mod direct
+
+{% hint style="warning" %}
+În primele două modalități, CSS-ul va avea efect asupra tuturor elementelor specificate din pagina web. În ultimul caz, va avea efect doar asupra elementului în cadrul căruia este adăugat.
+{% endhint %}
+
+În blocul de cod următor puteți observa toate cele trei modalități:
 
 ```markup
 <!DOCTYPE html>
@@ -45,24 +55,106 @@ Există trei modalități de a adăuga CSS în proiectele noastre, mai exact: î
 </html>
 ```
 
-## Activitatea 2 - Sintaxa CSS
+## Activitatea 2 - Selectori si sintaxa CSS
 
 Durată: 20' \| Metodă: prelegere \| Materiale: videoproiector
 
-Sintaxa CSS este formată, în primele două modalități, din diferite reguli, identificate printr unul sau mai mulți selectori și un bloc de declarații de forma proprietate-valoare. Exemple:
+Ne amintim că în HTML, sintaxa unei etichete avea următoarea structură:
+
+`<eticheta atribut1="valoare" atribut2="valoare"> Continut </eticheta>`
+
+În CSS, structura este similară, însă sintaxa diferă astfel:
 
 ```css
-/* Exemplu de comentariu CSS */
+selector {
+    proprietate: valoare;
+    proprietate: valoare;
+}
 
-/* h1, p = selectori */
+/* Observați folosirea acoladelor în loc de semnele <> */
+/* Caracterul : desparte proprietatea (atribut) de valoare, în locul egalului */
+/* După fiecare atribut se pune ; */
+```
+
+### Ce este un selector?
+
+Putem identifica elemente HTML prin mai multe metode în CSS, dintre care două sunt atribute specifice HTML: `id` și `class`.
+
+Aceste două atribute HTML pot identifica orice element HTML din body \(inclusiv eticheta body\) și, deși pot fi folosite interschimbabil, există câteva reguli generale folosite în industrie:
+
+* un `id` identifică unic un element, o clasă identifică mai multe elemente
+* un element ar trebui să aibă maximum un singur id, dar poate avea mai multe clase
+* id-urile sunt folosite pentru identificarea elementelor majoritar în logica JavaScript, iar clasele în interacții și stilizare în CSS și JS
+
+### Exemple de selectori
+
+În CSS, putem avea următoarele elemente drept selectori:
+
+* orice etichetă HTML:
+  * `body`: aplică formatarea pe toate elementele \(etichetele incluse în body\)
+  * `p`: aplică formatarea pe toate paragrafele din pagina web, peste tot unde întâlnește eticheta`p`
+  * `img, heading, button, td, tr, li, ol, ul, hr`: similar, aplică stilizarea pe toate elementele de acest tip
+* un id:
+  * elementul din HTML poate primi un identificator unic, ID, astfel:
+  * `<p id="paragraf1"> Text </text>`
+  * id-ul poate lua orice valoare text, dar în principiu e bine să folosiți nume sugestive pentru rolul acelui element
+  * elementul din HTML va fi identificat prin ID-ul său în CSS prin semnul **\#**, astfel:
+
+```css
+/* Un selector de tip id începe cu caracterul diez și nu are spații */
+#numeId {
+    /* Proprietatea color seteaza culoarea textului
+     * Între proprietate și culoare este necesar caracterul ":"
+     * La finalul declariției se pune caracterul ";" */
+    color: red;
+}
+```
+
+* o clasă:
+  * elementul din HTML poate primi un identificator unic, ID, astfel:
+  * `<p class="paragraf1"> Text </text>`
+  * clasa poate lua orice valoare text, dar în principiu e bine să folosiți nume sugestive pentru rolul acelui element
+  * elementul din HTML va fi identificat prin ID-ul său în CSS prin semnul `.`, astfel:
+
+```css
+/* Un selector de tip clasa incepe cu caracterul punct si nu are spatii */
+.numeClasa {
+    color: #ff00ff;
+}
+```
+
+## Activitatea 3 - Exemple de utilizare
+
+Durată: 20' \| Metodă: prelegere \| Materiale: videoproiector
+
+Să luam câteva exemple și să înțelegem cum funcționează selectorii:
+
+```css
+/* Stilizare asupra tuturor elementelor h1 si p din body */
 h1, p {
     color: red; /* exemplu de regula = proprietatea color cu valoarea red */
     background-color: #0000FF;
     font-size: 13px;
 }
 
-/* Un exemplu mai elaborat */
-.clasa-1, #idulMeu, p > div {
+/* stilizare doar asupra elementelor paragraf cu clasa "verde" */
+/* elementele de alt tip diferit de paragraf, sau elementele paragraf fără clasă
+sau cu o alta clasă nu vor fi afectate */
+p.verde {
+    color: green;
+}
+
+
+/* toate elementele cu clasa "large-text" vor fi afectate, indiferent de tip - 
+pot fi paragrafe, heading-uri, liste etc */
+.large-text {
+    font-size: 30px;
+}
+
+/* Un exemplu mai elaborat: stilizare asupra elementelor cu clasa "clasa-1"
+sau cu id-ul #idulMeu, dar si asupra tuturor div-urilor din cadrul oricarui 
+paragraf din continutul paginii web */
+.clasa-1, #idulMeu, p div {
     width: 500px;
     height: 240px;
     display: block;
@@ -79,19 +171,13 @@ h1, p {
 }
 ```
 
-### Selectori CSS
-
-Înainte de a vorbi de diferite proprietăți CSS, vom intra în amănunte asupra selectorilor css. Putem identifica elemente HTML prin mai multe metode în CSS, dintre care două sunt atribute specifice HTML: `id` și `class`.
-
-Aceste două atribute HTML pot identifica orice element HTML din body \(inclusiv eticheta body\) și, deși pot fi folosite interschimbabil, există câteva reguli generale folosite în industrie:
-
-* un `id` identifică unic un element, o clasă identifică mai multe elemente
-* un element ar trebui să aibă maximum un singur id, dar poate avea mai multe clase
-* id-urile sunt folosite pentru identificarea elementelor majoritar în logica JavaScript, iar clasele în interacții și stilizare în CSS și JS
+{% hint style="info" %}
+Sunt foarte multe proprități care pot fi setate pentru un element. Puteți căuta pe net proprietățile care nu sunt clare din exemplul de mai sus. Vom discuta despre acestea în lecțiile următoare. În general, nu trebuie să rețineți toate proprietățile, ci puteți să le căutați.
+{% endhint %}
 
 ### Exemple selectori în acțiune
 
-Următoarele exemple pot fi testate
+Să considerăm că avem următoarele etichete în HTML, identificate prin id-uri și clase.
 
 ```markup
 <p id="myFirstId"> Paragraf cu text roșu </p>
@@ -207,42 +293,6 @@ Pentru CSS, există câteva proprietăți foarte importante care definesc limbaj
 * **cascading**: în cei mai simpli temreni, ordinea contează: dacă există două reguli cu selectori identici dar declarații pentru aceleași proprietăți dar valori diferite, cele din blocul care apare mai târziu vor fi aplicate
 * **specificitate**: dacă două reguli diferite se referă la acelaăi elemente, regula cu selectorul mai specific va fi aplicată
 * **moștenire**: majoritatea proprietăților, dacă nu sunt setate, vor moșteni valorile setate pe elementele părinte, până la body. Există și proprietăți care sunt excepții de la regula aceasta. De asemenea, fiecare broser aplică setul său propriu de proprietăți asupra elementelor generale \(cum ar fi etichete ca `div`, `body` și `input`, în special `body`\), și, dacă nu sunt resetate în mod specific, sunt moștenite.
-
-## Activitatea 3 - Proprietăți des întâlnite
-
-Durată: 10' \| Metodă: prelegere \| Materiale: videoproiector
-
-În următorul bloc vom da exemple de proprietăți des întâlnite care sunt aplicate anumitor etichete. Recomandăm să le testați pe toate care nu vi se par triviale.
-
-```css
-.underlinedText {
-    text-decoration: underline;
-}
-
-image {
-    width: 200px;
-    height: 120px;
-}
-
-/* Toate elementele div cu clasa .right vor fi aliniate la dreapa */
-div.right {
-    float: right;
-    width: 200px;
-    background: red;
-}
-
-div.textCenter {
-    text-align: center;
-}
-
-
-/* Toate elemenele div cu clasa .aligned vor avea margini egale la
- * stânga și la dreapta */
-div.aligned {
-    width: 200px;
-    margin: auto;
-}
-```
 
 
 
