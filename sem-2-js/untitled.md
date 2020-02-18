@@ -24,6 +24,10 @@ Față de HTML și CSS, JavaScript este un limbaj de programare. Pentru început
 Poate ați auzit de limbajul de programare Java, care nu este același lucru cu JavaScript. 
 {% endhint %}
 
+> The difference between Java and JavaScript is like the difference between car and carpet.
+>
+> Unnamed JS developer.
+
 {% hint style="warning" %}
 În JS, nu este necesar să puneți punct și virgulă la finalul fiecărui rând. Nu va da eroare dacă lipseste, însă este bine să fiți consecvenți. Pe durata acestor linii, vom folosi totuși **`;`** la final de rând.
 {% endhint %}
