@@ -20,17 +20,21 @@ Pe scurt:
 
 Față de HTML și CSS, JavaScript este un limbaj de programare. Pentru început, vă puteți gândi la JavaScript ca la C/C++, doar că sintaxa este puțin diferită. Vom discuta, întocmai ca la primele ore de informatică, despre variabile, atribuiri, structuri decizionale și repetitive.
 
+{% hint style="warning" %}
+În JS, nu este necesar să puneți punct și virgulă la finalul fiecărui rând. Nu va da eroare dacă lipseste, însă este bine să fiți consecvenți. Pe durata acestor linii, vom folosi totuși **`;`** la final de rând, pentru că sunteți obișnuiți cu asta de la alte ore de programare în C/C++.
+{% endhint %}
+
 {% hint style="danger" %}
-Poate ați auzit de limbajul de programare Java, care nu este același lucru cu JavaScript. 
+Poate ați auzit de limbajul de programare Java, care nu este același lucru cu JavaScript. Încercați să nu le confundați, sunt limbaje diferite, cu scopuri, sintaxă și mod de funcționare diferit.
+{% endhint %}
+
+{% hint style="success" %}
+Curios cum diferă JavaScript de Java? În următoarele 5 minute, caută pe net și notează câteva idei principale.
 {% endhint %}
 
 > The difference between Java and JavaScript is like the difference between car and carpet.
 >
 > Unnamed JS developer.
-
-{% hint style="warning" %}
-În JS, nu este necesar să puneți punct și virgulă la finalul fiecărui rând. Nu va da eroare dacă lipseste, însă este bine să fiți consecvenți. Pe durata acestor linii, vom folosi totuși **`;`** la final de rând.
-{% endhint %}
 
 ## Activitate 2 - variabile și tipuri de date
 
