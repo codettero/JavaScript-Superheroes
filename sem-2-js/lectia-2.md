@@ -63,7 +63,7 @@ if (age < 10) {
 
 În cazul unei structuri if-else în care fiecare ramură conține doar o operație, și anume o atribuire, către aceeași variabilp, putem să folosim operatorul ternar. Este o formă mai scurtă de a scrie if-else în acest caz, ocupă doar un rând, însă e mai greu de citit.
 
-Structura acestei operații este: \(conditie **?** caz\_adevărat **:** caz\_fals\);
+Structura acestei operații este: `conditie ? caz_adevărat : caz_fals;`
 
 ```javascript
 // cu if-else
@@ -74,7 +74,7 @@ if (nota < 5) {
 }
 
 // cu operatorul ternar
-rezultat = (nota < 5 ? 'respins' : 'admis');
+rezultat = nota < 5 ? 'respins' : 'admis';
 ```
 
 ### Switch
@@ -176,11 +176,11 @@ Un array este o structură de date folosită pentru a reține unul sau mai multe
 
 ### Creare
 
-Elementele unui array se scriu între paranteze drepte \[ \] și sunt separate prin virgulă.
+Elementele unui array se scriu între paranteze drepte `[ ]` și sunt separate prin virgulă.
 
 ```javascript
 var culori = ["rosu", "verde", "gri"]; // un array cu 3 elemente de același tip, toate string
-var numere = [0, 1, 2, 2.56, "trei"]; // un array cu 4 elemente de tipuri diferite
+var numere = [0, true, 2.56, "trei"]; // un array cu 4 elemente de tipuri diferite
 var empty = []; // un array gol
 
 // Alt mod de declarare
@@ -210,17 +210,17 @@ console.log(culori[1]); // albastru
 
 Array-urile au multe operații predefinite:
 
-length -&gt; întoarce numărul de elemente
+`.length` -&gt; întoarce numărul de elemente
 
-sort\(\) -&gt; sortează elementele din array în ordine crescătoare alfanumerică
+`.sort()` -&gt; sortează elementele din array în ordine crescătoare alfanumerică
 
-pop\(\) -&gt; elimină ultimul element din array și îl intoarce; updatează lungimea array-ului, dar nu o întoarce
+`.pop()` -&gt; elimină ultimul element din array și îl intoarce; updatează lungimea array-ului, dar nu o întoarce
 
-push\(\) -&gt; adaugă un element la finalul array-ului și intoarce lungimea noului array
+`.push()` -&gt; adaugă un element la finalul array-ului și intoarce lungimea noului array
 
-reverse\(\) -&gt; inversează ordine elementelor din array
+`.reverse()` -&gt; inversează ordine elementelor din array
 
-forEach\(\) -&gt; parcurgerea fiecărui element dintr-un array
+`.forEach()` -&gt; parcurgerea fiecărui element dintr-un array
 
 ```javascript
 var culori = ["rosu", "verde", "gri"];
@@ -297,7 +297,7 @@ Rezultatele se vor vedea în consolă, care poate fi accesată dând click dreap
 * a / b + b % a
 
 {% hint style="success" %}
-Puteți să alegeți diferite valori pentru a și b la fiecare rulare. Pentru a realiza acest lucru automat, folosiți funcția rand\(\). Cum? Un search pe Google vă va arăta răspunsul.
+Puteți să alegeți diferite valori pentru a și b la fiecare rulare. Pentru a realiza acest lucru automat, folosiți funcțiile Math.rand\(\) si Math.floor\(\). Cum? Un search pe Google vă va arăta răspunsul.
 {% endhint %}
 
 3. Creați un array cu 10 elemente alese de voi \(sau folosind rand\(\)\). Afisați suma elementelor array-ului. Calculați suma numerelor pare. Pentru fiecare număr pozitiv, adăugați la finalul array-ului opusul său și afișați rezultatul.
