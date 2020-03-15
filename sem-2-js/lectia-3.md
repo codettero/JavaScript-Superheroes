@@ -1,7 +1,5 @@
 ---
-description: >-
-  Durată: 50' | Cuvinte cheie: ==, ===, adăugarea fișierelor JS, getElementById,
-  innerHTML
+description: 'Durată: 50'' | Cuvinte cheie: ==, ===, funcții, getElementById, innerHTML'
 ---
 
 # Lecția 3
