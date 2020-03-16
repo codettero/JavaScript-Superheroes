@@ -18,6 +18,10 @@
 * [Lecția 1](sem-1-css/lectia-7.md)
 * [Lecția 2](sem-1-css/untitled.md)
 
+## SEM 1 - PROIECT
+
+* [Lecția 12](sem-1-proiect/lectia-12.md)
+
 ## Sem 2 - JS
 
 * [Lecția 1](sem-2-js/untitled.md)
