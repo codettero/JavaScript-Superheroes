@@ -110,7 +110,7 @@ a.sort((a, b) => b - a); // [99, 11, 9, 1]
 Pe linia 7, comparatorul este un **arrow function** folosit pentru a sorta descrescător.
 {% endhint %}
 
-## Activitatea 3 - Manipularea documentului
+## Activitatea 3 - DOM
 
 Durată: 10' \| Metodă: prelegere \| Materiale: -
 
@@ -161,6 +161,17 @@ Testați codul de mai sus în browser.
 
 Durată: 15' \| Metodă: prelegere \| Materiale: -
 
-1. 
+Creați un calculator care efectuează calcule cu exact doi termeni. Pagina conține titlu, instructiuni, un input field în care să fie introdusă operația, un buton pentru a calcula și un paragraf la final în care să fie afișat rezultatul. Rezultatul ar trebui sa fie însotit de explicații, ca în exemplele de mai jos \(textul se modifică în funcție de operația executată. Butonul "Resetează" este folosit pentru a șterge rezultatul anterior și a goli input-ul.
+
+Folosiți HTML pentru a crea elementele de mai sus și JS pentru funcționalitate. Input-ul va fi un string, din care va trebui să separați operatorul și termenii.
+
+![Exemplu de utilizare pentru %](../.gitbook/assets/screenshot-2020-03-16-at-18.08.58.png)
+
+![Exemplu de utilizare pentru +](../.gitbook/assets/screenshot-2020-03-16-at-18.09.22.png)
+
+![Resetarea calculatorului](../.gitbook/assets/screenshot-2020-03-16-at-18.10.07.png)
+
+
+
 
 
