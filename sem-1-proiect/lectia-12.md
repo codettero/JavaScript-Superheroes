@@ -42,7 +42,7 @@ Până acum, pagina web arată astfel, doar titlul din browser și un header în
 
 În acest tutorial vom adăuga doar 3 supereroi, dar se pot adăuga cu ușurință oricâți doriți, de îndată ce scheletul este terminat. Pozele folosite în acest tutorial au dimensiunea de 480x640px. Pozele folosite în cadrul acestui tutorial pot fi găsite [aici](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/codettero/JavaScript-Superheroes/tree/Carmen/Day1_FirstHeroApp/Day1_end/img). Descărcați-le și salvațile în folderul `img`. Puteți folosi alte poze, de preferat în mod portrait \(înălțimea mai mare decât lățimea\).
 
-## Pasul 3 - schițarea paginii
+## Pasul 2 - schițarea paginii
 
 Înainte de a adăuga conținutul propriu-zis, vom stabili o structură a paginii web, și anume un șablon pentru fiecare supererou. Această structură, realizată prin div-uri cu clase diferite, paote fi observată în figura de mai jos.
 
@@ -104,7 +104,7 @@ body {
 }
 ```
 
-## Pasul 4 - adăugarea conținutului
+## Pasul 3 - adăugarea conținutului
 
 Până acum, pagina conține niște div-uri goale. În continuare, vom adăuga conținut.
 
@@ -127,6 +127,6 @@ Div-urile adăugate încă nu conțin CSS-ul necesar pentru a fi aranjate ca în
 {% endhint %}
 
 {% hint style="danger" %}
-Dacă imaginile nu merg, verificați ca numele, extensia și calea către acestea să fie scrise corect. 
+Dacă imaginile nu merg, verificați ca numele, extensia și calea către acestea să fie scrise corect.
 {% endhint %}
 
