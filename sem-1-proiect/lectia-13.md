@@ -1,3 +1,7 @@
+---
+description: MySuperHeroApp - part 2
+---
+
 # Lecția 13
 
 ## Pasul 4 - stilizarea imaginii de profil

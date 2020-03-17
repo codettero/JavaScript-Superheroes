@@ -2,7 +2,7 @@
 description: 'Durată: 50'' | Cuvinte cheie: CSS, stilizare, clase'
 ---
 
-# Lecția 1
+# Lecția 8
 
 ## Activitatea 1 - Ce este CSS?
 

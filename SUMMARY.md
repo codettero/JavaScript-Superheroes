@@ -15,8 +15,10 @@
 
 ## Sem 1 - CSS
 
-* [Lecția 1](sem-1-css/lectia-7.md)
-* [Lecția 2](sem-1-css/untitled.md)
+* [Lecția 8](sem-1-css/lectia-7.md)
+* [Lecția 9](sem-1-css/untitled.md)
+* [Lecția 10](sem-1-css/lectia-10.md)
+* [Lecția 11](sem-1-css/lectia-11.md)
 
 ## SEM 1 - PROIECT
 

@@ -54,5 +54,5 @@ TODO:
 
 Ca rezultat al acestui curs, participanții vor construi o pagină web completă în care afișează informații despre 3 supereroi. Vor fi realizate două proiecte, unul folosind HTML, CSS si JS, iar celalalt folosind framework-ul Angular. Tematica celor două proiecte este aceeași.
 
-![](.gitbook/assets/screenshot-2020-03-15-at-19.24.07.png)
+![](.gitbook/assets/screencapture-file-users-poppy-desktop-day1-end-index-html-2020-03-17-12_52_42.png)
 
