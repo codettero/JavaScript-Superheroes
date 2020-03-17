@@ -63,3 +63,5 @@ Codul CSS necesar este următorul. Completați-l unde este nevoie, specificând 
 
 ## Pasul 9 - animații
 
+
+
