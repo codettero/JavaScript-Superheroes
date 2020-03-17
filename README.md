@@ -12,7 +12,7 @@ Lecțiile din cadrul acestei broșuri sunt concepute pentru a fi predate o oră 
 
 Broșura este alcătuită astfel:
 
-### Semestrul 1 \(17 săptămâni\)
+### Semestrul 1 \(15 săptămâni de lucru, 2 de rezervă\)
 
 #### Lecțiile 1 - 7: HTML
 
@@ -22,21 +22,21 @@ TODO: rolul HTML-ului, exemple și folosirea etichetelor, crearea și adăugarea
 
 TODO: ce se invata
 
-#### Lecțiile 12 - 16: proiect
+#### Lecțiile 12 - 15: proiect
 
-### Semestrul 2 \(17 săptămâni\)
+### Semestrul 2 \(15 săptămâni de lucur, 2 de rezervă\)
 
-#### Lecțiile 1 - 5: JavaScript
+#### Lecțiile 1 - 4: JavaScript
 
 TODO: ce se invata
 
-#### Lecțiile 6 - 7: proiect
+#### Lecțiile 5 - 6: proiect
 
 TODO:
 
-#### Lecțiile 8 - 16: Angular + proiect
+#### Lecțiile 7 - 15: Angular + proiect
 
-În fiecare semestru, o săptămână alocată este de rezervă, pentru situații speciale sau încheierea mediilor. Proiectele pot fi realizate în echipe de câte 2 și se pot efectua atât în cadrul orelor de curs dedicate lucrului la proiecte, cât și în timpul liber al elevilor, pentru finalizarea acestora.
+În fiecare semestru, 2 săptămâni sunt de rezervă, pentru situații speciale sau încheierea mediilor. Proiectele pot fi realizate în echipe de câte 2 și se pot efectua atât în cadrul orelor de curs dedicate lucrului la proiecte, cât și în timpul liber al elevilor, pentru finalizarea acestora.
 
 ## Competențe dobândite
 
