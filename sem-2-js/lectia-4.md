@@ -8,7 +8,7 @@ Total: 10 pct \(2 pct din oficiu\)
 
 ### Partea I - Alegeți răspunsul corect la fiecare întrebare:
 
-0.5 puncte per întrebare =&gt; 5 puncte
+0.5 puncte per întrebare =&gt; 5 puncte; o întrebare este bonus
 
 1. Care este eticheta pentru a introduce cod JavaScript într-o pagină HTML?
 
@@ -96,7 +96,7 @@ Total: 10 pct \(2 pct din oficiu\)
 
    c. A.len
 
-   D. A.length
+   d. A.length
 
 9. Cu ce funcție putem itera printr-un array numit A în Javascript?
 
@@ -106,9 +106,19 @@ Total: 10 pct \(2 pct din oficiu\)
 
    c. A.forEach\(\)
 
-   D. A.all\(\)
+   d. A.all\(\)
 
-10. Dacă avem următorul cod html, cum putem schimba conținutul paragrafului folosind JavaScript?
+10. Care dintre următoarele funcții trebuie apelată pe un array pentru a întoarce elementele în ordine inversă?
+
+    a. shuffle\(\)
+
+    b. reverse\(\)
+
+    c. sort\(\)
+
+    d. filter\(\)
+
+11. Dacă avem următorul cod html, cum putem schimba conținutul paragrafului folosind JavaScript?
 
 ```markup
 <p id="demo">Textul initial</p>

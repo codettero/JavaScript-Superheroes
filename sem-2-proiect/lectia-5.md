@@ -12,7 +12,7 @@ myProject/
     script.js
 ```
 
-## Pasul 0 - adăugarea butoanelor
+## Pasul 1 - adăugarea butoanelor
 
 Avem nevoie de un buton cu săgeata stânga și celălalt cu săgeată dreapta. Vrem să le poziționăm în stânga și în dreapta ecranului, centrat. Adăugați în HTML, pentru fiecare supererou, două `a href`, astfel:
 

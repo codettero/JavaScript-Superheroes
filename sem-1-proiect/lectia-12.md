@@ -19,6 +19,10 @@ myProject/
     stylesheet.css
 ```
 
+{% hint style="success" %}
+În cadrul acestor lecții, nu este musai să folosiți în tocmai structura sau stilizările oferite în tutorial. Puteți experimenta și alege ce vă place cel mai mult. Vă recomandăm să modificați valorile proprităților și să vedeți cum afectează rezultatul, și chiar să eliminați linii din CSS pentru a vedea scopul și importanța lor, atunci când nu este clar.
+{% endhint %}
+
 ## Pasul 1 - scheletul HTML
 
 Deschideți fișierul HTML și scrieți scheletul de bază al unei pagini web. Tematica aleasă este despre supereroi, așa că alegeți un titlu sugestiv. Adăugați și în conținutul paginii un header.
