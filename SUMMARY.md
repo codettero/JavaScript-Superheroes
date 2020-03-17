@@ -21,6 +21,7 @@
 ## SEM 1 - PROIECT
 
 * [Lecția 12](sem-1-proiect/lectia-12.md)
+* [Lecția 13](sem-1-proiect/lectia-13.md)
 
 ## Sem 2 - JS
 

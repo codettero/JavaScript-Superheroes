@@ -85,7 +85,7 @@ Cu alte cuvinte, șablonul pentru un supererou este următorul. Chiar dacă vom 
 Observați că am adăugat un div gol, cu clasa `clearfix`. Acesta este adăugat dupa div-uri care au proprietatea float \(adică pentru a împărți în două coloane conținutul\) și ajută la păstrarea layout-ului.
 {% endhint %}
 
-CSS-ul de la care puteti porni este:
+CSS-ul de la care puteți porni este:
 
 ```css
 body {
@@ -93,6 +93,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
+  height: 100%
   color: #212529;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
