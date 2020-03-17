@@ -36,3 +36,7 @@ Rezultatul final este:
 
 ![](../.gitbook/assets/screencapture-file-users-poppy-desktop-myproject-index-html-2020-03-17-14_28_17.png)
 
+{% hint style="danger" %}
+Păstrați folderul și codul folosit pentru acest proiect. Vom continua semestrul următor să lucrăm pe baza lui.
+{% endhint %}
+

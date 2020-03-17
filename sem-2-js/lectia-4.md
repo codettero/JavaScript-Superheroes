@@ -22,13 +22,13 @@ Total: 10 pct \(2 pct din oficiu\)
 
 2. De ce avem nevoie de JavaScript pentru a crea o pagină web?
 
-   a. Adăugăm explicit conținutul paginii
+   a. Adăugăm conținutul paginii
 
-   b. Adăugăm explicit stilizare în pagină
+   b. Adăugăm stilizare în pagină
 
    c. Adăugăm funcționalitate paginii, interacții și dinamism
 
-   d. Toate cele de mai sus
+   d. Niciuna dintre cele de mai sus
 
 3. Cum putem face referire la un script extern, numit script.js, într-un fișier HTML?
 
@@ -64,7 +64,7 @@ Total: 10 pct \(2 pct din oficiu\)
 
    f. var a;
 
-6. Care dintre următoarele definiții pentru un array sunt valide?
+6. Care dintre următoarele operații asignează în mod valid un array?
 
    a. myArray = \["red", "blue", "yellow"\];
 
@@ -116,7 +116,7 @@ Total: 10 pct \(2 pct din oficiu\)
 
 a. document.getElementById\("p"\).innerHTML = "Noul text";
 
-b. document.getElementByName\("p"\).innerHTML = "Noul text";
+b. document.getElementByClassName\("p"\).innerHTML = "Noul text";
 
 c. document.getElementById\("demo"\).innerHTML = "Noul text";
 
@@ -158,10 +158,10 @@ Răspuns: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 | false === false |  |
 | 77 === 77 |  |
 | 77 === "77" |  |
-| false = "" |  |
+| false == "" |  |
 | 0 == "" |  |
 
-3. Scrieți corpul unei funcții care primește ca parametru un număr, reprezentând o luna \(1 = Ianuarie, 12 = Decembrie\) și returnează numărul de zile, fară să ia în considerare anii bisecți.
+3. Scrieți corpul unei funcții care primește ca parametru un număr, reprezentând o luna \(1 = Ianuarie, 12 = Decembrie\) și returnează numărul de zile din luna respectivă, fară să ia în considerare anii bisecți.
 
 ```javascript
 function getNumberOfDays(month) {

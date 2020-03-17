@@ -11,7 +11,6 @@
 * [Lecția 5](sem-1-html/lectia-4.md)
 * [Lecția 6](sem-1-html/lectia-6.md)
 * [Lecția 7](sem-1-html/lectia-7.md)
-* [Răspunsuri](sem-1-html/raspunsuri.md)
 
 ## Sem 1 - CSS
 
@@ -34,7 +33,18 @@
 * [Lecția 3](sem-2-js/lectia-3.md)
 * [Lecția 4](sem-2-js/lectia-4.md)
 
+## SEM 2 - PROIECT
+
+* [Lecția 5](sem-2-proiect/lectia-5.md)
+* [Lecția 6](sem-2-proiect/lectia-6.md)
+
 ## Sem 2 - Angular
 
 * [Untitled](sem-2-angular/untitled.md)
+
+## Răspunsuri
+
+* [Quiz HTML \(Lecția 5\)](raspunsuri/raspunsuri.md)
+* [Quiz CSS \(Lecția 11\)](raspunsuri/quiz-css-lectia-11.md)
+* [Test JS \(Lecția 4, sem 2\)](raspunsuri/test-js-lectia-4-sem-2.md)
 
