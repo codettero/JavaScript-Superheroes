@@ -42,6 +42,13 @@
 ## Sem 2 - Angular
 
 * [Lecția 8](sem-2-angular/untitled.md)
+* [Lecția 9](sem-2-angular/lectia-9.md)
+* [Lecția 10](sem-2-angular/lectia-10.md)
+* [Lecția 11](sem-2-angular/lectia-11.md)
+* [Lecția 12](sem-2-angular/lectia-12.md)
+* [Lecția 13](sem-2-angular/lectia-13.md)
+* [Lecția 14](sem-2-angular/lectia-14.md)
+* [Lecția 15](sem-2-angular/lectia-15.md)
 
 ## Răspunsuri
 
