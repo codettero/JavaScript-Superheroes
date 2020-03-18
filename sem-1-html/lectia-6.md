@@ -155,9 +155,9 @@ Atenție, voi nu puteți rula un server pe mașina locală la fel ca și cum scr
 Câmpurile input cărora le lipsește atributul **name** nu vor fi trimise cu formularul. 
 {% endhint %}
 
-## Activitate 3 - proiect
+## Activitate 3 - miniproiect
 
-Durată: 20' \| Metodă: prelegere \| Materiale: -
+Durată: 20' \| Metodă: - \| Materiale: -
 
 Creați o pagină web completă cu cât mai multe dintre elementele HTML învățate pănă acum. Alegeți o tematică pentru a expune informații cu scop. Pagina trebuie să conțină minim:
 
