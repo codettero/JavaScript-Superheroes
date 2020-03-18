@@ -6,53 +6,57 @@ Broșura _JavaScript Superheroes_ vine în sprijinul profesorilor de informatic�
 
 Broșura este creată și pusă la dispoziție publicului de către [Asociația Codette](https://codette.ro), în urma organizării a 5 workshop-uri de web development în 4 orașe din România. Voluntarii noștri, [Carmen-Gabriela Popa](https://www.linkedin.com/in/carmengpopa/), [Valentin Ionită](https://www.linkedin.com/in/valentin-ionita/), și [Andrei Antal](https://www.linkedin.com/in/andreiantal/), alături de Silvia Bălan și ..., au lucrat la dezvoltarea, verificarea și îmbunătățirea acesteia.
 
-Lecțiile din cadrul acestei broșuri sunt concepute pentru a fi predate o oră pe saptămână \(50'\), timp de un an școlar \(ambele semestre\) și conțin și evaluări pentru a obține minim 2 note pe semestru.
+## Cunoștințe anterioare
+
+Broșura se adresează elevilor care au cunoștințe de programare și cunosc conceptele de bază \( recomandat clasele a X-a până la a XII-a\).
 
 ## Mod de organizare
 
-Broșura este alcătuită astfel:
+Lecțiile din cadrul acestei broșuri sunt concepute pentru a fi predate o oră pe saptămână \(50'\), timp de un an școlar \(ambele semestre\) și conțin și evaluări pentru a obține minim 2 note pe semestru.
 
-### Semestrul 1 \(15 săptămâni de lucru, 2 de rezervă\)
+#### Semestrul I
 
-#### Lecțiile 1 - 7: HTML
+| Săptămână | Conținut | Evaluare |
+| :--- | :--- | :--- |
+| 1 \(HTML\) | introducere în web design, structura unei pagini web, etichete pereche | - |
+| 2 \(HTML\) | etichete nepereche, atribute, formarea culorilor | recapitulare scurtă |
+| 3 \(HTML\) | imagini, liste ordonate și neordonate | recapitulare scurtă |
+| 4 \(HTML\) | tabele | recapitulare scurtă |
+| 5 \(HTML\) | adăugare de legături externe \(link-uri\), butoane | QUIZ HTML |
+| 6 \(HTML\) | meniu, formular, miniproiect | - |
+| 7 \(HTML\) | elemente semantice, div, span | verificare miniproiect |
+| 8 \(CSS\) | rolul CSS-ului, identificatori \(clase și id-uri\), exemple | - |
+| 9 \(CSS\) |  |  |
+| 10 \(CSS\) |  |  |
+| 11 \(CSS\) |  | QUIZ CSS |
+| 12 \(Proiect\) | tutorial proiect | - |
+| 13 \(Proiect\) | tutorial proiect | - |
+| 14 \(Proiect\) | tutorial proiect | - |
+| 15 \(Proiect\) | tutorial proiect | - |
+| 16, 17 | săptămâni de rezervă \(prezentarea proiectelor și închiderea mediilor\) | proiectul final lucrat în săptămânile 12 - 15 |
 
-TODO: rolul HTML-ului, exemple și folosirea etichetelor, crearea și adăugarea conținutului unei pagini web
+#### Semestrul II
 
-#### Lecțiile 8 - 11: CSS
+| Săptămână | Conținut | Evaluare |
+| :--- | :--- | :--- |
+| 1 \(JS\) | introducere în JS, variabile, tipuri de date, operatori | - |
+| 2 \(JS\) | structuri decizionale, structuri repetitive, array-uri și operații pe array-uri | - |
+| 3 \(JS\) | dublu egal, triplu egal, funcții și DOM | - |
+| 4 \(JS\) | - | Test JS |
+| 5 \(proiect\) | tutorial proiect | - |
+| 6 \(proiect\) | tutorial proiect | - |
+| 7 | introducere in framework-uri | verificare proiect |
+| 8 \(OOP\) | introducere în programare orientată pe obiecte | - |
+| 9 \(Angular\) |  |  |
+| 10 \(Angular\) |  |  |
+| 11 \(Angular\) |  |  |
+| 12 \(Angular\) |  |  |
+| 13 \(Angular\) |  |  |
+| 14 \(Angular\) |  |  |
+| 15 \(Angular\) |  |  |
+| 16, 17 | săptămâni de rezervă \(prezentarea proiectelor și închiderea mediilor\) | proiectul final lucrat în săptămânile 9 - 15 |
 
-TODO: ce se invata
-
-#### Lecțiile 12 - 15: proiect
-
-#### Evaluări
-
-Lecția 5 - quiz HTML
-
-Lecția 11 - quiz CSS
-
-În ultimele 2 săptămâni se pot prezenta proiectele la care se lucrează în săptămânile 12 - 15.
-
-### Semestrul 2 \(15 săptămâni de lucru, 2 de rezervă\)
-
-#### Lecțiile 1 - 4: JavaScript
-
-TODO: ce se invata
-
-#### Lecțiile 5 - 6: proiect
-
-TODO:
-
-#### Lecțiile 7 - 15: Angular + proiect
-
-În fiecare semestru, 2 săptămâni sunt de rezervă, pentru prezentarea proiectelor și încheierea mediilor. Proiectele pot fi realizate în echipe de câte 2 și se pot efectua atât în cadrul orelor de curs dedicate lucrului la proiecte, cât și în timpul liber al elevilor, pentru finalizarea acestora.
-
-#### Evaluări
-
-Lecția 4 - test JS
-
-Lecția 7 - prezentare proiecte
-
-În ultimele 2 săptămâni se pot prezenta proiectele în Angular.
+Proiectele pot fi realizate în echipe de câte 2 și se pot efectua atât în cadrul orelor de curs dedicate lucrului la proiecte, cât și în timpul liber al elevilor, pentru finalizarea acestora.
 
 ## Competențe dobândite
 
