@@ -112,18 +112,10 @@ let nextHero = function() {
     });
     currentHero = 1;
   } else if (currentHero === 1) {
-    heroes.forEach(function(hero) {
-      document.getElementById(hero).classList.add("strange");
-      document.getElementById(hero).classList.remove("cyclops");
-    });
-    currentHero = 2;
+    // de completat
   } else if (currentHero === 2) {
-      heroes.forEach(function(hero) {
-        document.getElementById(hero).classList.add("jean");
-        document.getElementById(hero).classList.remove("strange");
-      });
-      currentHero = 0;
-    }
+    // de completat
+  }
 };
 ```
 
@@ -132,6 +124,8 @@ Funcția verifică ce supererou este în prim plan \(cele 3 if-uri\) pentru a pu
 La final, se updatează noul erou în prim plan. Fără această linie, butonul de next nu ar funcționa mai mult de o dată.
 
 Lista este circulară, mergând din Jean Grey în Cyclops, din Cyclops în Doctor Strange și din Doctor Strange iarași în Jean Grey.
+
+Completați ultimele două if-uri pentru a obține o funcționalitate similară ca primul if.
 
 ## Pasul 4 - Funcția de previous
 
