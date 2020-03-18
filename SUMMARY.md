@@ -37,10 +37,11 @@
 
 * [Lecția 5](sem-2-proiect/lectia-5.md)
 * [Lecția 6](sem-2-proiect/lectia-6.md)
+* [Lecția 7](sem-2-proiect/lectia-7.md)
 
 ## Sem 2 - Angular
 
-* [Untitled](sem-2-angular/untitled.md)
+* [Lecția 8](sem-2-angular/untitled.md)
 
 ## Răspunsuri
 
