@@ -84,7 +84,7 @@ Aceste două atribute HTML pot identifica orice element HTML din body \(inclusiv
 
 * un `id` identifică unic un element, o clasă identifică mai multe elemente
 * un element ar trebui să aibă maximum un singur id, dar poate avea mai multe clase
-* id-urile sunt folosite pentru identificarea elementelor majoritar în logica JavaScript, iar clasele în interacții și stilizare în CSS și JS
+* practica majoritar acceptată este ca, în JS, să manipulăm elemente pentru silizare și animații folosind clase, și pentru a implementa funcționalitate folosind id-uri
 
 ### Exemple de selectori
 

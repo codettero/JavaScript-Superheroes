@@ -63,5 +63,62 @@ Codul CSS necesar este următorul. Completați-l unde este nevoie, specificând 
 
 ## Pasul 9 - animații
 
+În continuare, vom adăuga o animație cu un supererou care zboară pe ecran și face două repetiții pe același traseu, după care dispare.
 
+Pentru început, vom adăuga acest supererou: poza este în folderul `img`, numită `myHero.svg`. Adăugați un nou div, în body, cu clasa `flyingHero`, nelegat de div-ul existent. Pentru ușurință, îl puteți plasa chiar când începe `body`. În acest div, singurul element de care avem nevoie este imaginea supereroului, având grijă la calea către imagine și extensia folosită.
+
+![myHero.svg](../.gitbook/assets/myhero.svg)
+
+Următorul pas este să adăugăm CSS-ul. Setați înălțimea imaginii la 400px. Linia 5, cu proprietatea animation, va fi completată mai târziu.
+
+```css
+.flyingHero {
+  position: fixed;
+  left: -500px; /* pozitia initiala este in afara ecranului */
+  top: 50%; /* centrat pe verticala in body */
+  animation:;
+}
+
+.flyingHero img {
+  position: relative;
+  transform: rotate(45deg); /* rotirea imaginii cu 45 de grade */
+}
+```
+
+Pentru a implementa o animație folosim cuvântul cheie @keyframes, urmat de numele animației. Animațiile se scriu tot în fișierul CSS.
+
+```css
+@keyframes fly {
+  0% {
+    left: -560px;
+    top: calc(50vh - 280px);
+  }
+  30% {
+    left:;
+    top:;
+  }
+  60% {
+    left:;
+    top:;
+  }
+  100% {
+    left: -560px;
+    top: calc(50vh - 280px);
+  }
+}
+```
+
+Completați punctele intermediare cu ce poziții doriți pe ecran.
+
+Acum că am definit animația întorceți-vă la stilizarea div-ului flyingHero, pentru a specifica ce animație să fie apelată. Sintaxa necesară este următoarea:
+
+```css
+animation: name duration repetition;
+```
+
+Adăugați animația definită, cu o durată și un număr de repetiții alese de voi, iar apoi testați. Supereroul formează un triunghi pe ecran de mai multe ori, în punctele specificate.
+
+{% hint style="info" %}
+Animația se pornește la fiecare refresh, ceea ce ar putea să încurce. Odată implementată, comentați div-ul `flyingHero` pentru a elimina animația cât timp lucrați.
+{% endhint %}
 
