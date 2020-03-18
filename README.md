@@ -4,7 +4,7 @@
 
 Broșura _JavaScript Superheroes_ vine în sprijinul profesorilor de informatică din toată țara și propune predarea unui opțional la clasele de mate-info.
 
-Broșura este creată și pusă la dispoziție publicului de către [Asociația Codette](https://codette.ro), în urma organizării a 5 workshop-uri de web development în 4 orașe din România. Voluntarii noștri, [Carmen-Gabriela Popa](https://www.linkedin.com/in/carmengpopa/) și [Valentin Ionită](https://www.linkedin.com/in/valentin-ionita/), alături de Silvia Bălan și ..., au lucrat la dezvoltarea, verificarea și îmbunătățirea acesteia.
+Broșura este creată și pusă la dispoziție publicului de către [Asociația Codette](https://codette.ro), în urma organizării a 5 workshop-uri de web development în 4 orașe din România. Voluntarii noștri, [Carmen-Gabriela Popa](https://www.linkedin.com/in/carmengpopa/), [Valentin Ionită](https://www.linkedin.com/in/valentin-ionita/), și [Andrei Antal](https://www.linkedin.com/in/andreiantal/), alături de Silvia Bălan și ..., au lucrat la dezvoltarea, verificarea și îmbunătățirea acesteia.
 
 Lecțiile din cadrul acestei broșuri sunt concepute pentru a fi predate o oră pe saptămână \(50'\), timp de un an școlar \(ambele semestre\) și conțin și evaluări pentru a obține minim 2 note pe semestru.
 
@@ -32,7 +32,7 @@ Lecția 11 - quiz CSS
 
 În ultimele 2 săptămâni se pot prezenta proiectele la care se lucrează în săptămânile 12 - 15.
 
-### Semestrul 2 \(15 săptămâni de lucur, 2 de rezervă\)
+### Semestrul 2 \(15 săptămâni de lucru, 2 de rezervă\)
 
 #### Lecțiile 1 - 4: JavaScript
 

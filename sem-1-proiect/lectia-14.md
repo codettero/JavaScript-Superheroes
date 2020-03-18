@@ -65,7 +65,9 @@ Codul CSS necesar este următorul. Completați-l unde este nevoie, specificând 
 
 În continuare, vom adăuga o animație cu un supererou care zboară pe ecran și face două repetiții pe același traseu, după care dispare.
 
-Pentru început, vom adăuga acest supererou: poza este în folderul `img`, numită `myHero.svg`. Adăugați un nou div, în body, cu clasa `flyingHero`, nelegat de div-ul existent. Pentru ușurință, îl puteți plasa chiar când începe `body`. În acest div, singurul element de care avem nevoie este imaginea supereroului, având grijă la calea către imagine și extensia folosită.
+Pentru început, vom adăuga acest supererou: poza este în folderul `img`, numită `myHero.svg`. Adăugați un nou div, în body, cu clasa `flyingHero`, în afara div-ului `hero`. Plasați-l pe rând la începutul și la finalul body-ului \(primul și apoi ultimul element din body\). E vreo diferentă între acestea? De ce? Ce opțiune alegem să folosim?
+
+În acest div, singurul element de care avem nevoie este imaginea supereroului, având grijă la calea către imagine și extensia folosită.
 
 ![myHero.svg](../.gitbook/assets/myhero.svg)
 
