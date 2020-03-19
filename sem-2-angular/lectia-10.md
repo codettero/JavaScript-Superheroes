@@ -10,7 +10,7 @@ Deschideți în Gitpod proiectul la care lucrați și in terminal rulați comand
 
 ## Activitate 1 - Crearea unei componente
 
-Durată: 10' \| Metodă: prelegere \| Materiale: -
+Durată: 15' \| Metodă: prelegere \| Materiale: -
 
 O **componentă** în Angular este echivalentul unei clase. Printr-o componentă putem defini cum arată și cum se comportă un anumit element pe care îl vom adăuga în pagina web. Puteți vedea componentele ca și cum noi am scrie propriile etichete. Mai pot fi asemănate cu niște piese de LEGO pe care le asamblăm pentru a crea un proiect mai mare.
 
@@ -68,6 +68,10 @@ Dacă vă uitați în meniul din partea stângă, veți vedea mai jos fișierul 
 Observați că eticheta body conține doar o altă etichetă, numită `<jsh-root></jsh-root>`. Acesta este selectorul pentru componenta principală a aplicației noastre \(app component\) și îl puteți găsi declarat în app.component.ts. Orice includem în app component este astfel adăugat în aplicația noastră.
 
 Cu alte cuvinte: `index.html` conține selectorul lui **app component** care conține în HTML selectorul lui **hero component** care conține un paragraf, deci atâta are momentan aplicația noastră.
+
+{% hint style="info" %}
+De asemenea, proiectul are, pe lângă `index.html`, și un fișier `stylesheet.css`, unde deja sunt incluse niște stilizări pentru elementele pe care le vom folosi. Stilizarea de aici se aplică asupra tuturor componentelor \(este globală\). Pentru stilizări particulare, vom scrie în `nume-componentă.component.css` codul CSS necesar.
+{% endhint %}
 
 ## Activitate 2 - Binding de proprietăți
 
@@ -210,9 +214,7 @@ Iar acum dacă încercați să modificați numele din input veți vedea că acea
 
 ![](../.gitbook/assets/screenshot-2020-03-19-at-19.56.16.png)
 
-## Activitate 6 - Salvarea modificărilor
-
-Durată: 5' \| Metodă: prelegere \| Materiale: -
+## Final
 
 Nu uitați ca la finalul lecției să faceți commit și push pentru a updata proiectul cu noile modificări.
 
