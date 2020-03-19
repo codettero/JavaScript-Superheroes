@@ -49,7 +49,6 @@
 * [Lecția 13](sem-2-angular/lectia-13.md)
 * [Lecția 14](sem-2-angular/lectia-14.md)
 * [Lecția 15](sem-2-angular/lectia-15.md)
-* [Lecția 16](sem-2-angular/lectia-16.md)
 
 ## Răspunsuri
 

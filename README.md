@@ -54,8 +54,7 @@ Lecțiile din cadrul acestei broșuri sunt concepute pentru a fi predate o oră 
 | 13 \(Angular\) |  |  |
 | 14 \(Angular\) |  |  |
 | 15 \(Angular\) |  |  |
-| 16 \(Angular\) |  |  |
-| 17 | prezentarea proiectelor și închiderea mediilor | proiectul final lucrat în săptămânile 9 - 15 |
+| 16, 17 | prezentarea proiectelor și închiderea mediilor | proiectul final lucrat în săptămânile 9 - 15 |
 
 Proiectele pot fi realizate în echipe de câte 2 și se pot efectua atât în cadrul orelor de curs dedicate lucrului la proiecte, cât și în timpul liber al elevilor, pentru finalizarea acestora.
 
