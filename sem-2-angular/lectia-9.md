@@ -98,20 +98,27 @@ Pentru a sincroniza modificările pe care le faceți în Gitpod cu proiectul de 
 
 ![](../.gitbook/assets/screenshot-2020-03-19-at-17.56.11.png)
 
-În continuare vom scrie două comenzi în terminal pe care le veți folosi frecvent pentru a updata proiectul pe GitHub.
+În continuare vom scrie trei comenzi în terminal pe care le veți folosi frecvent pentru a updata proiectul pe GitHub.
 
-![](../.gitbook/assets/screenshot-2020-03-19-at-17.48.22.png)
+![](../.gitbook/assets/screenshot-2020-03-19-at-20.08.09.png)
 
-Comenzile sunt, precum în blocul de cod de mai jos. Prima comandă necesită să adăugați o descriere scurtă a modificărilor făcute, **între ghilimele**.
+Comenzile sunt:
 
 ```bash
-git commit -am "MESAJUL DESCRIPTIV AL MODIFICARILOR"
+git add .
+git commit -m "MESAJUL DESCRIPTIV AL MODIFICARILOR"
 git push
 ```
 
-**git commit** salvează modificările făcute \(adică le ia în considerare\). Parametrii `-am` se referă la "all" \(toate modificările\) și "message" \(mesajul commit-ului\).
+**git add .** adaugă toate modificările din folderul curent în care vă aflați când dați comanda
+
+**git commit** salvează modificările făcute \(crează un checkpoint\). Parametrii `-m` se referă la "message" \(mesajul commit-ului\).
 
 **git push** updatează proiectul de pe GitHub cu modificările adăugate în commit
+
+{% hint style="success" %}
+Vom folosi aceste comenzi la finalul fiecărei lecții pentru a salva modificările aduse și pentru a fi vizibile și ulterior. Nu uitați să faceți acest lucru după ce terminați de lucru la fiecare lecție.
+{% endhint %}
 
 ## Pasul 3 - Vizualizarea proiectului
 
