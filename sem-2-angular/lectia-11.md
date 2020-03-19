@@ -6,7 +6,7 @@ description: 'Durată: 50'' | Cuvinte cheie: componentă, clasă, obiecte'
 
 ## Starter
 
-Deschideți în Gitpod proiectul la care lucrați și in terminal rulați comanda: `npm install -g @angular/cli`
+Deschideți în Gitpod proiectul la care lucrați și în terminal rulați comanda: `npm install -g @angular/cli`
 
 ## Activitatea 1 - Detaliile unui supereroi
 
@@ -61,6 +61,7 @@ Adăugați următorul cod CSS iî fișierul de stilizare al componentei \(`hero.
 ```css
 .hero {
   min-width: 50vw;
+  display: flex;
   padding: 16px;
   margin: 16px 16px 64px 16px;
   border-radius: 2px;
@@ -68,7 +69,6 @@ Adăugați următorul cod CSS iî fișierul de stilizare al componentei \(`hero.
 }
 
 .photo {
-  float: left;
   margin: 0 24px 8px 0;
 }
 
@@ -305,7 +305,14 @@ La final template-ul componentei va arăta astfel:
 
 Durată: 10' \| Metodă: prelegere \| Materiale: -
 
+Implementați funcționalitatea butonului `Call Hero` astfel încât în momentul în care este apăsat apare o alertă cu textul: `Batman (Bruce Wayne) has been called!`.
+
+* folositi binding-ul de evenimente pe buton - `(click)`
+* implementați o metoda `callHero()` în clasa componentei și legați-o de eveniment
+* în funcție folosiți-vă de proprietățile `hero` pentru a afișa mesajul corespunzător
+* folosiți `alert()` pentru afișare
+
 ## Final
 
-Nu uitați ca la finalul lecției să faceți git add, git commit și git push pentru a updata proiectul cu noile modificări.
+Nu uitați ca la finalul lecției să dați git add, git commit și git push pentru a updata proiectul cu noile modificări.
 

@@ -6,7 +6,7 @@ description: 'Durată: 50'' | Cuvinte cheie: componentă, typescript, binding'
 
 ## Starter
 
-Deschideți în Gitpod proiectul la care lucrați și in terminal rulați comanda: `npm install -g @angular/cli`
+Deschideți în Gitpod proiectul la care lucrați și în terminal rulați comanda: `npm install -g @angular/cli`
 
 ## Activitate 1 - Crearea unei componente
 
