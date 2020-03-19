@@ -47,14 +47,15 @@ Lecțiile din cadrul acestei broșuri sunt concepute pentru a fi predate o oră 
 | 6 \(proiect\) | tutorial proiect | - |
 | 7 | introducere in framework-uri | verificare proiect |
 | 8 \(OOP\) | introducere în programare orientată pe obiecte | - |
-| 9 \(Angular\) |  |  |
-| 10 \(Angular\) |  |  |
-| 11 \(Angular\) |  |  |
+| 9 \(Angular\) | set-ul, github | - |
+| 10 \(Angular\) | componente, template, proprietăți, tipuri de binding | exercițiu |
+| 11 \(Angular\) |  | exercițiu |
 | 12 \(Angular\) |  |  |
 | 13 \(Angular\) |  |  |
 | 14 \(Angular\) |  |  |
 | 15 \(Angular\) |  |  |
-| 16, 17 | săptămâni de rezervă \(prezentarea proiectelor și închiderea mediilor\) | proiectul final lucrat în săptămânile 9 - 15 |
+| 16 \(Angular\) |  |  |
+| 17 | prezentarea proiectelor și închiderea mediilor | proiectul final lucrat în săptămânile 9 - 15 |
 
 Proiectele pot fi realizate în echipe de câte 2 și se pot efectua atât în cadrul orelor de curs dedicate lucrului la proiecte, cât și în timpul liber al elevilor, pentru finalizarea acestora.
 
