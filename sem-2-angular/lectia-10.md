@@ -4,6 +4,10 @@ description: 'Durată: 50'' | Cuvinte cheie: componentă, typescript, binding'
 
 # Lecția 10
 
+## Starter
+
+Deschideți în Gitpod proiectul la care lucrați și in terminal rulați comanda: `npm install -g @angular/cli`
+
 ## Activitate 1 - Crearea unei componente
 
 Durată: 10' \| Metodă: prelegere \| Materiale: -

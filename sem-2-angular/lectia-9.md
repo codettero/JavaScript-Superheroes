@@ -89,8 +89,12 @@ Rezultatul este ca în poza de mai jos \(nu neapărat identic, atâta timp cât 
 Scrieți în terminal următoarea comandă și dați enter. Această comandă instalează dependințele aplicației web la care vom lucra. În urma comenzii, va apărea folderul **node\_modules** în directorul în care lucrați.
 
 ```text
-npm install --dev 
+npm install --dev
 ```
+
+{% hint style="danger" %}
+Prima comandă va trebui dată de fiecare dată când deschideți proiectul. Gitpod lucrează cu cpntainere în spate și nu rămâne Angular CLI instalat. Dacă întâmpinați eroarea că ng nu este găsit \(`bash: ng: command not found`\), atunci înseamnă că trebuie să rulați prima comandă \(`npm install -g @angula/cli`\)
+{% endhint %}
 
 ## Pasul 2 - Salvarea modificărilor
 
