@@ -224,15 +224,3 @@ git commit -m "mesajul"
 git push
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
