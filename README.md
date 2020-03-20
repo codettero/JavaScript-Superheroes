@@ -49,11 +49,11 @@ Lecțiile din cadrul acestei broșuri sunt concepute pentru a fi predate o oră 
 | 8 \(OOP\) | introducere în programare orientată pe obiecte | - |
 | 9 \(Angular\) | set-ul, github | - |
 | 10 \(Angular\) | componente, template, proprietăți, tipuri de binding | exercițiu |
-| 11 \(Angular\) |  | exercițiu |
-| 12 \(Angular\) |  |  |
-| 13 \(Angular\) |  |  |
-| 14 \(Angular\) |  |  |
-| 15 \(Angular\) |  |  |
+| 11 \(Angular\) | clasă, obiecte | exercițiu |
+| 12 \(Angular\) | liste, legături între componente | - |
+| 13 \(Angular\) | servicii, filtrarea datelor | exercițiu |
+| 14 \(Angular\) | editarea datelor | - |
+| 15 \(Angular\) | editarea datelor | exercițiu |
 | 16, 17 | prezentarea proiectelor și închiderea mediilor | proiectul final lucrat în săptămânile 9 - 15 |
 
 Proiectele pot fi realizate în echipe de câte 2 și se pot efectua atât în cadrul orelor de curs dedicate lucrului la proiecte, cât și în timpul liber al elevilor, pentru finalizarea acestora.
