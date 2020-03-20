@@ -288,6 +288,10 @@ Iar la final faceți un binding la evenimentul de `close`:
 ></jsh-edit-hero>
 ```
 
+Rezultatul final:
+
+![](https://github.com/codettero/JavaScript-Superheroes/wiki/images/anim_3_2.gif)
+
 ## Activitate 4 - Exercițiu
 
 Durată: 15' \| Metodă: prelegere \| Materiale: -
