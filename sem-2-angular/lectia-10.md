@@ -212,7 +212,7 @@ Astfel, elementul de input adăugat devine:
 
 Iar acum dacă încercați să modificați numele din input veți vedea că această modificare este reflectată în timp real, atât în template, cât și dacă apăsați pe buton \(numele va fi actualizat cu valoarea schimbată\):
 
-![](../.gitbook/assets/screenshot-2020-03-19-at-19.56.16.png)
+![](https://github.com/codettero/JavaScript-Superheroes/wiki/images/anim_1_1.gif)
 
 ## Final
 
