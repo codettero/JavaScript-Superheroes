@@ -8,6 +8,46 @@ description: 'Durată: 50'' | Cuvinte cheie: stilizarea textului, box-model, poz
 
 Durată: 5' \| Metodă: prelegere \| Materiale: videoproiector
 
+1. Ce este CSS? Pentru ce este folosit?
+2. Care sunt cele 3 modalități prin care putem include CSS într-o pagină HTML?
+3. Menționați selectorii din codul HTML de mai jos:
+
+```markup
+<div id="intro">
+    <p class="blue" id="header"> Welcome </p>
+    <p class="red"> Some content </p>
+    <p> Some other content </p>
+</div>
+```
+
+4. Ce culoarea vor avea textele din paragafe după CSS-ul următor?
+
+```css
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+```
+
+5. Dar următorul CSS?
+
+```css
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+#intro {
+    color: green;
+}   
+```
+
 ## Activitatea 2 - Stilizarea textului
 
 Durată: 15' \| Metodă: prelegere \| Materiale: videoproiector
@@ -47,6 +87,7 @@ Proprietățile folosite sunt:
 * **line-height**: setează **înălțimea** unui singur rând de text. În combinație cu font-size, poate influența major vizibilitatea textului.
 * **font-weight**: setează cât de îngroșat să fie textul. Poate avea ca valori numere \(**400** fiind grosimea normală, **300** subțire sau **700** bold, spre exemplu\) sau cuvinte \(**light**, **normal**, **bold**\). Acest parametru nu garantează că textul va fi de o anumită grosime \(decât pentru cele mai noi [variable fonts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide)\) ci caută printre versiunile disponibile ale fontului selectat.
 * **text-decoration**: o proprietate care poate adăuga decorații variate \(**underline**, de exemplu\), cu sintaxa `tip stil culoare grosime`, dintre care noi am folosit două tipuri și nu am selectat nici o grosime. Stilul folosit aici este **dotted** \(punctat\).
+* **color**: setează culoarea textului; culorile pot fi specificate prin codul hex \(de exemplu, `#f3f3f3`\), în format rgb \(de exemplu, `rgb(100, 0, 255)`\), sau prin limbaj natural \(de exemplu, `red, blue, green, turqoise`\)
 
 ### Exemplu 2
 
