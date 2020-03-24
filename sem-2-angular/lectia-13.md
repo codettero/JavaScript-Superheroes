@@ -280,7 +280,7 @@ export class SpongebobPipe implements PipeTransform {
 }
 ```
 
-Metoda transform primeste ca prim parametru valoarea trimisă pipe-ului vostru și un array de parametrii. Noi ne vom folosi doar de `value`, căruia îi vom modifica tipul de la `any` la `string`. Pentru a testa cât construiți pipe-ul, vă recomandăm să declarați o variabilă `myString` într-o componentă, să îi asignați un string \(cu cât mai lung cu atât va fi mai ușor de observat\) și să adăugați următorul cod în template-ul componentei.
+Metoda transform primește ca prim parametru valoarea trimisă pipe-ului vostru și un array de parametrii. Noi ne vom folosi doar de `value`, căruia îi vom modifica tipul de la `any` la `string`. Pentru a testa cât construiți pipe-ul, vă recomandăm să declarați o variabilă `myString` într-o componentă, să îi asignați un string \(cu cât mai lung cu atât va fi mai ușor de observat\) și să adăugați următorul cod în template-ul componentei.
 
 ```markup
 <p>
