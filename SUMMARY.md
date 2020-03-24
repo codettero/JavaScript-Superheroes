@@ -56,4 +56,5 @@
 * [Quiz CSS \(Lecția 11\)](raspunsuri/quiz-css-lectia-11.md)
 * [Test JS \(Lecția 4, sem 2\)](raspunsuri/test-js-lectia-4-sem-2.md)
 * [Proiectul complet](raspunsuri/proiectul-complet.md)
+* [Exercițiu \(Lecția 13, sem 2\)](raspunsuri/exercitiu-lectia-13-sem-2.md)
 
