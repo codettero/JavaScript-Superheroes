@@ -258,6 +258,46 @@ Observați că inițializarea proprietăților funcției este făcută în func�
 
 Durată: 10' \| Metodă: prelegere \| Materiale: -
 
+În activitatea 3 din lecția 11 am introdus conceptul de `Pipe` folosind pipe-ul `uppercase` pentru a transforma un **string** direct în template. Pentru a găsi toate pipe-urile preexistente în Angular, verificați [acest link](https://angular.io/api?type=pipe). Pentru acest exercițiu vom crea un nou pipe care sa transforme în mod aleator fiecare literă dintr-un string în uppercase sau lowercase, asemenea cunoscutului Spongebob meme.
+
+Pentru a începe este necesar să scriem în terminal următoarea comandă:
+
+```bash
+ng g pipe spongebob
+```
+
+Angular CLI vă va crea un pipe default și îl va adăuga la array-ul **declarations** din `app.module.ts` așa că voi puteți să scrieți funcționalitatea în `spongebob.pipe.ts`. Veți găsi în acest fișier următoarele:
+
+```typescript
+@Pipe({
+  name: 'spongebob'
+})
+export class SpongebobPipe implements PipeTransform {
+
+  transform(value: any, ...args: any[]): any {
+    return null;
+  }
+}
+```
+
+Metoda transform primeste ca prim parametru valoarea trimisă pipe-ului vostru și un array de parametrii. Noi ne vom folosi doar de `value`, căruia îi vom modifica tipul de la `any` la `string`. Pentru a testa cât construiți pipe-ul, vă recomandăm să declarați o variabilă `myString` într-o componentă, să îi asignați un string \(cu cât mai lung cu atât va fi mai ușor de observat\) și să adăugați următorul cod în template-ul componentei.
+
+```markup
+<p>
+  {{ myString }}
+</p>
+
+<p>
+  {{ myString | spongebob }}
+</p>
+```
+
+Taskul vostru devine să primiți un string **value** în metoda `transform` și să întoarceți un alt string conform cerinței.
+
+{% hint style="info" %}
+Hint: puteți transforma un string într-un Array folosind metoda **Array.from\(\)**. Un string poate fi transformat în uppercase folosind metoda **.toUpperCase\(\)**
+{% endhint %}
+
 ## Final
 
 Nu uitați ca la finalul lecției să dați git add, git commit și git push pentru a updata proiectul cu noile modificări.
