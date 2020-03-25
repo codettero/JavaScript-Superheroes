@@ -6,7 +6,7 @@ description: 'Durată: 50'' | Cuvinte cheie: imagini, liste ordonate, liste neor
 
 ## **Activitate 1 - Recapitulare**
 
-Durată: 5' \| Metodă: prelegere \| Materiale: -
+Durată: 5' \| Metodă: dezbatere, conversație \| Materiale: -
 
 1. Menționați cele două etichete nepereche studiate anterior și rolul lor într-o pagină web.
 2. Care este valoarea în hexazecimal a culorii roșu pur? Dar verde pur?
@@ -25,7 +25,7 @@ Durată: 5' \| Metodă: prelegere \| Materiale: -
 
 ## **Activitate 2 - Adăugare de imagini**
 
-Durată: 15' \| Metodă: prelegere \| Materiale: videoproiector
+Durată: 15' \| Metodă: demonstrație, conversație, exercițiu, dezbatere \| Materiale: videoproiector
 
 Conținutul unei pagini web nu este alcătuit doar din text, ci putem adăuga o mulțime de alte elemente, cum ar fi imagini. Eticheta pentru imagini este `<img>`. Aceasta nu se închide. Tag-ul `<img>` are un atribut obligatoriu, `src` \(de la source\), care specifică denumirea și calea spre imagine, pentru a ști browserul ce imagine să încarce.
 
@@ -35,7 +35,7 @@ Conținutul unei pagini web nu este alcătuit doar din text, ci putem adăuga o 
 
 Cu ajutorul codului de mai sus adăugăm o imagine salvată sub denumirea de **nume.jpg**. Și extensia trebuie inclusă în sursă.
 
-Un aspect important este acela că în src trebuie specificată întreaga cale a imaginii, pentru a o găsi. Dacă aceasta se află în același folder cu fișierul html în care este adăugată, atunci calea coincide cu numele complet al imaginii. Dacă se află în altă parte, trebuie menționată calea completă \(de exemplu: `User/Desktop/MyFiles/Photos/img.png`\) sau calea relativă a pozei față de fișierul html \(începând de la primul director diferit\).
+Un aspect important este acela că în src trebuie specificată întreaga cale a imaginii pentru a o găsi. Dacă aceasta se află în același folder cu fișierul html în care este adăugată, atunci calea coincide cu numele complet al imaginii. Dacă se află în altă parte, trebuie menționată calea completă \(de exemplu: `User/Desktop/MyFiles/Photos/img.png`\) sau calea relativă a pozei față de fișierul html \(începând de la primul director diferit\).
 
 De regulă, se creează un folder pentru întregul proiect, care conține fișierele **html**, **css** și **js** și un alt folder în care se află resursele. Dacă structura ar fi următoarea:
 
@@ -51,7 +51,7 @@ project/
 			video/
 ```
 
-Pentru a adăuga poza cat.png în fișierul **index.html**, calea pozei relativă la fișierul html este `./resurse/img/cat.png`, deci eticheta va arăta `<img src="resurse/img/cat.png">`.
+Pentru a adăuga poza cat.png în fișierul **index.html**, calea relativă a pozei la fișierul html este `./resurse/img/cat.png`, deci eticheta va fi `<img src="resurse/img/cat.png">`.
 
 Iar pentru o structură de forma:
 
@@ -63,10 +63,10 @@ project/
 		cat.png
 ```
 
-Pentru a adăuga poza cat.png în fișierul **index.html**, calea pozei relativă la fișierul html este `./cat.png` \(poza și fișierul html se află în același folder\), deci eticheta va arăta `<img src="cat.png">`.
+Pentru a adăuga poza cat.png în fișierul **index.html**, calea relativă a pozei la fișierul html este `./cat.png` \(poza și fișierul html se află în același folder\), deci eticheta va arăta `<img src="cat.png">`.
 
 {% hint style="info" %}
-./cat.jpg este acelasi lucru cu cat.jpg, ambele denotand ca se afla in fisierul curent \(notat cu punct\)
+./cat.jpg este același lucru cu cat.jpg, ambele arătând că se află în fișierul curent \(notat cu punct\)
 {% endhint %}
 
 {% hint style="info" %}
@@ -79,12 +79,12 @@ Cel mai important atribut, fără de care nu există imaginea, este `src`, cel d
 
 * **width** - setează lățimea imaginii în pixeli
 * **height** - setează înălțimea imaginii în pixeli
-* **border** - adaugă bordură imaginii; valoarea este măsurată în pixeli, care determină cât de groasă este bordura
-* **title** - adaugă un titlu imaginii, care apare atunci când cursorul mouse-ului e poziționat pe imagine
-* **alt** - adaugă un mesaj care apare atunci când imaginea nu e disponibilă
+* **border** - adaugă bordură imaginii; valoarea este măsurată în pixeli și determină cât de groasă este bordura
+* **title** - adaugă un titlu imaginii, care apare atunci când cursorul mouse-ului este poziționat pe imagine
+* **alt** - adaugă un mesaj care apare atunci când imaginea nu este disponibilă
 
 {% hint style="info" %}
-Atributele pot fi adăugate în orice ordine, despărțite prin spații. Nu este obligatoriu ca primul atribut să fie src, însă pentru lizibilitate, e recomandat.
+Atributele pot fi adăugate în orice ordine, despărțite prin spații. Nu este obligatoriu ca primul atribut să fie src, însă pentru lizibilitate, este recomandat.
 
 ```markup
 <img src="cat.jpg" alt="indisponibil" width="300px" height="500px" title="Cat" border="2">
@@ -100,7 +100,7 @@ Atributele pot fi adăugate în orice ordine, despărțite prin spații. Nu este
 
 ## Activitatea 3 - Liste ordonate
 
-Durată: 15' \| Metodă: prelegere \| Materiale: videoproiector
+Durată: 15' \| Metodă: demonstrație, conversație, exercițiu \| Materiale: videoproiector
 
 Putem organiza conținutul paginii web și sub forma unei liste. Listele au proprietatea ca elementele lor sunt diferențiate de **marcatori**. Pentru listele ordonate, marcatorii păstrează ordinea și pot fi reprezentați de **cifre arabe, cifre romane, litere mari sau mici**. 
 
@@ -117,7 +117,7 @@ Eticheta pentru listă ordonată este `<ol>` \(de la ordered list\) și este o e
 </ol>
 ```
 
-Nu am specificat niciun marcator, deci se observă că marcatorii default sunt numerele arabe. Putem folosi un anumit tip de marcatori cu ajutorul atributelor. În exemplul următor vom adăuga un marcator pentru toată lista.
+Nu am specificat niciun marcator, deci se observă că marcatorii default sunt numerele arabe. Putem specifica tipul de marcatori cu ajutorul atributelor. În exemplul următor vom adăuga un marcator pentru toată lista.
 
 ```markup
 <h3> Pentru a crea pagini web, învățăm: </h3>
@@ -132,11 +132,11 @@ Acum elementele listei sunt marcate cu A, B, C… Pentru litere mici am fi speci
 
 ## Activitatea 4 - Liste neordonate
 
-Durată: 15' \| Metodă: prelegere \| Materiale: videoproiector
+Durată: 15' \| Metodă: demonstrație, conversație, exercițiu, dezbatere \| Materiale: videoproiector
 
 Listele neordonate sunt similare cu cele ordonate, doar că de data aceasta **marcatorii nu păstrează o anumită ordine a elementelor**. În loc sa fie numere sau litere, marcatorii pentru listele ordonate sunt **cerc, disc, pătrat sau inexistent**.
 
-Eticheta pentru listă neordonată este `<ul>` \(de la unordered list\) și este o etichetă pereche, care se închide cu `</ul>`. Elementele se adaugă tot cu `<li> </li>`
+Eticheta pentru lista neordonată este `<ul>` \(de la unordered list\) și este o etichetă pereche, care se închide cu `</ul>`. Elementele se adaugă tot cu `<li> </li>`
 
 #### Exemplu
 

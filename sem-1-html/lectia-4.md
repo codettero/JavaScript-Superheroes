@@ -6,7 +6,7 @@ description: 'Durată: 50'' | Cuvinte cheie: linkuri, butoane'
 
 ## Test de evaluare a cunoștințelor - 2 pct oficiu
 
-Durată: 25' \| Metodă: - \| Materiale: videoproiector
+Durată: 25' \| Metodă: evaluare formativă, observarea sistematică a activității și a comportamentului elevilor \| Materiale: videoproiector
 
 #### Partea 1 \(4 puncte\) - 8 întrebări grilă a câte 0.5 fiecare
 
@@ -34,7 +34,7 @@ Durată: 25' \| Metodă: - \| Materiale: videoproiector
 
    f. &lt;li&gt;
 
-3. Ce caracter e folosit pentru a indica inchiderea unei etichete?
+3. Ce caracter e folosit pentru a indica închiderea unei etichete?
 
    a. ?
 
@@ -108,7 +108,7 @@ Durată: 25' \| Metodă: - \| Materiale: videoproiector
 
 #### Part 2 \(4 puncte\)  
 
-1. **\(1 pct\)** Scrieți eticheta și atributele necesare pentru a adauga imaginea "cat.png" în fișierul `index.html`. Specificațiile imaginii sunt: lățime de 300 pixeli, înălțime de 550 pixeli, titlu "Just a cat", descriere dacă imaginea nu e disponibilă "Imaginea nu a putut fi găsită". Structura folderului este următoarea:
+1. **\(1 pct\)** Scrieți eticheta și atributele necesare pentru a adăuga imaginea "cat.png" în fișierul `index.html`. Specificațiile imaginii sunt: lățime de 300 pixeli, înălțime de 550 pixeli, titlu "Just a cat", descriere dacă imaginea nu e disponibilă "Imaginea nu a putut fi găsită". Structura folderului este următoarea:
 
 Hint: folosiți calea absolută de la folderul rădăcină până la poza dorită
 
@@ -134,7 +134,7 @@ project/
 
 ## Activitate 2 - legături externe
 
-Durată: 15' \| Metodă: prelegere \| Materiale: videoproiector
+Durată: 15' \| Metodă: demonstrație, conversație, exercițiu \| Materiale: videoproiector
 
 Întreg web-ul este construit pe baza legăturilor dintre documente, numite hyperlinks. Ați observat cum putem naviga dintr-o pagină în alta prin intermediul unui simplu click.
 
@@ -149,13 +149,13 @@ Eticheta este pereche, `<a> </a>`
 Haideți să înțelegem cum funcționează eticheta:
 
 * _a_ vine de la **anchor** si este numele etichetei
-* _href_ vine de la **hyperlink** reference si este atributul care arată către ce este făcută legătura; vom vedea puțin mai târziu ce fel de valori poate lua href
-* _target_ este atributul care arată unde să se deschidă noua pagina; având valoarea "**\_blank**", se va deschide într-un tab nou, similar cu a da click dreapta -&gt; open in a new tab. În schimb, dacă nu  îi specificăm să se deschidă într-un tab nou, adică dacă lipseste atributul target, atunci link-ul va fi deschis în pagina curentă si vom fi nevoiți să dăm back pentru a revedea conținutul anterior.
-* textul dintre cele două etichete `<a>` și `</a>` este textul care apare pe ecran si care activează link-ul; nu este necesar să fie doar text, ci putem adăuga și o imagine sau orice alt element.
+* _href_ vine de la **hyperlink** **reference** și este atributul care arată către ce este făcută legătura; vom vedea puțin mai târziu ce fel de valori poate lua href
+* _target_ este atributul care arată unde să se deschidă noua pagina; având valoarea "**\_blank**", se va deschide într-un tab nou, similar cu a da click dreapta -&gt; open in a new tab. În schimb, dacă nu  îi specificăm să se deschidă într-un tab nou, adică dacă lipsește atributul target, atunci link-ul va fi deschis în pagina curentă și vom fi nevoiți să dăm back pentru a revedea conținutul anterior.
+* textul dintre cele două etichete `<a>` și `</a>` este textul care apare pe ecran și care activează link-ul; nu este necesar să fie doar text, ci putem adăuga și o imagine sau orice alt element.
 
 ### Exerciții
 
-Copiați si salvați codul de mai jos într-un fișier pagina1.html. Pe baza lui, aduceți următoarele modificări:
+Copiați și salvați codul de mai jos într-un fișier pagina1.html. Pe baza lui, aduceți următoarele modificări:
 
 ```markup
 <!DOCTYPE html>
@@ -182,7 +182,7 @@ Copiați si salvați codul de mai jos într-un fișier pagina1.html. Pe baza lui
 ```
 
 {% hint style="info" %}
-Se observă ca pentru elimentele care suportă acțiunea click, cursorul mouse-ului devine mânuță atunci când e poziționat deasupra acelui element. Acest lucru se întâmplă cu orice element inclus între `<a>` și `</a>.`
+Se observă ca pentru elementele care suportă acțiunea click, cursorul mouse-ului devine mânuță atunci când e poziționat deasupra acelui element. Acest lucru se întâmplă cu orice element inclus între `<a>` și `</a>`și înseamnă că utilizatorul poate interacționa cu acel element.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -191,7 +191,7 @@ Prin intermediul etichetei `<a href>` putem adăuga legături externe către pag
 
 ## Activitate 3 - Butoane
 
-Durată: 5' \| Metodă: prelegere \| Materiale: videoproiector
+Durată: 5' \| Metodă: demonstrație, conversație, exercițiu \| Materiale: videoproiector
 
 Putem adăuga și butoane în cadrul unei pagini web. Eticheta folosită este una pereche, `<button> </button>`. Similar cu &lt;a href&gt;, textul din interiorul etichetelor este mesajul care apare pe buton.
 
@@ -199,13 +199,13 @@ Putem adăuga și butoane în cadrul unei pagini web. Eticheta folosită este un
 <button type="button">Click Me!</button>
 ```
 
-Butoanele și link-urile par că funcționează la fel, însă există câteva diferențe. Pe butoane nu se pot adăuga link-uri externe, adică eticheta button nu suporta atributul href. În schimb, butoanele permit adăugarea de acțiuni definite de utilizator, scrise ca funcții în JavaScript - despre care vom discuta în alte lecții. Un exemplu de acțiune care se poate atasa butonului este următorul:
+Butoanele și link-urile par că funcționează la fel, însă există câteva diferențe. Pe butoane nu se pot adăuga link-uri externe, adică eticheta button nu suporta atributul href. În schimb, butoanele permit adăugarea de acțiuni definite de utilizator, scrise ca funcții în JavaScript - despre care vom discuta în alte lecții. Un exemplu de acțiune care se poate atașa butonului este următorul:
 
 ```markup
 <button type="button" onclick="alert('Hello world!')">Say hello</button>
 ```
 
-Testați codul de mai sus în pagina HTML în care ați lucrat. Ce observați? Atributul onclick i-a comunicat butonului ce să se întâmple la apăsarea, și anume să arate o alertă pe ecran, cu mesajul "Hello world!". Puteți schimba mesajul din interiorul alertei și să vedeți ce se întâmplă.
+Testați codul de mai sus în pagina HTML în care ați lucrat. Ce observați? Atributul onclick i-a comunicat butonului ce să se întâmple la apăsare, și anume să arate o alertă pe ecran, cu mesajul "Hello world!". Puteți schimba mesajul din interiorul alertei și să vedeți ce se întâmplă.
 
 {% hint style="info" %}
 alert\(\) este o funcție din JavaScript care afișează pe ecran un pop-up cu un anumit mesaj, pentru a informa utilizatorul

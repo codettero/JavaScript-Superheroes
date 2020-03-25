@@ -6,7 +6,7 @@ description: 'Durată: 50'' | Cuvinte cheie: web design, HTML, etichete pereche'
 
 ## Activitate 1 - Ce este Web Designul?
 
-Durată: 10' \| Metodă: prelegere \| Materiale: -
+Durată: 10' \| Metode: explicație \| Materiale: -
 
 ### Definiții
 
@@ -24,7 +24,7 @@ Durată: 10' \| Metodă: prelegere \| Materiale: -
 
 ## Activitate 2 - Structura paginii web
 
-Durată: 10' \| Metode: prelegere \| Materiale: videoproiector
+Durată: 10' \| Metode: explicație \| Materiale: videoproiector
 
 ### Etichete
 
@@ -65,7 +65,7 @@ Ca un rezumat, structura de bază a unei pagini HTML este evidențiată în imag
 
 ## Activitatea 3 - Exercițiu
 
-Durată: 15' \| Metode: demo \| Materiale: videoproiector
+Durată: 15' \| Metode: demonstrație, conversație, exercițiu \| Materiale: videoproiector
 
 Am dat deja exemplu de 4 etichete pereche:
 
@@ -76,7 +76,7 @@ Am dat deja exemplu de 4 etichete pereche:
 <body> </body>
 ```
 
-Cu ajutorul unui editor de text \(VS Code, Sublime, Atom, Notepad++ etc\) și scrieți scheletul paginii HTML, după cum urmează:
+Cu ajutorul unui editor de text \(VS Code, Sublime, Atom, Notepad++ etc\), scrieți scheletul paginii HTML, după cum urmează:
 
 ```markup
 <!DOCTYPE html>
@@ -112,7 +112,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Activitate 4 - Etichete pereche
 
-Durată: 15' \| Metode: prelegere, demo \| Materiale: videoproiector
+Durată: 15' \| Metode: demonstrație, conversație, exercițiu, dezbatere \| Materiale: videoproiector
 
 ### Eticheta de paragraf
 
@@ -140,7 +140,7 @@ ex ea commodo consequat.
 ```
 
 {% hint style="info" %}
-Formatarea nu trebuie făcută ca mai sus obligatoriu. Etichetele pot fi scrise în continuare sau pe rândul următor, contează ordinea lor și să fie scrise corect. De exemplu, puteam scrie și astfel:
+Formatarea nu trebuie făcută neapărat ca mai sus. Etichetele pot fi scrise în continuare sau pe rândul următor, contează doar ordinea lor și să fie scrise corect. De exemplu, puteam scrie și astfel:
 
 ```markup
 <body> <p> Lorem ipsum ... </p> </body>
@@ -172,7 +172,7 @@ Etichetele de heading sunt folosite pentru a adăuga titluri de secțiuni în co
 
 După închiderea unei etichete de heading se adaugă automat un rând nou, întocmai ca la `</p>`.
 
-În imaginile următoare puteți observa cum se utilizează și ce efecte au cele 6 etichete de heading. Aceasta îngroașă și măresc textul, h6 fiind cea mai mică, iar h1 cea mai mare.
+În imaginile următoare puteți observa cum se utilizează și ce efecte au cele 6 etichete de heading. Aceasta îngroașă și măresc textul, h6 având dimensiunea cea mai mică, iar h1 cea mai mare.
 
 ```markup
 <h6> Superhero </h6>
@@ -195,7 +195,7 @@ După închiderea unei etichete de heading se adaugă automat un rând nou, înt
 
 ```markup
 <p> Inainte de heading <h2> in heading </h2> 
-dupa deading </p>
+dupa heading </p>
 ```
 {% endhint %}
 

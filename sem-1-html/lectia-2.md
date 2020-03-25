@@ -6,7 +6,7 @@ description: 'Durată: 50'' | Cuvinte cheie: etichete nepereche, atribute, culor
 
 ## Activitate 1 - Recapitulare
 
-Durată: 10' \| Metodă: prelegere \| Materiale: -
+Durată: 10' \| Metodă: dezbatere, conversație \| Materiale: -
 
 1. Ce este web designul?
 2. Ce este HTML? Enumerați caracteristicile acestuia.
@@ -17,7 +17,7 @@ Durată: 10' \| Metodă: prelegere \| Materiale: -
 
 ## **Activitate 2 - Etichete nepereche**
 
-Durată: 10' \| Metode: prelegere, demo \| Materiale: videoproiector
+Durată: 10' \| Metode: demonstrație, conversație, exercițiu \| Materiale: videoproiector
 
 ### **Line break**
 
@@ -47,7 +47,7 @@ Adăugați eticheta `<hr>` între cele două paragrafe din body. Ce se întâmpl
 
 ## Acti**vitate 3 - Atribute**
 
-Durată: 10' \| Metodă: prelegere \| Materiale: videoproiector
+Durată: 10' \| Metodă: demonstrație, conversație, exercițiu \| Materiale: videoproiector
 
 Am discutat în prima lecție despre etichete, structura standard a acestora fiind: ****`<tag> content </tag>`
 
@@ -61,7 +61,7 @@ După numele etichetei, adăugăm spațiu, numele atributului, urmat de semnul `
 
 ### Exemplu
 
-Eticheta `<hr>` adaugă un o linie despărțitoare, neagră. Cu ajutorul atributelor putem sa îi modificăm culoarea, astfel:
+Eticheta `<hr>` adaugă o linie despărțitoare, neagră. Cu ajutorul atributelor putem sa îi modificăm culoarea, astfel:
 
 `<hr color="blue">` sau `<hr color="red">`.
 
@@ -71,7 +71,7 @@ Testează mai multe culori în body, unde ai adăugat eticheta &lt;hr&gt; între
 
 ## **Activitate 4 - Formarea culorilor**
 
-Durată: 20' \| Metodă: prelegere \| Materiale: videoproiector
+Durată: 20' \| Metodă: demonstrație, conversație, exercițiu \| Materiale: videoproiector
 
 ### Culori
 
@@ -117,7 +117,9 @@ Am menționat anterior că aceste trei culori sunt folosite pentru a format oric
 * 7 : 16 = 0 rest 7, luăm restul 7 Astfel, se formează 07, deci 7 în baza 10 este echivalent cu 7 în baza 16 \(se adaugă 0 în față pentru că fiecare parametru transformat are exact 2 caractere\)
 
 {% hint style="info" %}
-Nu trebuie să faceți aceste calcule de fiecare dată când formați o culoare, pentru că există o multitudine de site-uri care vă ajută la formarea culorilor și calculeaza automat codul pentru culoarea respectivă \([Colors picker](https://www.w3schools.com/colors/colors_picker.asp)\).
+Nu trebuie să faceți aceste calcule de fiecare dată când formați o culoare, pentru că există o multitudine de site-uri care vă ajută la formarea culorilor și calculează automat codul pentru culoarea respectivă \([Colors picker](https://www.w3schools.com/colors/colors_picker.asp)\).
+
+De asemenea, pentru a găsi o paletă de culori potrivită, puteți încerca folosirea aplicațiilor precum [coolors.co](https://coolors.co/) sau altele asemenea pe care le găsiți pe Google căutând "color scheme genera"
 {% endhint %}
 
 #### Exerciții
@@ -143,9 +145,9 @@ Conținutul unei pagini web nu este alcătuit doar din text, ci putem adăuga o 
 
 Cu ajutorul codului de mai sus adăugăm o imagine salvată sub denumirea de **nume.jpg**. Și extensia trebuie inclusă în sursă. 
 
-Un aspect important este acela că în src trebuie specificată întreaga cale a imaginii, pentru a o găsi. Dacă aceasta se află în același folder cu fișierul html în care este adăugată, atunci calea coincide cu numele complet al imaginii. Dacă se află în altă parte, trebuie menționată calea completă \(de exemplu: `User/Desktop/MyFiles/Photos/img.png`\) sau calea relativă a pozei față de fișierul html \(începând de la primul director diferit\).
+Un aspect important este acela că în **src** trebuie specificată întreaga cale \(path\) a imaginii, pentru a o găsi. Dacă aceasta se află în același folder cu fișierul html în care este adăugată, atunci calea coincide cu numele complet al imaginii. Dacă se află în altă parte, trebuie menționată calea completă \(de exemplu: `User/Desktop/MyFiles/Photos/img.png`\) sau calea relativă a pozei față de fișierul html \(începând de la primul director diferit\).
 
-De regulă, se creează un folder pentru întregul proiect, care conține fișierele **html**, **css** și **js** și un alt folder în care se află resursele. Dacă structura ar fi următoarea:
+De regulă, se creează un folder pentru întregul proiect, care conține fișierele **html**, **css** și **js** și un alt folder în care se află resursele. De exemplu, având următoarea structură:
 
 ```markup
 project/
@@ -174,11 +176,11 @@ project/
 Pentru a adăuga poza cat.png în fișierul **index.html**, calea pozei relativă la fișierul html este `./cat.png` \(poza și fișierul html se află în același folder\), deci eticheta va arăta `<img src="cat.png">`.
 
 {% hint style="info" %}
-./cat.jpg este acelasi lucru cu cat.jpg, ambele denotand ca se afla in fisierul curent \(notat cu punct\)
+./cat.jpg este același lucru cu cat.jpg, ambele arătând că se află în fișierul curent \(notat cu punct\)
 {% endhint %}
 
 {% hint style="info" %}
-Dacă poza nu apare, asigurați-vă că ați scris calea corect și numele pozei, cu tot cu extensie, sunt corecte.
+Dacă poza nu apare, asigurați-vă că ați scris corect calea corect, numele pozei și extensia.
 {% endhint %}
 
 ### Atributele imaginilor
@@ -203,6 +205,6 @@ Atributele pot fi adăugate în orice ordine, despărțite prin spații. Nu este
 
 1. Salvați o imagine de pe internet în același folder cu pagina html în care ați lucrat până acum. Adăugați această imagine în conținutul paginii web. Trebuie adăugată în head sau în body? Cum ați adăuga imaginea?
 2. Setați un titlu imaginii cu atributul title și observați cum apare atunci când cursorul mouse-ului este poziționat pe imagine.
-3. Modificați lățimea și înălțimea imaginii cu ajutorul atributelor. Încercați diverse valori pentru a vedea cum se deformează, imaginea nefiind scalată.
+3. Modificați lățimea și înălțimea imaginii cu ajutorul atributelor. Încercați diverse valori pentru a vedea cum se deformează, imaginea nefiind scalată \(nu se păstrează proporțiile între lungime și lățime\).
 4. Adăugați bordură imaginii și testați diverse valori pentru grosimea acesteia.
 

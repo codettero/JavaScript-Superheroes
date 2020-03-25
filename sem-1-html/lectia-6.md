@@ -6,9 +6,9 @@ description: 'Durată: 50'' | Cuvinte cheie: menu, formular'
 
 ## Activitatea 1 - meniu
 
-Durată: 10' \| Metodă: prelegere \| Materiale: videoproiector
+Durată: 10' \| Metodă: demonstrație, conversație, exercițiu \| Materiale: videoproiector
 
-În lecția trecută am discutat despre butoane și legături externe. Acum haideți să creem un meniu pentru pagina noastră web. Vom adăuga mai  multe butoane pentru a accesa diverse platforme.
+În lecția trecută am discutat despre butoane și legături externe. Acum haideți să creăm un meniu pentru pagina noastră web. Vom adăuga mai  multe butoane pentru a accesa diverse platforme.
 
 ```markup
 <!DOCTYPE html>
@@ -27,11 +27,11 @@ Durată: 10' \| Metodă: prelegere \| Materiale: videoproiector
 </html>
 ```
 
-Codul de mai sus a creat 3 butoane unul lângă celălalt, fiecare ducând la câte o pagină separată. Functionalitatea este corectă, însă momentan aspectul lasă de dorit. Vom îmbunătăți acest lucru în lecțiile următoare, când învățăm CSS.
+Codul de mai sus a creat 3 butoane unul lângă celălalt, fiecare ducând la câte o pagină separată. Funcționalitatea este corectă, însă momentan aspectul lasă de dorit. Vom îmbunătăți acest lucru în lecțiile următoare, când învățăm CSS.
 
 ## Activitate 2 - formular
 
-Durată: 20' \| Metodă: prelegere \| Materiale: videoproiector
+Durată: 20' \| Metodă: demonstrație, conversație, exercițiu \| Materiale: videoproiector
 
 Pentru a adăuga formulare, există etichete speciale care desemnează tipurile de input și scopul lor.
 
@@ -55,7 +55,7 @@ Eticheta pentru formular este una pereche, `<form> </form>`. În cadrul acesteia
 
 Atributele folosite pentru `input`:
 
-* type: arată tipul campului; poate avea, printre altele, valorile text, password, number, color
+* type: arată tipul câmpului; poate avea, printre altele, valorile text, password, number, color
 * id și name: nu influențează aspectul elementului în pagina web, dar au rolul de identificatori și pot fi utili în CSS sau JavaScript
 * value: specifică valoarea inițială a câmpului, înainte ca utilizatorul să tasteze ceva
 
@@ -97,7 +97,7 @@ Să vedem și alte tipuri de input:
 <input type="checkbox" id="3" name="reason"> De amuzament </input> <br>
 ```
 
-**Radio button:** în cadrul acestui input, numai unul dintre răspunsuri poate fi selectat. La selectarea unui alt răspuns, primul va fi automat debifat. Atributul `name` plasează răspunsurile în aceeasi categorie, acceptând doar un singur răspuns din tipul name. 
+**Radio button:** în cadrul acestui input, numai unul dintre răspunsuri poate fi selectat. La selectarea unui alt răspuns, primul va fi automat debifat. Atributul `name` plasează răspunsurile în aceeași categorie, acceptând doar un singur răspuns din tipul name. 
 
 {% hint style="warning" %}
 Modificați pentru una dintre linii valoarea "grade" în alt text și veți observa ca poate fi bifată chiar dacă una dintre celelalte două valori grade sunt deja bifate.
@@ -135,7 +135,7 @@ Adăugați toate elementele menționate mai sus într-un formulat în body-ul un
 
 ### Trimiterea unui formular
 
-Formularele sunt elemente web destinate obțtinerii datelor de la utilizator și salvării lor pe un server dedicat, cu diferite scopuri. Pentru a efectua un astfel de mecanism, putem adăuga un atribut etichetei form numit `action`, cu valoarea URL-ului de pe server care ne va procesa formularul. De asemenea, trimiterea datelor necesită deseori atributul `method`, care menționează tipul felului în care trimitem \(valorile `GET` sau `POST`\). Un exemplu de folosire poate fi vizibil mai jos:
+Formularele sunt elemente web destinate obținerii datelor de la utilizator și salvării lor pe un server dedicat, cu diferite scopuri. Pentru a efectua un astfel de mecanism, putem adăuga un atribut etichetei form numit `action`, cu valoarea URL-ului de pe server care ne va procesa formularul. De asemenea, trimiterea datelor necesită deseori atributul `method`, care menționează tipul felului în care trimitem \(valorile `GET` sau `POST`\). Un exemplu de folosire poate fi vizibil mai jos:
 
 ```markup
 <form action="/action_page.php" method="post">
@@ -148,7 +148,7 @@ Formularele sunt elemente web destinate obțtinerii datelor de la utilizator și
 La activarea butonului de submit, se vor trimite datele din interiorul formularului prin metoda POST la pagina action\_page.php de pe serverul unde este găzduit site-ul vostru.
 
 {% hint style="danger" %}
-Atenție, voi nu puteți rula un server pe mașina locală la fel ca și cum scrieți o pagină HTML. Există tutoriale extensive despre cum să scrii și rulezi un server pe Internet.
+Atenție, voi nu puteți rula un server pe mașina locală la fel ca și cum scrieți o pagină HTML. Există tutoriale extensive despre cum să scrii și să rulezi un server pe Internet. Mai multe detalii veți afla în cadrul semestrului 2.
 {% endhint %}
 
 {% hint style="info" %}
@@ -157,9 +157,9 @@ Câmpurile input cărora le lipsește atributul **name** nu vor fi trimise cu fo
 
 ## Activitate 3 - miniproiect
 
-Durată: 20' \| Metodă: - \| Materiale: -
+Durată: 20' \| Metodă: evaluare formativă, practică, investigație \| Materiale: -
 
-Creați o pagină web completă cu cât mai multe dintre elementele HTML învățate pănă acum. Alegeți o tematică pentru a expune informații cu scop. Pagina trebuie să conțină minim:
+Creați o pagină web completă cu cât mai multe dintre elementele HTML învățate până acum. Alegeți o tematică pentru a expune informații cu scop. Pagina trebuie să conțină minim:
 
 1. Trei fișiere HTML diferite:
 

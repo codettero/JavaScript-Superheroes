@@ -12,7 +12,7 @@ Broșura se adresează elevilor care au cunoștințe de programare și cunosc co
 
 ## Mod de organizare
 
-Lecțiile din cadrul acestei broșuri sunt concepute pentru a fi predate o oră pe saptămână \(50'\), timp de un an școlar \(ambele semestre\) și conțin și evaluări pentru a obține minim 2 note pe semestru.
+Lecțiile din cadrul acestei broșuri sunt concepute pentru a fi predate o oră pe săptămână \(50'\), timp de un an școlar \(ambele semestre\) și conțin și evaluări pentru a obține minim 2 note pe semestru.
 
 #### Semestrul I
 

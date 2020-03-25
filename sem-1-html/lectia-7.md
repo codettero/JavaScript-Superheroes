@@ -6,7 +6,7 @@ description: 'Durată: 50'' | Cuvinte cheie: elemente semantice, elemente nesema
 
 ## Activitate 1 - Recapitulare
 
-Durată: 10' \| Metodă: prelegere \| Materiale: videoproiector
+Durată: 10' \| Metodă: exercițiu, dezbatere \| Materiale: videoproiector
 
 1. Care este eticheta necesară pentru formular? Este pereche sau nepereche?
 2. Menționați proprietățile următoarelor tipuri de input:
@@ -27,13 +27,13 @@ Durată: 10' \| Metodă: prelegere \| Materiale: videoproiector
 
 ## Activitate 2 - Prezentarea miniproiectelor
 
-Durată: 20' \| Metodă: - \| Materiale: -
+Durată: 20' \| Metodă: evaluare formativă, orală, autoevaluare \| Materiale: -
 
 Se prezintă proiectele începute lecția trecută.
 
 ## Activitate 2 - Elemente semantice și nesemantice
 
-Durată: 20' \| Metodă: prelegere \| Materiale: videoproiector
+Durată: 20' \| Metodă: demonstrație, conversație, exercițiu \| Materiale: videoproiector
 
 ### Elemente semantice
 
@@ -67,7 +67,7 @@ Definește zona de subsol a paginii web. De regulă, acolo se scriu informații 
 
 #### figure, figcaption
 
-`figcaption` definește descrierea unei imagini. Eticheta `figure` este golosită pentru a grupa o imagine alături de descrierea ei.
+`figcaption` definește descrierea unei imagini. Eticheta `figure` este folosită pentru a grupa o imagine alături de descrierea ei.
 
 ```markup
 <figure>
@@ -110,7 +110,7 @@ Similar, elementele nesemantice nu au un sens în limbajul natural și nu define
 
 #### span
 
-Elementul `<span>` este un alt tip de container generic, cu scopul de a încapsula elemente din categoria text \(text simplu, linkuri, paragrafe\). Diferența dintre **div** și **span** este că primul este `block` și cel de-al doilea `inline`, adică primul se aliniază asemenea blocurilor suprapuse sus-jos, iar cel de-al doilea "în linie", asemenea cuvintelor în propoziție. Folosim **span** atunci când vrem să evidențiem o bucată de text, adaugându-i stilizare sugestivă.
+Elementul `<span>` este un alt tip de container generic, cu scopul de a incapsula elemente din categoria text \(text simplu, linkuri, paragrafe\). Diferența dintre **div** și **span** este că primul este `block` și cel de-al doilea `inline`, adică primul se aliniază asemenea blocurilor suprapuse sus-jos, iar cel de-al doilea "în linie", asemenea cuvintelor în propoziție. Folosim **span** atunci când vrem să evidențiem o bucată de text, adăugându-i stilizare sugestivă.
 
 De exemplu, să considerăm paragraful de mai jos cu textul "Wonderwoman is a superhero". Dorim să colorăm doar cuvântul superhero în roșu, iar celelalte să rămână negre. Pentru această separare, includem cuvântul superhero într-un span, pe care îl vom modifica pentru a îi atribui o culoare textului \(în lecțiile următoare\).
 

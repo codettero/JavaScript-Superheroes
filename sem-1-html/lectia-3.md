@@ -6,7 +6,7 @@ description: 'Durată: 50'' | Cuvinte cheie: atribute, tabele'
 
 ## Activitate 1 - Recapitulare
 
-Durată: 5' \| Metodă: prelegere \| Materiale: -
+Durată: 5' \| Metodă: dezbatere, conversație \| Materiale: -
 
 1. Menționați eticheta pentru adăugarea unei imagini și dați exemplu de 3 atribute.
 2. Care este calea pozei `"superhero.jpg"` dacă dorim să o punem în cadrul unei etichete `img` din index.html?
@@ -45,7 +45,7 @@ Durată: 5' \| Metodă: prelegere \| Materiale: -
 
 ## Activitate 2 - Tabele
 
-Durată: 25' \| Metodă: prelegere \| Materiale: videoproiector
+Durată: 25' \| Metodă: demonstrație, conversație, exercițiu, dezbatere \| Materiale: videoproiector
 
 În afară de paragraf, o altă metodă prin care putem expune datele într-o pagină web este prin intermediul tabelelor.
 
@@ -106,7 +106,7 @@ Forma standard pentru a adăuga un atribut este astfel:
 
 ### Celule care se întind pe mai multe coloane
 
-Dacă dorim ca o celulă sa ocupe spațiul mai multor coloane consecutive, atunci folosim atributul `colspan`. Acesta este utilizat în cadrul eticheleor &lt;td&gt; si primește ca valoare un număr între ghilimele, arătând lungimea celulei.
+Dacă dorim ca o celulă sa ocupe spațiul mai multor coloane consecutive, atunci folosim atributul `colspan`. Acesta este utilizat în cadrul etichetelor &lt;td&gt; și primește ca valoare un număr între ghilimele, arătând lungimea celulei.
 
 ```markup
 <table>
@@ -146,7 +146,7 @@ Ce credeți că se întâmplă dacă mai adăugăm o celulă pe rândul cu numel
 
 ### Celule care se întind pe mai multe rânduri
 
-Dacă dorim ca o celulă sa ocupe spațiul mai multor rânduri consecutive, atunci folosim atributul `rowspan`. Acesta este utilizat în cadrul eticheleor &lt;td&gt; si primește ca valoare un număr între ghilimele, arătând lungimea celulei.
+Dacă dorim ca o celulă sa ocupe spațiul mai multor rânduri consecutive, atunci folosim atributul `rowspan`. Acesta este utilizat în cadrul etichetelor &lt;td&gt; și primește ca valoare un număr între ghilimele, arătând lungimea celulei.
 
 ```markup
 <table>
@@ -197,7 +197,7 @@ Testați codul de mai jos:
 
 ## Activitate 3 - Exerciții
 
-Durată: 20' \| Metodă: lucru la calculator \| Materiale: calculator
+Durată: 20' \| Metodă: exercițiu \| Materiale: calculator
 
 Scrieți codul pentru a replica următoarele două tabele.
 
