@@ -8,7 +8,7 @@ description: >-
 
 ### Activitatea 1 -  == vs ===
 
-Durată: 15' \| Metodă: prelegere \| Materiale: -
+Durată: 15' \| Metodă: explicație \| Materiale: -
 
 Testarea egalității în limbajul C/C++ se face cu operatorul == \(deoarece un singur = e folosit pentru atribuire\). În JavaScript însă, se pot folosi următorii doi operatori: `==` \(dublu egal\) și `===` \(triplu egal\). 
 
@@ -40,7 +40,7 @@ Există 6 valori cu valoarea de adevăr falsă \(numite **falsy values**\), și 
 {% endhint %}
 
 {% hint style="success" %}
-Dublu egal castează variabilele la un tip comun \(dacă tipul lor e diferit\) și apoi compara valoarea acestora.
+Dublu egal castează variabilele la un tip comun \(dacă tipul lor e diferit\) și apoi compară valoarea acestora.
 {% endhint %}
 
 #### ===
@@ -58,12 +58,12 @@ true === 1 // false
 ```
 
 {% hint style="info" %}
-Puteți deschide consola din browser și sa testați exemplele de mai sus sau alte comparații unde nu sunteți sigur de rezultat.
+Puteți deschide consola din browser și să testați exemplele de mai sus sau alte comparații unde nu sunteți sigur de rezultat.
 {% endhint %}
 
 ## Activitatea 2 - Funcții
 
-Durată: 10' \| Metodă: prelegere \| Materiale: -
+Durată: 10' \| Metodă: demonstrație, conversație, exercițiu \| Materiale: videoproiector
 
 Funcțiile în JavaScript sunt similare cu cele învățate în C/C++. Spre deosebire de C/C++, nu se specifică valoarea de return a funcției în cadrul semnăturii, și nici tipurile parametrilor.
 
@@ -94,7 +94,7 @@ add(2, 4); // 6
 
 ### Sortarea folosind comparator
 
-În lecția trecută am învățat că putem sorta un array folosind funcția `sort()`, iar compotamentul de bază sortează alfanumeric. Acum că am învățat funcții, putem sorta folosind alte criterii. Vom da câteva exemple.
+În lecția trecută am învățat că putem sorta un array folosind funcția `sort()`, iar comportamentul de bază sortează alfanumeric. Acum că am învățat funcții, putem sorta folosind alte criterii. Vom da câteva exemple.
 
 ```javascript
 let a = [9, 11, 99, 1];
@@ -112,15 +112,15 @@ Pe linia 7, comparatorul este un **arrow function** folosit pentru a sorta descr
 
 ## Activitatea 3 - DOM
 
-Durată: 10' \| Metodă: prelegere \| Materiale: -
+Durată: 10' \| Metodă: demonstrație, conversație, exercițiu \| Materiale: videoproiector
 
-Codul vostru scris în JavaScript poate interacționa cu pagina HTML din care face parte printr-un concept intermediar numit **DOM** \(**Document Object Model**\) care este o abstractizare a documentului HTML. Acest lucru înseamnă că, în orice **browser**, pe lângă capabilitățiile limbajului JavaScript, aveți acces și la proprietăți ale DOM-ului. De exemplu, dacă descideți consola pe pagina motorului vostru de căutare și scrieți `document` sau `window`, veți vedea valorile acestor două proprietăți ale DOM, după cum puteți observa și mai jos.
+Codul vostru scris în JavaScript poate interacționa cu pagina HTML din care face parte printr-un concept intermediar numit **DOM** \(**Document Object Model**\) care este o abstractizare a documentului HTML. Acest lucru înseamnă că, în orice **browser**, pe lângă capacitățile limbajului JavaScript, aveți acces și la proprietăți ale DOM-ului. De exemplu, dacă deschideți consola pe pagina motorului vostru de căutare și scrieți `document` sau `window`, veți vedea valorile acestor două proprietăți ale DOM, după cum puteți observa și mai jos.
 
 ![](../.gitbook/assets/screenshot-2020-03-15-at-21.41.55.png)
 
-În continuare vom prezenta 3 funcții care vă vor ajuta să vă familiarizați cu DOM și să îl folositi conform nevoilor codului vostru:
+În continuare vom prezenta 3 funcții care vă vor ajuta să vă familiarizați cu DOM și să îl folosiți conform nevoilor codului vostru:
 
-* getElementById: caută elementul HTML asociat unui id dat; id-ul ar trebui să fie unic, dar în cazul în care folosiți același id pe elemente diferente, atunci primul va fi găsit
+* getElementById: caută elementul HTML asociat unui id dat; id-ul ar trebui să fie unic, dar în cazul în care folosiți același id pe elemente diferite, atunci primul va fi găsit
 * addEventListener: asociază execuția unei funcții cu un eveniment specific asupra unui element HTML. Exemple de eveniment: click, hover
 * innerHTML: accesează conținutul unei etichete \(de exemplu, conținutul unui paragraf, header, input etc
 
@@ -159,7 +159,7 @@ Testați codul de mai sus în browser.
 
 ## Activitatea 4 - Exerciții
 
-Durată: 15' \| Metodă: prelegere \| Materiale: -
+Durată: 15' \| Metodă: exercițiu \| Materiale: -
 
 Creați un calculator care efectuează calcule cu exact doi termeni. Pagina conține titlu, instructiuni, un input field în care să fie introdusă operația, un buton pentru a calcula și un paragraf la final în care să fie afișat rezultatul. Rezultatul ar trebui sa fie însotit de explicații, ca în exemplele de mai jos \(textul se modifică în funcție de operația executată. Butonul "Resetează" este folosit pentru a șterge rezultatul anterior și a goli input-ul.
 

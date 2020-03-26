@@ -8,24 +8,24 @@ description: >-
 
 ## Activitate 1 - Intro to JS
 
-Durată: 10' \| Metodă: prelegere \| Materiale: -
+Durată: 10' \| Metodă: explicație \| Materiale: -
 
 Am studiat anterior limbajul HTML, cu ajutorul căruia putem scrie conținut într-o pagină web, dar și CSS, care ajută la stilizarea paginii web. În continuare, vorbim despre JavaScript, un limbaj de programare care ne permite să stabilim cum se comportă pagina web.
 
 Pe scurt:
 
 * HTML: adaugă conținut, elementele vizibile din pagina web, cum ar fi paragrafe, imagini, liste, tabele etc
-* CSS: stilizează conținutul paginii web, putem poziționa elementele în pagină unde dorim, adăugam spațiere, culori, font-uri, umbre etc
-* JS: stabilește cum se comporta pagina web, oferă dinamism site-ului; putem adăuga animații, diverse evenimente și acțiuni care au un anumit trigger etc
+* CSS: stilizează conținutul paginii web, cu ajutorul lui putem poziționa elementele unde dorim în pagină și adăuga spațiere, culori, font-uri, umbre etc
+* JS: stabilește cum se comportă pagina web, oferă dinamism site-ului; putem adăuga animații, diverse evenimente și acțiuni care au un anumit trigger \(ex. duci cursorul pe meniu și apar pe ecran subcategoriile acestuia\) etc
 
 Față de HTML și CSS, JavaScript este un limbaj de programare. Pentru început, vă puteți gândi la JavaScript ca la C/C++, doar că sintaxa este puțin diferită. Vom discuta, întocmai ca la primele ore de informatică, despre variabile, atribuiri, structuri decizionale și repetitive.
 
 {% hint style="warning" %}
-În JS, nu este necesar să puneți punct și virgulă la finalul fiecărui rând. Nu va da eroare dacă lipseste, însă este bine să fiți consecvenți. Pe durata acestor linii, vom folosi totuși **`;`** la final de rând, pentru că sunteți obișnuiți cu asta de la alte ore de programare în C/C++.
+În JS, nu este necesar să puneți punct și virgulă la finalul fiecărui rând. Nu va da eroare dacă lipsește, însă este bine să fiți consecvenți. Pe durata acestor linii, vom folosi totuși **`;`** la final de rând, pentru că sunteți obișnuiți cu asta de la alte ore de programare în C/C++.
 {% endhint %}
 
 {% hint style="danger" %}
-Poate ați auzit de limbajul de programare Java, care nu este același lucru cu JavaScript. Încercați să nu le confundați, sunt limbaje diferite, cu scopuri, sintaxă și mod de funcționare diferit.
+Poate ați auzit de limbajul de programare Java, care însă nu este același lucru cu JavaScript. Încercați să nu le confundați, sunt limbaje diferite, cu scopuri, sintaxă și mod de funcționare diferit.
 {% endhint %}
 
 {% hint style="success" %}
@@ -38,11 +38,11 @@ Curios cum diferă JavaScript de Java? În următoarele 5 minute, caută pe net 
 
 ## Activitate 2 - variabile și tipuri de date
 
-Durată: 25' \| Metodă: prelegere \| Materiale: -
+Durată: 25' \| Metodă: demonstrație, conversație, exercițiu \| Materiale: videoproiector
 
 ### Variabile și tipuri de date
 
-Spre deosebire de C/C++, în JavaScript, variabilele nu au nevoie de un tip de date, ci este dedus în funcție de valoarea asignată. Asta înseamnă că o variabilă poate reține la un moment dat un număr, iar după poate reține un șir de caractere, fără să dea eroare de tip.
+Spre deosebire de C/C++, în JavaScript, variabilele nu au nevoie de un tip de date, acesta este dedus în funcție de valoarea asignată. Asta înseamnă că o variabilă poate reține la un moment dat un număr, iar după poate reține un șir de caractere, fără să dea eroare de tip.
 
 {% hint style="info" %}
 JavaScript are tipare dinamică \(dynamic typing\), adică o variabilă poate reține, la momente de timp diferite, tipuri de date diferite. Acest lucru se întâmplă deoarece valoarea variabilelor e verificată abia când se execută linia respectivă. 
@@ -89,14 +89,14 @@ var x = {
 {% endhint %}
 
 {% hint style="danger" %}
-În JavaScript, toate numerele sunt de tipul **Number,** fie ca sunt numere întregi, pozitive sau negative, sau cu virgulă. Nu există mai multe tipuri, cum ar fi float sau unsigned int ca în C/C++.
+În JavaScript, toate numerele sunt de tipul **Number,** fie că sunt numere întregi, pozitive sau negative, sau cu virgulă. Nu există mai multe tipuri, cum ar fi float sau unsigned int ca în C/C++.
 {% endhint %}
 
 ### Null vs undefined
 
 Am discutat mai devreme despre valorile pe care le poate lua o variabilă, cum ar fi un număr sau un șir de caractere. Dar ce se întâmplă dacă o variabilă nu are o valoare, dacă nu reține sau nu corespunde unui obiect din memoria calculatorului?
 
-În acest caz, spunem ca valoarea ei este `undefined`. La prima vedere, `null` si `undefined` sunt foarte asemănătoare. Atât `null`, cât și `undefined` pot atribuite de către programator. Diferența este dată de faptul că, atunci când o variabilă este doar declarată, fără să primească o valoare propriu-zisă, aceasta este `undefined`.
+În acest caz, spunem că valoarea ei este `undefined`. La prima vedere, `null` și `undefined` sunt foarte asemănătoare. Atât `null`, cât și `undefined` pot fi atribuite de către programator. Diferența este dată de faptul că, atunci când o variabilă este doar declarată, fără să primească o valoare propriu-zisă, aceasta este `undefined`.
 
 Cauza pentru care există două valori atât de asemănătoare este că, deși ambele exprimă absența unei valori valide, null exprimă absența datelor, iar undefined lipsa asignării sau o stare de eroare.
 
@@ -123,7 +123,7 @@ console.log(x.age); // undefined, deoarece nu există câmpul age
 
 ### Var, let, const
 
-Declararea standard a variabilelor, în JavaScript, folosind cuvântul cheie `var` se supune unui proces numit `hoisting`. Acest lucru înseamnă că, de fiecare dată când declari o variabilă folosind `var`, aceasta va fi "**urcată**" spațial la începutul funcției în care ne aflăm, iar în cazul în care scriem în afara oricărei funcții, într-un fișier, aceasta va fi pusă la începutul fișierului. Pentru cei care sunt obișnuiti cu practicile din `C/C++`, unde este recomandat să declarați variabilele la începutul funcției, `hoisting` e ca și cum browserul face acest lucru pentru voi de fiecare dată când folosiți `var`. Spre exemplu:
+Declararea standard a variabilelor, în JavaScript, folosind cuvântul cheie `var` se supune unui proces numit `hoisting`. Acest lucru înseamnă că, de fiecare dată când declari o variabilă folosind `var`, aceasta va fi "**urcată**" spațial la începutul funcției în care ne aflăm, iar în cazul în care scriem în afara oricărei funcții, într-un fișier, aceasta va fi pusă la începutul fișierului. Pentru cei care sunt obișnuiți cu practicile din `C/C++`, unde este recomandat să declarați variabilele la începutul funcției, `hoisting` e ca și cum browserul face acest lucru pentru voi de fiecare dată când folosiți `var`. Spre exemplu:
 
 ```javascript
 function f() {
@@ -151,7 +151,7 @@ f(); // output: undefined 5 7
 Atenție: o linie cu codul **`var a = 6`** conține două operații: o declarație a variabilei **a** și o asignare a ei la numărul 6. Doar declarația este **hoisted**.
 {% endhint %}
 
-De asemenea, declarațiile folosind var sunt `function scoped`, adică există numai in cadrul primei funcții părinte în care au fost declarate. Spre exemplu:
+De asemenea, declarațiile folosind var sunt `function scoped`, adică există numai în cadrul primei funcții părinte în care au fost declarate. Spre exemplu:
 
 ```javascript
 console.log(i); // ReferenceError: i is not defined
@@ -188,14 +188,14 @@ function f() {
 ```
 
 {% hint style="warning" %}
-Deoarece variabila i este declarată folosind **`let`** în interioriul blocului definit de for, aceasta există doar în cadrul acesui **bloc** \(între paranteze și acolade\). **Nu este hoisted** la începutul funcției și **nu există după for**.
+Deoarece variabila i este declarată folosind **`let`** în interiorul blocului definit de for, aceasta există doar în cadrul acestui **bloc** \(între paranteze și acolade\). **Nu este hoisted** la începutul funcției și **nu există după for**.
 {% endhint %}
 
 {% hint style="info" %}
-Recomandam să folosiți **`let`** de fiecare dată când declarați o variabilă.
+Recomandam să folosiți**`let`** de fiecare dată când declarați o variabilă.
 {% endhint %}
 
-În legatură cu cuvântul cheie `const`, acesta are toate proprietățile lui **let**, și, în plus, variabilele declarate folosindu-l sunt **constante**, adică nu își pot schimba valoarea de-a lungul programului. Asta înseamnă că, de fiecare dată când declarați o variabilă folosind `const` **trebuie să o și initializați** la singura valoare pe care o va avea, altfel va produce o eroare.
+În legatură cu cuvântul cheie `const`, acesta are toate proprietățile lui **let**, și, în plus, variabilele declarate folosindu-l sunt **constante**, adică nu își pot schimba valoarea de-a lungul programului. Asta înseamnă că, de fiecare dată când declarați o variabilă folosind `const` **trebuie să o și inițializați** la singura valoare pe care o va avea, altfel va produce o eroare.
 
 ```javascript
 const C; // SyntaxError: missing = in const declaration
@@ -209,7 +209,7 @@ Un ultim exemplu folosind toate cele trei cuvinte cheie:
 
 ## Activitate 3 - Operații aritmetice
 
-Durată: 15' \| Metodă: prelegere \| Materiale: videoproiector
+Durată: 15' \| Metodă: demonstrație, conversație, exercițiu \| Materiale: videoproiector
 
 Operatorii în JavaScript sunt similari cu cei din C/C++.
 
@@ -252,7 +252,7 @@ console.log(z); // 8
 ```
 
 {% hint style="danger" %}
-Ca în orice limbaj, operatorii respectă o anumită precedență, de exemplu înmulțirea și impărțirea se execută înaintea adunării și a scăderii. Dacă operațiile au același nivel de prioritate, atunci se execută de la stânga la dreapta.
+Ca în orice limbaj, operatorii respectă o anumită precedență, de exemplu înmulțirea și împărțirea se execută înaintea adunării și a scăderii. Dacă operațiile au același nivel de prioritate, atunci se execută de la stânga la dreapta.
 
 Folosirea parantezelor arată ce operație are prioritate.
 {% endhint %}
@@ -283,7 +283,7 @@ Pentru a executa rapid câteva operații, vom folosi **consola** browserelor. Î
 
 Deschideți consola și testați câteva operații: creați mai multe variabile, de diverse tipuri, și testați rezultatele diferitelor operații.
 
-Pentru a deschide consola, porniți Chrome, click dreapta și selectati **Inspect**. Apoi in fereastra deschisă, selectați **console** și acolo puteți scrie codul, ca in exemplul de mai jos.
+Pentru a deschide consola, porniți Chrome, click dreapta și selectați **Inspect**. Apoi, în fereastra deschisă, selectați **console** și acolo puteți scrie codul, ca în exemplul de mai jos.
 
 ![](../.gitbook/assets/screenshot-2020-02-17-at-21.22.51.png)
 

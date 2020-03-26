@@ -2,7 +2,7 @@
 
 ## Test de evaluare a cunoștințelor
 
-Durată: 40' \| Metodă: - \| Materiale: videoproiector
+Durată: 40' \| Metodă: evaluare formativă, scrisă \| Materiale: -
 
 Total: 10 pct \(2 pct din oficiu\)
 

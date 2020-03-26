@@ -8,7 +8,7 @@ description: >-
 
 ## Activitate 1 - Structuri decizionale
 
-Durată: 10' \| Metodă: prelegere \| Materiale: -
+Durată: 10' \| Metodă: explicație \| Materiale: videoproiector
 
 ### If
 
@@ -30,7 +30,7 @@ if (isSnowing) {
 
 Dacă este îndeplinită condiția, prima ramură va fi executată \(adică operațiile scrise în interiorul acoladelor de la `if`\). Dacă nu este îndeplinită condiția, putem specifica ce să se efectueze pe cazul false.
 
-În exemplul de mai sus am văzut că nu se afisează nimic atunci când `isSnowing` este false, deoarece nu am definit acest scenariu. Îl putem adăuga cu ajutorul cuvântului cheie `else`.
+În exemplul de mai sus am văzut că nu se afișează nimic atunci când `isSnowing` este false, deoarece nu am definit acest scenariu. Îl putem adăuga cu ajutorul cuvântului cheie `else`.
 
 Structura acestei operații este: `if (condiție) {caz_adevărat;} else {caz_fals;}`
 
@@ -61,7 +61,7 @@ if (age < 10) {
 
 ### Operator ternar
 
-În cazul unei structuri if-else în care fiecare ramură conține doar o operație, și anume o atribuire, către aceeași variabilp, putem să folosim operatorul ternar. Este o formă mai scurtă de a scrie if-else în acest caz, ocupă doar un rând, însă e mai greu de citit.
+În cazul unei structuri if-else în care fiecare ramură conține doar o operație, și anume o atribuire, către aceeași variabilă, putem să folosim operatorul ternar. Este o formă mai scurtă de a scrie if-else în acest caz, ocupă doar un rând, însă e mai greu de citit.
 
 Structura acestei operații este: `conditie ? caz_adevărat : caz_fals;`
 
@@ -119,7 +119,7 @@ Cuvântul cheie break semnifică oprirea switch-ului atunci când a avut loc o p
 
 ## Activitate 2 - Structuri repetitive
 
-Durată: 10' \| Metodă: prelegere \| Materiale: -
+Durată: 10' \| Metodă: demonstrație, conversație, exercițiu \| Materiale: videoproiector
 
 ### For
 
@@ -144,7 +144,7 @@ console.log(i);
 
 ### While, do while
 
-Insutrcțiunea `for` este folosită, de obicei, atunci când se cunoaște numărul de execuții anterioare. Când nu știm acest lucru, putem folosi instrucțiunile `while` sau `do while`.
+Instrucțiunea `for` este folosită, de obicei, atunci când se cunoaște numărul de execuții anterioare. Când nu știm acest lucru, putem folosi instrucțiunile `while` sau `do while`.
 
 ```javascript
 while (x > 10) {
@@ -159,7 +159,7 @@ do {
 ```
 
 {% hint style="info" %}
-Nu vom intra in prea multe detalii, deoarece aceste instrucțiuni se comportă la fel cu cele din C/C++.
+Nu vom intra în prea multe detalii, deoarece aceste instrucțiuni se comportă la fel cu cele din C/C++.
 {% endhint %}
 
 {% hint style="info" %}
@@ -214,13 +214,13 @@ Array-urile au multe operații predefinite:
 
 `.sort()` -&gt; sortează elementele din array în ordine crescătoare alfanumerică
 
-`.pop()` -&gt; elimină ultimul element din array și îl intoarce; updatează lungimea array-ului, dar nu o întoarce
+`.pop()` -&gt; elimină ultimul element din array și îl întoarce; updatează lungimea array-ului, dar nu o întoarce
 
-`.push()` -&gt; adaugă un element la finalul array-ului și intoarce lungimea noului array
+`.push()` -&gt; adaugă un element la finalul array-ului și întoarce lungimea noului array
 
 `.reverse()` -&gt; inversează ordine elementelor din array
 
-`.forEach()` -&gt; parcurgerea fiecărui element dintr-un array
+`.forEach()` -&gt; parcurge fiecare element dintr-un array
 
 ```javascript
 var culori = ["rosu", "verde", "gri"];
@@ -249,11 +249,11 @@ culori.forEach(function(elem) {
 ```
 
 {% hint style="warning" %}
-Funcția sort sortează în ordine crescătoare alfanumeric, adică dacă vrem să sortăm numerele de la 0 la 10, vom avea output-ul: \[0, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9\]. Pentru a sorta numerele corect, va trebui să definim propriul comparator despre care vom vorbi într-o altă lecție.
+Funcția sort ordonează crescător alfanumeric, adică dacă vrem să sortăm numerele de la 0 la 10, vom avea output-ul: \[0, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9\] deoarece primul caracter luat în considerare pentru 10 este 1, care este mai mic decât 2. Pentru a sorta numerele corect, va trebui să definim propriul comparator despre care vom vorbi într-o altă lecție.
 {% endhint %}
 
 {% hint style="warning" %}
-Putem adăuga elemente într-un array și specificând noua poziție, după cum am văzut pe linia 12. În acest fel, elementul adăugat nu trebuie să fie neaparat pe ultima poziție, dar aveți grijă, deoarece vor fi create și pozițiil intermediare și vor fi undefined. Exemplu:
+Putem adăuga elemente într-un array și specificând noua poziție, după cum am văzut pe linia 12. În acest fel, elementul adăugat nu trebuie să fie neapărat pe ultima poziție, dar aveți grijă, deoarece vor fi create și poziții intermediare și vor fi undefined. Exemplu:
 {% endhint %}
 
 ```javascript
@@ -267,10 +267,10 @@ console.log(numbers); // [1, 3, -5, 10, undefined, undefined, undefined, 100]
 
 ## Activitate 4 - Exerciții
 
-Durată: 15' \| Metodă: prelegere \| Materiale: -
+Durată: 15' \| Metodă: exercițiu \| Materiale: -
 
 {% hint style="success" %}
-Pentru a testa următoarele exerciții, creați un fișier HTML \(.html\) și unul JavaScript \(.js\). Linkați fisierul .js la cel HTML. Este suficient să scrieți codul în JS, să deschideți fișierul HTML în browser și să dați refresh pentru fiecare rulare.
+Pentru a testa următoarele exerciții, creați un fișier HTML \(.html\) și unul JavaScript \(.js\). Adăugați linkul fișierului .js la cel HTML. Este suficient să scrieți codul în JS, să deschideți fișierul HTML în browser și să dați refresh pentru fiecare rulare.
 
 Rezultatele se vor vedea în consolă, care poate fi accesată dând click dreapta -&gt; Inspect -&gt; Console.
 {% endhint %}
@@ -297,10 +297,10 @@ Rezultatele se vor vedea în consolă, care poate fi accesată dând click dreap
 * a / b + b % a
 
 {% hint style="success" %}
-Puteți să alegeți diferite valori pentru a și b la fiecare rulare. Pentru a realiza acest lucru automat, folosiți funcțiile Math.rand\(\) si Math.floor\(\). Cum? Un search pe Google vă va arăta răspunsul.
+Puteți să alegeți diferite valori pentru a și b la fiecare rulare. Pentru a realiza acest lucru automat, folosiți funcțiile Math.rand\(\) si Math.floor\(\) care vă vor genera numere aleatorii la fiecare rulare. Cum? Un search pe Google vă va arăta răspunsul.
 {% endhint %}
 
-3. Creați un array cu 10 elemente alese de voi \(sau folosind rand\(\)\). Afisați suma elementelor array-ului. Calculați suma numerelor pare. Pentru fiecare număr pozitiv, adăugați la finalul array-ului opusul său și afișați rezultatul.
+3. Creați un array cu 10 elemente alese de voi \(sau folosind rand\(\)\). Afișați suma elementelor array-ului. Calculați suma numerelor pare. Pentru fiecare număr pozitiv, adăugați la finalul array-ului opusul său și afișați rezultatul.
 
-4. Scrieți rezolvarea următoarei probleme: În pauză se joacă 9 elevi. Aceștia formează 3 echipe în mod egal. Pentru a se împărți în echipe, se așează în ordinea numelor lor și primii 3 formează o echipă, urmatorii 3 a doua și tot așa. Afisați echipele. 
+4. Scrieți rezolvarea următoarei probleme: În pauză se joacă 9 elevi. Aceștia formează 3 echipe în mod egal. Pentru a se împărți în echipe, se așează în ordinea numelor lor și primii 3 formează o echipă, următorii 3 a doua și tot așa. Afișați echipele. 
 
