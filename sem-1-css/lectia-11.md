@@ -98,7 +98,7 @@ Ca un ultim pas, putem specifica folosind proprietatea tranzition diferite tranz
 }
 ```
 
-## Activitatea 3 - Transformări
+## Activitate 3 - Transformări
 
 Durată: 10' \| Metodă: prelegere \| Materiale: videoproiector
 
@@ -188,5 +188,141 @@ Combinând primele două activități puteți obține exemple foarte interesante
 
 ![](../.gitbook/assets/output2.gif)
 
+## Activitate 4 - Animații
 
+Durată: 20' \| Metodă: prelegere \| Materiale: videoproiector
+
+Animațiile CSS permit animarea elementelor între mai multe stări \(_keyframes_ - cadru cheie\) fără folosirea JavaScript sau alte tehnologii web. Animațiile CSS sunt mai performante decât dacă sunt scrise folosind alte limbaje. Sintaxa pentru declararea unei animații pe un element este similară cu cea pentru tranziții, având proprietați precum `animation-duration` și `animation-delay`, dar și prescurtarea `animation` care primește mai multe argumente.
+
+Pentru exemplele următoare, folosim HTMLul următor.
+
+```markup
+<div class="my-element"></div>
+```
+
+O animație simplă, între o stare inițială și una finală este cea de mai jos.
+
+```css
+.my-element {
+    background: #dddddd;
+    width: 100px;
+    height: 200px;
+    margin: 40px auto;
+    display: block;
+    animation-name: color-animation;
+    animation-duration: 1.5s;
+}
+
+@keyframes color-animation {
+    from {
+        background: #dddddd;
+    }
+
+    to {
+        background: #cc0000;
+    }
+}
+```
+
+Regula `@keyframes` specifică numele animației \(**color-animation** la noi\) și, între acolade, cele două stări. Numele este adăugat ca valoare pentru `animation-name` în elementul animat. Această sintaxă nu este foarte versatilă, având doar două stări. Vom introduce o animație cu mai multe stări mai jos.
+
+```css
+.my-element {
+    background: #dddddd;
+    width: 100px;
+    height: 200px;
+    margin: 40px auto;
+    display: block;
+    animation-name: size-animation;
+    animation-duration: 1.5s;
+}
+
+@keyframes size-animation {
+    0% {
+        width: 100px;
+    }
+
+    25% {
+        width: 200px;
+    }
+
+    50% {
+        width: 500px;
+    }
+
+    100% {
+        width: 100px;
+    }
+}
+```
+
+Pentru această sintaxă trebuie să menționăm oricâte momente în procente între **0%** și **100%** în interiorul cărura schimbăm valoarea proprietăților animate. Aceste momente sunt calculate procentual față de _durația animației_ specificată pe element. Fără să specificăm durata, animația nu va fi executată în nici unul din cazurile de mai sus.
+
+Nu este necesar să avem aceeași proprietate pentru toate momentele, ci putem anima diferite proprietăți alternativ. Ce recomandăm este ca proprietățile să aibă aceleași valori la 0% și la 100%, pentru a fi fluide când animațiile se repetă.
+
+### Exemplu complex
+
+Testați următorul exemplu și veți obține următoarea animație.
+
+![Cool, isn&apos;t it?](../.gitbook/assets/output3.gif)
+
+```css
+.my-element {
+    background: #dddddd;
+    width: 100px;
+    height: 100px;
+    margin: 150px auto;
+    display: block;
+    animation-name: cool-animation;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes cool-animation {
+    0% {
+        background: #dddddd;
+        height: 100px;
+        transform: rotate(0);
+    }
+
+    25% {
+        width: 200px;
+        background: #cc0000;
+    }
+
+    33% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        width: 500px;
+        height: 200px;
+    }
+
+    66% {
+        transform: rotate(-90deg);
+    }
+
+    75% {
+        background: #ee25b2;
+    }
+
+    100% {
+        width: 100px;
+        height: 100px;
+        background: #dddddd;
+        transform: rotate(0);
+    }
+}
+```
+
+Pe lângă keyframes-urile specifice folosite, puteți observa că am folosit câteva proprietăți noi în regula `.my-element`. Acestea sunt:
+
+* **animation-timing-function**: la fel ca la tranziții, o funcție care stabilește tipul interpolării între valori
+* **animation-delay**: delay-ul de la încărcarea paginii până la începerea animației
+* **animation-iteration-count**: numerul de repetări al animației sau **infinite**
+* **animation-direction**: direcția în care este rulată animația \(**normal**, **reverse**, **alternate**\). Când este **reverse**, este rulată de la coadă la cap, iar **alternate** este alternativ **normal** și **reverse**.
 
