@@ -70,17 +70,18 @@ O tranziție CSS poate fi scrisă fie folosind cele 4 proprietăți specifice, f
 * **transition-delay**: opțional, specifică după câte secunde să înceapă tranziția
 * **transition-duration**: specifică câte secunde să dureze tranziția
 * **transition-property**: opțional, specifică ce pe proprietate să fie aplicată, default fiind `all`
-* **transition-timing-function**: specifică ce fel de interpolare să fie folosită între cele două valori între care se face tranziția, câteva valori pe care le poate lua fiind: **linear**, **ease-in**, **ease-out**, **steps\(\)**, **cubic-bezier\(\)**. Pentru a vedea mai bine cum funcționează aceste timing functions, puteți să folosiți consola pentru a edita funcția de interpolare.
+* **transition-timing-function**: opțional, specifică ce fel de interpolare să fie folosită între cele două valori între care se face tranziția, câteva valori pe care le poate lua fiind: **linear**, **ease-in**, **ease-out**, **steps\(\)**, **cubic-bezier\(\)**. Pentru a vedea mai bine cum funcționează aceste timing functions, puteți să folosiți consola pentru a edita funcția de interpolare.
+* **transition**: cuprinde cele patru proprietăți de mai sus, în ordinea: `(property) duration (timing-function) (delay)`, unde \(\) înseamnă opțional
 
 ![](../.gitbook/assets/output.gif)
 
-În exemplul de mai sus, putem vedea tranziția noastră \(care se întamplă când mouse-ul intră pe lement dar și când iese de pe el\) și cum putem edita in Firefox **transition-timing-function** și cum schimbă cum este realizată tranziția.
+În exemplul de mai sus, putem vedea tranziția noastră \(care se întamplă când mouse-ul intră pe element dar și când iese de pe el\) și cum putem edita in Firefox **transition-timing-function** și cum schimbă cum este realizată tranziția.
 
 {% hint style="info" %}
 Recomandăm călduros să experimentați cu tranziții direct în consolă.
 {% endhint %}
 
-Ca un ultim pas, putem specifica folosind proprietatea tranzition diferite tranziții pentru diferite proprietăți.
+Ca un ultim pas, putem specifica folosind proprietatea transition diferite tranziții pentru diferite proprietăți.
 
 ```css
 .my-element {
@@ -107,6 +108,10 @@ Transformările CSS vă permit să mutați, rotiți, scalați și să puneți î
 ```markup
 <div class="my-element"></div>
 ```
+
+{% hint style="info" %}
+Testați pe rând codurile de mai jos pentru a vedea cum funcționează transformările.
+{% endhint %}
 
 ### Scale
 
@@ -136,7 +141,7 @@ Deși elementul de mai sus are aceeași valoare pentru înălțime și lățime,
 }
 ```
 
-Transformarea `rotate()` primește un număr real pozitiv \(în sensul acelor de ceasornic\) sau negativ \(în sensul opus acelor de ceasornic\) pentru care unitatea de masura poate fi `deg` \(**degrees** = grade hexazecimale\) sau `rad` \(**radians** = radiani\).
+Transformarea `rotate()` primește un număr real pozitiv \(în sensul acelor de ceasornic\) sau negativ \(în sensul opus acelor de ceasornic\) pentru care unitatea de măsură poate fi `deg` \(**degrees** = grade, de exemplu 90**°**\) sau `rad` \(**radians** = radiani\).
 
 ### Translate
 
@@ -151,11 +156,11 @@ Transformarea `rotate()` primește un număr real pozitiv \(în sensul acelor de
 }
 ```
 
-Transformarea de mai sus translatează \(mută\) elementul cu 100px pe axa X și 20px pe axa Y. Amintim că, într-o pagină web, axa X crește de la stânga la dreapta iar **axa Y crește de sus în jos**. Putem realiza translații și cu valori negative \(vor merge în direcția opusă creșterii axei\) sau pe o singură axă cu valorile: `translateX()` și `translateY()`.
+Transformarea de mai sus translatează \(mută\) elementul cu 100px pe axa X și 20px pe axa Y. Amintim că, într-o pagină web, axa X crește de la stânga la dreapta iar **axa Y crește de sus în jos**. Deci, punctul de coordonate \(0,0\) este în colțul din stânga-sus. Putem realiza translații și cu valori negative \(vor merge în direcția opusă creșterii axei\) sau pe o singură axă cu valorile: `translateX()` și `translateY()`.
 
 ### Originea transformării
 
-Pentru toate transformările de mai sus ați putut observa că au originea transformării centrul geometric al  elementului înainte de transformare. Pentru a schimba originea, folosim următoarea proprietate:
+Pentru toate transformările de mai sus ați putut observa că au originea transformării centrul geometric al elementului înainte de transformare. Pentru a schimba originea, folosim următoarea proprietate:
 
 ```css
 .my-element {
@@ -192,7 +197,7 @@ Combinând primele două activități puteți obține exemple foarte interesante
 
 Durată: 20' \| Metodă: prelegere \| Materiale: videoproiector
 
-Animațiile CSS permit animarea elementelor între mai multe stări \(_keyframes_ - cadru cheie\) fără folosirea JavaScript sau alte tehnologii web. Animațiile CSS sunt mai performante decât dacă sunt scrise folosind alte limbaje. Sintaxa pentru declararea unei animații pe un element este similară cu cea pentru tranziții, având proprietați precum `animation-duration` și `animation-delay`, dar și prescurtarea `animation` care primește mai multe argumente.
+Animațiile CSS permit animarea elementelor între mai multe stări \(_keyframes_ - cadre cheie\) fără folosirea JavaScript sau alte tehnologii web. Animațiile CSS sunt mai performante decât dacă sunt scrise folosind alte limbaje. Sintaxa pentru declararea unei animații pe un element este similară cu cea pentru tranziții, având proprietați precum `animation-duration` și `animation-delay`, dar și prescurtarea `animation` care primește mai multe argumente.
 
 Pentru exemplele următoare, folosim HTMLul următor.
 
@@ -256,7 +261,7 @@ Regula `@keyframes` specifică numele animației \(**color-animation** la noi\) 
 }
 ```
 
-Pentru această sintaxă trebuie să menționăm oricâte momente în procente între **0%** și **100%** în interiorul cărura schimbăm valoarea proprietăților animate. Aceste momente sunt calculate procentual față de _durația animației_ specificată pe element. Fără să specificăm durata, animația nu va fi executată în nici unul din cazurile de mai sus.
+Pentru această sintaxă putem să menționăm oricâte momente în procente între **0%** și **100%** în interiorul cărora schimbăm valoarea proprietăților animate. Aceste momente sunt calculate procentual față de _durația animației_ specificată pe element. Fără să specificăm durata, animația nu va fi executată în nici unul din cazurile de mai sus.
 
 Nu este necesar să avem aceeași proprietate pentru toate momentele, ci putem anima diferite proprietăți alternativ. Ce recomandăm este ca proprietățile să aibă aceleași valori la 0% și la 100%, pentru a fi fluide când animațiile se repetă.
 
@@ -325,4 +330,9 @@ Pe lângă keyframes-urile specifice folosite, puteți observa că am folosit c�
 * **animation-delay**: delay-ul de la încărcarea paginii până la începerea animației
 * **animation-iteration-count**: numerul de repetări al animației sau **infinite**
 * **animation-direction**: direcția în care este rulată animația \(**normal**, **reverse**, **alternate**\). Când este **reverse**, este rulată de la coadă la cap, iar **alternate** este alternativ **normal** și **reverse**.
+* **animation**: cuprinde cele 6 proprități menționate mai sus, în ordinea: `name duration (timing-function) (delay) (iteration-count) (direction)`
+
+{% hint style="info" %}
+Delay-ul poate lua și valori negative. Testați pe una dintre animațiile de mai sus pentru a vedea cum se comportă, folosind un delay negativ mai mic decât durata.
+{% endhint %}
 

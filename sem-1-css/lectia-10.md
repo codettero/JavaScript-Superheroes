@@ -10,7 +10,7 @@ Durată: 20' \| Metodă: prelegere \| Materiale: videoproiector
 
 Total: 10 pct \(2 pct din oficiu\)
 
-#### Partea 1 \(5 puncte\) - 20 întrebări grilă a câte 0.25 fiecare
+#### Partea 1 \(5 puncte\) - 15 întrebări grilă a câte 0.33 fiecare, 2 bonus
 
 1. Cum adăugăm CSS dintr-un fișier extern într-o pagină HTML?
 
@@ -40,9 +40,9 @@ Total: 10 pct \(2 pct din oficiu\)
 
    c. stylesheet
 
-   d. css=
+   d. css
 
-4. Cum putem seta culoarea textului pentru toate elementele header?
+4. Cum putem seta culoarea textului pentru toate elementele header h1?
 
    a. h1.all {color: green;}
 
@@ -112,11 +112,81 @@ Total: 10 pct \(2 pct din oficiu\)
 
     d. weight: bold;
 
+11. Cum putem roti un element cu 30 de grade în sensul acelor de ceasornic?
+
+    a. transform: rotate\(-30deg\);
+
+    b. transform: rotate\(30rad\);
+
+    c. transform: rotate\(30deg\);
+
+    d. transition: rotate\(30deg\);
+
+12. Cu ce proprietate din animație putem seta numărul de repetări?
+
+    a. animation-count
+
+    b. animation-iteration-count
+
+    c. animation-timing-function
+
+    d. animation-iterations
+
+13. Care dintre următoarele se referă la dimensiunea de 70% din lățimea ecranului?
+
+    a. 70%width
+
+    b. 70vw
+
+    c. 70%vw
+
+    d. 0.7vw
+
+14. Cum putem selecta starea de hover a unui element cu clasa demo?
+
+    a. .demo-&gt;hover
+
+    b. \#demo:hover
+
+    c. .demo:hover
+
+    d. .demo hover
+
+15. Care tip de poziție aliniază relativ la **ecran**?
+
+    a. fixed
+
+    b. absolute
+
+    c. relative
+
+    d. static
+
+16. Care este ordinea straturilor din box-model, de la interior spre experior?
+
+    a. content, border, padding, margin
+
+    b. content, padding, border, margin
+
+    c. margin, border, padding, content
+
+    d. content, padding, margin, border
+
+17. Ce semnificație are următorul selector? `.div1 > .div2`
+
+    a. selectează toți copiii lui div1
+
+    b. selectează toți copiii lui div1, direcți și indirecți, cu clasa div2
+
+    c. selectează toți copiii direcți ai lui div1, care au clasa div2
+
+    d. selectează toate elementele cu clasa div2 care sunt precedate de un element cu clasa div1
+
 #### Partea a 2-a \(3 puncte\)
 
-1. \(1pct\) Scrieți CSS-ul necesar pentru a aplica stilizare asupra unui paragraf cu id-ul demo, unde culoarea textului să fie albastru, textul să fie subliniat, italic și îngroșat, fiecare cuvânt să înceapă cu literă mare, cu aliniere justify și spațiul dintre cuvinte de 5px.
-2. \(1pct\)
-3. \(1pct\)
+1. \(1pct\) Scrieți CSS-ul necesar pentru a aplica stilizare asupra unui paragraf cu id-ul `demo`, unde culoarea textului să fie albastru, textul să fie subliniat, italic și îngroșat, fiecare cuvânt să înceapă cu literă mare, cu aliniere justify și spațiul dintre litere de 5px.
+2. \(1pct\) Scrieți două reguli CSS pentru un buton cu clasa `btn` care sa aibă culoarea roșie, font-size 24px, border solid de 5px roz, iar când este cineva cu mouse-ul deasupra butonului să aibă culoarea albastră, font-size 36px și border solid de 3px negru.
+3. \(1pct\) Scrieți codul pentru o animație a unui element div cu clasa `growing-box` care să modifice înălțimea și lățimea elementului și să îl rotească cu 15 grade la 50%. Animația se va numi grow, va dura 6s și se va repeta la infinit.
 
 ## Activitate 2 - Flexbox
 
