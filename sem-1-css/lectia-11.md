@@ -1,5 +1,5 @@
 ---
-description: 'Durată: 50'' | Cuvinte cheie: flexbox'
+description: 'Durată: 50'' | Cuvinte cheie: tranziții, transformări, animații'
 ---
 
 # Lecția 10

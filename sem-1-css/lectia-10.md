@@ -1,5 +1,5 @@
 ---
-description: 'Durată: 50'' | Cuvinte cheie: tranziții, transformări, animații'
+description: 'Durată: 50'' | Cuvinte cheie: flexbox, media queries'
 ---
 
 # Lecția 11
