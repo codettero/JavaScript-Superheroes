@@ -2,16 +2,11 @@
 description: 'Durată: 50'' | Cuvinte cheie: tranziții, transformări, animații'
 ---
 
-# Lecția 10
+# Lecția 11
 
-## Activitate 1 - Recapitulare
+## Activitate 2 - Quiz
 
-Durată: 5' \| Metodă: prelegere \| Materiale: videoproiector
-
-1. Explicați diferența între conținut, padding, margin și border.
-2. La ce se referă `3em`? Dar `65vh`? Dar `10vw`?
-3. Ce stilizare puneți pe un paragraf dacă doriți ca textul să fie galben, îngroșat și subliniat. Dar ca textul să fie scris cu litere mari?
-4. Ce efect are proprietatea float? Care sunt valorile pe care le poate lua?
+Durată: 20' \| Metodă: prelegere \| Materiale: videoproiector
 
 ## Activitate 2 - Flexbox
 
