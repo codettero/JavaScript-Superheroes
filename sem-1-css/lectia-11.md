@@ -13,7 +13,7 @@ Durată: 5' \| Metodă: prelegere \| Materiale: videoproiector
 3. Ce stilizare puneți pe un paragraf dacă doriți ca textul să fie galben, îngroșat și subliniat. Dar ca textul să fie scris cu litere mari?
 4. Ce efect are proprietatea float? Care sunt valorile pe care le poate lua?
 
-## Activitate 2 Tranziții
+## Activitate 2 - Tranziții
 
 Durată: 15' \| Metodă: prelegere \| Materiale: videoproiector
 
@@ -98,9 +98,95 @@ Ca un ultim pas, putem specifica folosind proprietatea tranzition diferite tranz
 }
 ```
 
-## Activitatea 3 Transformări
+## Activitatea 3 - Transformări
 
 Durată: 10' \| Metodă: prelegere \| Materiale: videoproiector
+
+Transformările CSS vă permit să mutați, rotiți, scalați și să puneți în perspectivă elemente. Există transformări CSS 2D și 3D, dar noi le vom aborda doar pe primele. Vom da exemplu de trei transformări asupra elementului următor.
+
+```markup
+<div class="my-element"></div>
+```
+
+### Scale
+
+```css
+.my-element {
+    background: #dddddd;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    transform: scaleX(3);
+}
+```
+
+Deși elementul de mai sus are aceeași valoare pentru înălțime și lățime, aplicăm o transformare cu factorul 3 pe axa X care îl scalează de 3 ori. Există, desigur, și valoarea `scaleY()` pentru transformări pe axa Y.
+
+### Rotate
+
+```css
+.my-element {
+    background: #dddddd;
+    width: 100px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    transform: rotate(-30deg);
+}
+```
+
+Transformarea `rotate()` primește un număr real pozitiv \(în sensul acelor de ceasornic\) sau negativ \(în sensul opus acelor de ceasornic\) pentru care unitatea de masura poate fi `deg` \(**degrees** = grade hexazecimale\) sau `rad` \(**radians** = radiani\).
+
+### Translate
+
+```css
+.my-element {
+    background: #dddddd;
+    width: 100px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    transform: translate(100px, 20px);
+}
+```
+
+Transformarea de mai sus translatează \(mută\) elementul cu 100px pe axa X și 20px pe axa Y. Amintim că, într-o pagină web, axa X crește de la stânga la dreapta iar **axa Y crește de sus în jos**. Putem realiza translații și cu valori negative \(vor merge în direcția opusă creșterii axei\) sau pe o singură axă cu valorile: `translateX()` și `translateY()`.
+
+### Originea transformării
+
+Pentru toate transformările de mai sus ați putut observa că au originea transformării centrul geometric al  elementului înainte de transformare. Pentru a schimba originea, folosim următoarea proprietate:
+
+```css
+.my-element {
+    transform: rotate(30deg);
+    transform-origin: 20% 40%;
+}
+```
+
+### Transformări și tranziții
+
+Combinând primele două activități puteți obține exemple foarte interesante, ca cel de mai jos.
+
+```css
+.my-element {
+    background: #dddddd;
+    width: 100px;
+    height: 200px;
+    margin: 40px auto;
+    display: block;
+    transform: rotate(0);
+    transition: transform 1s, background 1.3s, width 2s;
+}
+
+.my-element:hover {
+    background: #cc0000;
+    width: 400px;
+    transform: rotate(180deg);
+}
+```
+
+![](../.gitbook/assets/output2.gif)
 
 
 
