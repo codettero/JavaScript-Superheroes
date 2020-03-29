@@ -243,11 +243,11 @@ Pentru a exemplifica utilizarea lor, vom utiliza acelasi markup ca la activitate
 }
 ```
 
-Putem observa că sintaxa unui query este de forma `@media screen and (...) { }` în interiorul căreia putem scrie reguli css după cum ne-am obișnuit, dar care să fie valide doar în anumite situații, aici atunci când ecranul are lățimea cel puțin 420px. Rezultatul este că, pe un ecran mai mic de 420px, copii sunt aliniați în coloană, iar pe unul mai mare în linie, după cum putem vedea în imaginile următoare.
+Putem observa că sintaxa unui query este de forma `@media screen and (...) { }` în interiorul căreia putem scrie reguli css după cum ne-am obișnuit, dar care să fie valide doar în anumite situații, aici atunci când ecranul are lățimea cel puțin 420px. Rezultatul este că, pe un ecran mai mic de 420px, copii sunt aliniați în coloană, iar pe unul mai mare în linie, după cum putem vedea în imaginile următoare. Pentru a testa ambele dimensiuni, puteți trage de window-ul browserului.
 
-![515px l&#x103;&#x21B;ime](../.gitbook/assets/screenshot-from-2020-03-29-12-27-02.png)
+![515px l&#x103;&#x21B;ime, direc&#x21B;ia row](../.gitbook/assets/screenshot-from-2020-03-29-12-27-02.png)
 
-![400px l&#x103;&#x21B;ime](../.gitbook/assets/screenshot-from-2020-03-29-12-27-32.png)
+![400px l&#x103;&#x21B;ime, direc&#x21B;ia coloan&#x103;](../.gitbook/assets/screenshot-from-2020-03-29-12-27-32.png)
 
 ### Concluzie
 
