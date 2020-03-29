@@ -8,6 +8,8 @@ description: 'Durată: 50'' | Cuvinte cheie: linkuri, butoane'
 
 Durată: 25' \| Metodă: evaluare formativă, observarea sistematică a activității și a comportamentului elevilor \| Materiale: videoproiector
 
+Total: 10 pct \(2 pct din oficiu\)
+
 #### Partea 1 \(4 puncte\) - 8 întrebări grilă a câte 0.5 fiecare
 
 1. Ce nu se adaugă în cadrul etichetei `head`?
@@ -106,7 +108,7 @@ Durată: 25' \| Metodă: evaluare formativă, observarea sistematică a activit�
 
    e. &lt;h7&gt; &lt;/h7&gt;
 
-#### Part 2 \(4 puncte\)  
+#### Partea a 2-a \(4 puncte\)  
 
 1. **\(1 pct\)** Scrieți eticheta și atributele necesare pentru a adăuga imaginea "cat.png" în fișierul `index.html`. Specificațiile imaginii sunt: lățime de 300 pixeli, înălțime de 550 pixeli, titlu "Just a cat", descriere dacă imaginea nu e disponibilă "Imaginea nu a putut fi găsită". Structura folderului este următoarea:
 

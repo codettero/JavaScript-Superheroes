@@ -4,9 +4,119 @@ description: 'Durată: 50'' | Cuvinte cheie: flexbox, media queries'
 
 # Lecția 11
 
-## Activitate 2 - Quiz
+## Activitate 1 - Quiz
 
 Durată: 20' \| Metodă: prelegere \| Materiale: videoproiector
+
+Total: 10 pct \(2 pct din oficiu\)
+
+#### Partea 1 \(5 puncte\) - 20 întrebări grilă a câte 0.25 fiecare
+
+1. Cum adăugăm CSS dintr-un fișier extern într-o pagină HTML?
+
+   a. &lt;stylesheet&gt; stylecss &lt;/stylesheet&gt;
+
+   b. &lt;link rel="stylesheet" type="text/css" src="style.css"&gt;
+
+   c. &lt;link rel="stylesheet" type="text/css" href="style.css"&gt;
+
+   d. &lt;style&gt; &lt;/style&gt;
+
+2. Care dintre următoarele sintaxe CSS este cea corectă?
+
+   a. {body; color: black;}
+
+   b. {body: color: black;}
+
+   c. body.color=black;
+
+   d. body {color: black;}
+
+3. Ce atribut folosim pentru a adăuga CSS in line?
+
+   a. style
+
+   b. inline
+
+   c. stylesheet
+
+   d. css=
+
+4. Cum putem seta culoarea textului pentru toate elementele header?
+
+   a. h1.all {color: green;}
+
+   b. all.h1 {color: green;}
+
+   c. h1 {color: green;}
+
+   d. &lt;h1 style="color: green;"&gt; &lt;/h1&gt;
+
+5. Cu ce proprietate CSS putem seta dimensiunea textului?
+
+   a. font-face
+
+   b. text-size
+
+   c. font-size
+
+   d. font-style
+
+6.  Cum selectăm un element cu id-ul demo?
+
+   a. .demo
+
+   b. id.demo
+
+   c. \#demo
+
+   d. id\#demo
+
+7. Cum selectăm un element cu clasa demo?
+
+   a. .demo
+
+   b. class.demo
+
+   c. \#demo
+
+   d. class\#demo
+
+8. Cum selectăm toate elementele paragraf din cadrul unui div cu id-ul demo?
+
+   a. demo + p
+
+   c. .demo p
+
+   c. demo\#p
+
+   d. \#demo p
+
+9. Cum adăugăm unui element bordură cu următoarele specificații: în partea de sus 20px, în partea dreaptă 10px, în partea de jos 5px, iar în stânga 1 px?
+
+   a. border-width: 20px 10px 5px 1px;
+
+   b. border-width: 20px 5px 10px 1px;
+
+   c. border-width: 20px, 5px, 10px, 1px;
+
+   d. border-width: 20px, 10px, 5px, 1px;
+
+10. Cum putem face un text să fie bolduit?
+
+    a. font-weight: bold;
+
+    b. style: bold;
+
+    c. font: bold;
+
+    d. weight: bold;
+
+#### Partea a 2-a \(3 puncte\)
+
+1. \(1pct\) Scrieți CSS-ul necesar pentru a aplica stilizare asupra unui paragraf cu id-ul demo, unde culoarea textului să fie albastru, textul să fie subliniat, italic și îngroșat, fiecare cuvânt să înceapă cu literă mare, cu aliniere justify și spațiul dintre cuvinte de 5px.
+2. \(1pct\)
+3. \(1pct\)
 
 ## Activitate 2 - Flexbox
 
@@ -213,7 +323,7 @@ Când părintele este mai mare pe axa secundară \(direcția perpendiculară dir
 
 ![align-items: flex-start](../.gitbook/assets/screenshot-from-2020-03-29-12-00-22.png)
 
-## Activitatea 3 - Media queries
+## Activitate 3 - Media queries
 
 Durată: 5' \| Metodă: prelegere \| Materiale: videoproiector
 

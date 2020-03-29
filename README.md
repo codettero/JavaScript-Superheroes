@@ -4,7 +4,7 @@
 
 Broșura _JavaScript Superheroes_ vine în sprijinul profesorilor de informatică din toată țara și propune predarea unui opțional la clasele de mate-info.
 
-Broșura este creată și pusă la dispoziție publicului de către [Asociația Codette](https://codette.ro), în urma organizării a 5 workshop-uri de web development în 4 orașe din România. Voluntarii noștri, [Carmen-Gabriela Popa](https://www.linkedin.com/in/carmengpopa/), [Valentin Ionită](https://www.linkedin.com/in/valentin-ionita/), și [Andrei Antal](https://www.linkedin.com/in/andreiantal/), alături de Silvia Bălan și ..., au lucrat la dezvoltarea, verificarea și îmbunătățirea acesteia.
+Broșura este creată și pusă la dispoziție publicului de către [Asociația Codette](https://codette.ro), în urma organizării a 5 workshop-uri de web development în 4 orașe din România. Voluntarii noștri, [Carmen-Gabriela Popa](https://www.linkedin.com/in/carmengpopa/), [Valentin Ionită](https://www.linkedin.com/in/valentin-ionita/), și [Andrei Antal](https://www.linkedin.com/in/andreiantal/), alături de Silvia Bălan, au lucrat la dezvoltarea, verificarea și îmbunătățirea acesteia.
 
 ## Cunoștințe anterioare
 
