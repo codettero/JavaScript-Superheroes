@@ -10,7 +10,7 @@ Durată: 20' \| Metodă: prelegere \| Materiale: videoproiector
 
 ## Activitate 2 - Flexbox
 
-Durată: 30' \| Metodă: prelegere \| Materiale: videoproiector
+Durată: 25' \| Metodă: prelegere \| Materiale: videoproiector
 
 `Flexbox Layout`, o specificație CSS modernă din 2017, are scopul de aranja, alinia și distribui spațiul elementelor dintr-un container, atunci când dimensiunile lor sunt necunoscute sau dinamice \(conținut adăugat folosind JavaScript, de exemplu\). Ideea care stă la baza flexbox este de a da abilitatea unui container de a altera înălțimea, lățimea și ordinea copiilor săi în mod flexibil \(de unde și numele\) pentru a ocupa spațiul de pe ecranul respectiv cât mai eficient. Vom încerca să descriem un set minimal de proprietăți, suficient pentru a crea diferite layouts, utile aplicațiilor voastre viitoare. Pentru un tutorial complex și complet despre flexbox, verificați [acest link](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
@@ -42,7 +42,7 @@ Vom porni de la următorul exemplu. Pentru fiecare test de mai jos, vom folosi o
 }
 
 .child:nth-child(odd) {
-    background-color: inherit;
+    background-color: inherit; /* culoarea de background a parintelor */
 }
 ```
 
@@ -50,7 +50,7 @@ Rezultatul va fi similar cu cel de mai jos.
 
 ![](../.gitbook/assets/screenshot-from-2020-03-29-10-41-52.png)
 
-Adăugând proprietatea `display: flex` asupra părintelui declarăm layoutul său ca flex. Proprietatea, `flex: 1` de pe copii distribuie spațiul rămas din părinte în mod egal pentru fiecare copil \(deoarece fiecare copil are valoarea 1\).
+Adăugând proprietatea `display: flex` asupra părintelui declarăm layoutul său ca flex. Proprietatea, `flex: 1` de pe copii distribuie spațiul rămas din părinte în mod egal pentru fiecare copil \(deoarece fiecare copil are valoarea 1\). Astfel, se observă că fiecare div are aceeași lățime, fără a fi specificată de noi.
 
 ### Proprietatea flex
 
@@ -80,7 +80,7 @@ Folosind CSS-ul următor \(înlocuind CSS-ul de mai sus\), veți avea rezultatul
 
 ![](../.gitbook/assets/screenshot-from-2020-03-29-11-00-40.png)
 
-Deoarece elementul cu clasa .one are proprietatea flex: 2, el va lua \(sau va încerca să ia\) de două ori mai mult spațiu decât ceilalți copii. Să explicăm numeric folosind dimensiunile de mai sus. Elementul **one** are `width=141px` iar toate celelalte au `width=80px`. Dar `141 / 80 = 1.76 != 2`, după cum ne așteptam, deci ce se întâmplă oare? Spațiul minimal necesar fiecărui element child este puțin mai mare decât lățimea unui caracter \(textul elmentului\) adunată cu paddingul de 20px \(stânga + dreapta\). Spațiul rămas este distribuit elementelor conform regulii flex, astfel `(141 - 21) / (80 - 21) = 2.03 ~ 2`.
+Deoarece elementul cu clasa `.one` are proprietatea flex: 2, el va lua \(sau va încerca să ia\) de două ori mai mult spațiu decât ceilalți copii. Să explicăm numeric folosind dimensiunile de mai sus. Elementul **one** are `width=141px` iar toate celelalte au `width=80px`. Dar `141 / 80 = 1.76 != 2`, după cum ne așteptam, deci ce se întâmplă oare? Spațiul minimal necesar fiecărui element child este puțin mai mare decât lățimea unui caracter \(textul elmentului\) adunată cu paddingul de 20px \(stânga + dreapta\). Spațiul **rămas** este distribuit elementelor conform regulii flex, astfel `(141 - 21) / (80 - 21) = 2.03 ~ 2`.
 
 ### Proprietatea flex-direction
 
@@ -108,11 +108,11 @@ Proprietatea flex-direction stabilește **direcția** \(orizontal sau vertical\)
 
 ### Proprietatea flex-wrap
 
-Dacă mărim padding-ul lateral pe care îl are fiecare copil, astfel încât să nu aibă suficient loc în părinte, copiii vor depași dimensiunea părintelui \(overflow\), ca în poza de mai jos.
+Dacă mărim padding-ul lateral pe care îl are fiecare copil, astfel încât să nu aibă suficient loc în părinte, copiii vor depași dimensiunea părintelui \(overflow\), ca în poza de mai jos. Atunci se poate da scroll pe orizontală.
 
 ![](../.gitbook/assets/screenshot-from-2020-03-29-11-20-56.png)
 
-Pentru a rezolva acest lucru și a păstra toate elementele în ecran, folosim proprietatea `flex-wrap` cu valoarea non-default `wrap` - elementele se vor înfășura pe următoarea linie \(sau coloană dacă aceasta era direcția setată\). Pentru a testa acest lucru- folosiți CSS-ul de mai jos.
+Pentru a rezolva acest lucru și a păstra toate elementele în ecran, folosim proprietatea `flex-wrap` cu valoarea non-default `wrap` - elementele se vor înfășura pe următoarea linie \(sau coloană dacă aceasta era direcția setată\). Pentru a testa acest lucru, folosiți CSS-ul de mai jos.
 
 ```css
 .parent {
@@ -213,7 +213,9 @@ Când părintele este mai mare pe axa secundară \(direcția perpendiculară dir
 
 ![align-items: flex-start](../.gitbook/assets/screenshot-from-2020-03-29-12-00-22.png)
 
-Activitatea 3 - Media queries
+## Activitatea 3 - Media queries
+
+Durată: 5' \| Metodă: prelegere \| Materiale: videoproiector
 
 Media queries sunt o tehnică CSS care permite să definim CSS care va fi aplicat doar în cazul în care anumite proprietăți ale ecranului sunt aplicabile. Folosind media queries bazate pe lățimea ecranului stă la baza designului responsive prin care puteți crea un layout pentru desktop și unul pentru mobile \(sau oricâte layouturi intermediare\).
 
@@ -252,8 +254,4 @@ Putem observa că sintaxa unui query este de forma `@media screen and (...) { }`
 ### Concluzie
 
 Pentru a vă crea o serie de layouts utile site-urilor voastre, vă recomandăm să folosiți o combinație de flexbox și media queries. Posibilitățile pe care le oferă împreună sunt diverse și ușor de implementat și vă vor ajuta enorm.
-
-
-
-
 
