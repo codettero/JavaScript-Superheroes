@@ -118,5 +118,5 @@ De exemplu, să considerăm paragraful de mai jos cu textul "Wonderwoman is a su
 <p> Wonderwoman is a <span>superhero</span>.</p>
 ```
 
-
+![](../.gitbook/assets/copy-of-logo-techtor-05.png)
 

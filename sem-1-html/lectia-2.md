@@ -208,3 +208,5 @@ Atributele pot fi adăugate în orice ordine, despărțite prin spații. Nu este
 3. Modificați lățimea și înălțimea imaginii cu ajutorul atributelor. Încercați diverse valori pentru a vedea cum se deformează, imaginea nefiind scalată \(nu se păstrează proporțiile între lungime și lățime\).
 4. Adăugați bordură imaginii și testați diverse valori pentru grosimea acesteia.
 
+![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+

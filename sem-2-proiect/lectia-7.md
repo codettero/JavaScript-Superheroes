@@ -12,5 +12,7 @@ Durată: 30' \| Metodă: - \| Materiale: -
 
 Durată: 20' \| Metodă: prelegere \| Materiale: -
 
+![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+
 
 

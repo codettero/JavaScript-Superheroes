@@ -171,5 +171,5 @@ Tipul liste poate fi poziționat, după cum am văzut până acum, pe întreaga 
 1. Adăugați în conținut o listă ordonată cu minim 5 elemente cu materiile pe care le studiați la școală. Adăugați și un titlu listei, folosind heading-ul h5. Testați toate tipurile de marcatori pentru lista ordonată.
 2. Schimbați lista adăugată din ordonată în neordonată. Testați toate tipurile de marcatori pentru lista neordonată. Adăugați 2 elemente în plus.
 
-
+![](../.gitbook/assets/copy-of-logo-techtor-05.png)
 

@@ -142,3 +142,5 @@ Site-ul arată acum astfel. De unde vine acest text? Deschideți `src/app/app.co
 
 Felicitări! Acum putem începe dezvoltarea aplicației folosind Angular.
 
+![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+

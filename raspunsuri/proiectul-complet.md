@@ -572,3 +572,5 @@ window.onkeydown = function(event) {
 
 ```
 
+![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+

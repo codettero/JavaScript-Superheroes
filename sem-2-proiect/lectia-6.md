@@ -147,3 +147,5 @@ Putem naviga între supereroi și prin intermediul butoanelor de la tastatură, 
 
 Pentru a funcționa, adăugați pe liniile 3 și 5 apeluri la funcțiile nextHero\(\) și previousHero\(\) și apoi testați navigarea din tastatură.
 
+![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+

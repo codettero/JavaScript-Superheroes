@@ -122,7 +122,5 @@ Ultimele 3 linii din CSS fac același lucru, însă iar sunt scrise duplicat pen
 
 ![](../.gitbook/assets/group-7.png)
 
-\*\*\*\*
-
-
+![](../.gitbook/assets/copy-of-logo-techtor-05.png)
 

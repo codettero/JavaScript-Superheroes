@@ -175,3 +175,5 @@ Durată: 10' \| Metodă: prelegere \| Materiale: -
 
 Conform exemplului de mai sus, instanțiați o clasă pentru numere complexe. Clasa are numele **ComplexNumber** și primește prin constructor două proprietăți, **real și imaginar**. Implementați o metodă care adună două numere complexe și una care le înmulțește și testați codul în consolă, linkându-l la o pagină HTML.
 
+![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+

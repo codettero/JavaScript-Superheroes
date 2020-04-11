@@ -40,3 +40,5 @@ Rezultatul final este:
 Păstrați folderul și codul folosit pentru acest proiect. Vom continua semestrul următor să lucrăm pe baza lui.
 {% endhint %}
 
+![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+

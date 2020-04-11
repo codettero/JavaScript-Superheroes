@@ -30,7 +30,7 @@ Durată: 10' \| Metode: explicație \| Materiale: videoproiector
 
 Am menționat anterior că o pagină HTML este alcătuită din etichete \(sau tag-uri\). Acestea sunt recunoscute de browser și interpretate ca atare, formatând conținutul într-un anumit fel. Structura standard a etichetelor este următoarea:
 
-![Exemplu de tag \(etichet&#x103;\).](../.gitbook/assets/unnamed.png)
+![](../.gitbook/assets/untitled_artwork.png)
 
 Etichetele sunt marcate de semnele `<` și `>`. De exemplu, `<title>` este o etichetă care marchează titlul unei pagini web. Eticheta de titlu are un început `<title>` și un sfârșit `</title>`, iar între acestea două se află conținutul etichetei, și anume titlul propriu-zis al paginii web.
 
@@ -61,7 +61,7 @@ Ca și conținut putem avea: text și media \(organizat în paragrafe, imagini, 
 
 Ca un rezumat, structura de bază a unei pagini HTML este evidențiată în imaginea următoare:
 
-![](https://lh5.googleusercontent.com/klUpU9iCEI9l8of8_kSHC4dgCsbm76zfcXlTPeFVuXS32cU9R2LWiJ4RvS4jqbVvJSz7r6vlq0-lLb1rGaY67o-eemXVJIUJcRUcuHGn6EoVp_P1tNArhH6AHDshugq6GuE6fINP)
+![](../.gitbook/assets/untitled_artwork-2.png)
 
 ## Activitatea 3 - Exercițiu
 
