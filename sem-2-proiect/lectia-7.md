@@ -51,7 +51,9 @@ Frameworkurile web susțin împreună că aceste inconveniente pot fi rezolvate 
 * **izolare**, adică proprietatea de a izola întreaga funcționalitate a unui părți mici din proiect \(un buton, de exemplu\) într-o componentă. Acest lucru ne permite să verificăm un subset mic de linii de cod în încercarea rezolvării bugurilor\)
 * **reutilizarea** **componentelor**, adică folosirea componentelor ca template-uri pentru \(nu trebuie să repeți tot codul pentru fiecare "erou" din proiectul tău - este suficient să îl scrii o singură dată\).
 
-Imaginea de mai jos expune mai expresiv schimbarea de paradigmă.
+Imaginea de mai jos expune mai expresiv schimbarea de paradigmă:
+
+![](../.gitbook/assets/untitled_artwork.jpg)
 
 ![](../.gitbook/assets/copy-of-logo-techtor-05.png)
 
