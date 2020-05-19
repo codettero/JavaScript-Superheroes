@@ -110,7 +110,7 @@ Rezultatul va fi:
 
 ![](../.gitbook/assets/screenshot-from-2020-03-23-19-35-14.png)
 
-Înainte de a descrie noua stilizare, putem remarca că unele valori sunt de forma `1em`, această unitate de măsură \(**em**\) este relativă la mărimea textului \(**font-size**, dacă este setată\). Spre exemplu, `2em` înseamnă de două ori mai mare decât mărimea textului. De asemenea, există o valoarea `vw`\(viewport width\), care, împreună cu `vh`\(ciewport height\), sunt `viewport units` \(unități de măsură relative la mărimea ecranului\).  Spre exemplu, **10vw** este egal cu 10% din lățimea ecranului, iar **20vh** este egal cu 20% din înălțimea ecranului.
+Înainte de a descrie noua stilizare, putem remarca că unele valori sunt de forma `1em`, această unitate de măsură \(**em**\) este relativă la mărimea textului \(**font-size**, dacă este setată\). Spre exemplu, `2em` înseamnă de două ori mai mare decât mărimea textului. De asemenea, există o valoarea `vw`\(viewport width\), care, împreună cu `vh`\(viewport height\), sunt `viewport units` \(unități de măsură relative la mărimea ecranului\).  Spre exemplu, **10vw** este egal cu 10% din lățimea ecranului, iar **20vh** este egal cu 20% din înălțimea ecranului.
 
 Proprietățile folosite în exemplu sunt:
 

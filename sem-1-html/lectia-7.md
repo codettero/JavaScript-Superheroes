@@ -37,7 +37,7 @@ Durată: 20' \| Metodă: demonstrație, conversație, exercițiu \| Materiale: v
 
 ### Elemente semantice
 
-În HTML, există elemente semantice, al căror nume "are sens". Prin definirea acestor elemente, oricine poate înțelege cu ușurință despre ce este vorba în conținut. De exemplu: `<form>, <table>, <img>`. 
+În HTML, există elemente semantice al căror nume "are sens", este intuitiv și explicativ. Prin definirea acestor elemente, oricine poate înțelege cu ușurință despre ce este vorba în conținut. De exemplu: `<form>, <table>, <img>`. 
 
 Sigur cunoașteți elementele semantice menționate anterior. În continuare vom discuta despre elemente noi.
 

@@ -61,7 +61,7 @@ De unde apare acest text? Deschideți hero.component.html și veți vedea paragr
 Ați observat că în hero.component.html am scris direct eticheta `<p></p>`, fără să scriem structura cu care eram obișnuiți, cu head și body. În interiorul componentelor \(app component și cele create de noi - momentan doar hero component\) vom scrie conținutul componentei direct, deci nu avem nevoie să introducem head și body.
 {% endhint %}
 
-Dacă vă uitați în meniul din partea stângă, veți vedea mai jos fișierul `index.html`, car conține o structură obișnuită de pagină html, cu etichetele `html, head și body`.
+Dacă vă uitați în meniul din partea stângă, veți vedea mai jos fișierul `index.html`, care conține o structură obișnuită de pagină html, cu etichetele `html, head și body`.
 
 ![](../.gitbook/assets/screenshot-2020-03-19-at-19.06.06.png)
 

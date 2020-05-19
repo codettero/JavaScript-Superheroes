@@ -192,7 +192,7 @@ Total: 10 pct \(2 pct din oficiu\)
 
 Durată: 25' \| Metodă: prelegere \| Materiale: videoproiector
 
-`Flexbox Layout`, o specificație CSS modernă din 2017, are scopul de aranja, alinia și distribui spațiul elementelor dintr-un container, atunci când dimensiunile lor sunt necunoscute sau dinamice \(conținut adăugat folosind JavaScript, de exemplu\). Ideea care stă la baza flexbox este de a da abilitatea unui container de a altera înălțimea, lățimea și ordinea copiilor săi în mod flexibil \(de unde și numele\) pentru a ocupa spațiul de pe ecranul respectiv cât mai eficient. Vom încerca să descriem un set minimal de proprietăți, suficient pentru a crea diferite layouts, utile aplicațiilor voastre viitoare. Pentru un tutorial complex și complet despre flexbox, verificați [acest link](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+`Flexbox Layout`, o specificație CSS modernă din 2017, are scopul de aranja, alinia și distribui spațiul elementelor dintr-un container, atunci când dimensiunile lor sunt necunoscute sau dinamice \(conținut adăugat folosind JavaScript, de exemplu\). Ideea care stă la baza flexbox este de a da abilitatea unui container de a altera înălțimea, lățimea și ordinea copiilor săi în mod flexibil \(de unde și numele\) pentru a ocupa spațiul de pe ecranul respectiv cât mai eficient. Vom încerca să descriem un set minimal de proprietăți, suficient pentru a crea diferite layouts, utile aplicațiilor voastre viitoare. Pentru un tutorial complex și complet despre flexbox, accesați [acest link](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
 ### Exemplu de bază
 
@@ -397,7 +397,7 @@ Când părintele este mai mare pe axa secundară \(direcția perpendiculară dir
 
 Durată: 5' \| Metodă: prelegere \| Materiale: videoproiector
 
-Media queries sunt o tehnică CSS care permite să definim CSS care va fi aplicat doar în cazul în care anumite proprietăți ale ecranului sunt aplicabile. Folosind media queries bazate pe lățimea ecranului stă la baza designului responsive prin care puteți crea un layout pentru desktop și unul pentru mobile \(sau oricâte layouturi intermediare\).
+Media queries sunt o tehnică CSS care permite să definim CSS care va fi aplicat doar în cazul în care anumite proprietăți ale ecranului sunt aplicabile. Folosirea dea media queries stă la baza designului responsive prin care puteți crea un layout pentru desktop și unul pentru mobile \(sau oricâte layouturi intermediare\).
 
 Pentru a exemplifica utilizarea lor, vom utiliza acelasi markup ca la activitatea trecută, alături de CSS-ul de mai jos.
 

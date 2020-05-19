@@ -249,7 +249,7 @@ culori.forEach(function(elem) {
 ```
 
 {% hint style="warning" %}
-Funcția sort ordonează crescător alfanumeric, adică dacă vrem să sortăm numerele de la 0 la 10, vom avea output-ul: \[0, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9\] deoarece primul caracter luat în considerare pentru 10 este 1, care este mai mic decât 2. Pentru a sorta numerele corect, va trebui să definim propriul comparator despre care vom vorbi într-o altă lecție.
+Funcția sort ordonează crescător alfanumeric, adică dacă vrem să sortăm numerele de la 0 la 10, vom avea output-ul: \[0, 1, 10, 2, 3, 4, 5, 6, 7, 8, 9\] deoarece primul caracter luat în considerare pentru 10 este 1, care este mai mic decât 2. Pentru a sorta numerele corect, va trebui să definim propriul comparator despre care vom vorbi într-o altă lecție.
 {% endhint %}
 
 {% hint style="warning" %}

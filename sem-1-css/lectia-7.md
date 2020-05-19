@@ -55,7 +55,7 @@ Există trei modalități de a adăuga CSS în proiectele noastre.
 </html>
 ```
 
-## Activitatea 2 - Selectori si sintaxa CSS
+## Activitatea 2 - Selectori și sintaxa CSS
 
 Durată: 20' \| Metodă: prelegere \| Materiale: videoproiector
 
@@ -78,13 +78,13 @@ selector {
 
 ### Ce este un selector?
 
-Putem identifica elemente HTML prin mai multe metode în CSS, dintre care două sunt atribute specifice HTML: `id` și `class`.
+Un selector este o parte din eticheta HTML \(un atribut\) care identifică în mod unic un element sau arată apartenența acelui element în cadrul unei clasei comune. Putem identifica elemente HTML prin mai multe metode în CSS, dintre care două sunt atribute specifice HTML: `id` și `class`.
 
 Aceste două atribute HTML pot identifica orice element HTML din body \(inclusiv eticheta body\) și, deși pot fi folosite interschimbabil, există câteva reguli generale folosite în industrie:
 
 * un `id` identifică unic un element, o clasă identifică mai multe elemente
 * un element ar trebui să aibă maximum un singur id, dar poate avea mai multe clase
-* practica majoritar acceptată este ca, în JS, să manipulăm elemente pentru silizare și animații folosind clase, și pentru a implementa funcționalitate folosind id-uri
+* practica majoritar acceptată este ca, în JS, să manipulăm elemente pentru stilizare și animații folosind clase, și pentru a implementa funcționalitate folosind id-uri
 
 ### Exemple de selectori
 
@@ -290,9 +290,9 @@ Puteți observa că, deși primul paragraf din div nu este stilizat direct, este
 
 Pentru CSS, există câteva proprietăți foarte importante care definesc limbajul pe care le vom menționa mai jos:
 
-* **cascading**: în cei mai simpli temreni, ordinea contează: dacă există două reguli cu selectori identici dar declarații pentru aceleași proprietăți dar valori diferite, cele din blocul care apare mai târziu vor fi aplicate
-* **specificitate**: dacă două reguli diferite se referă la acelaăi elemente, regula cu selectorul mai specific va fi aplicată
-* **moștenire**: majoritatea proprietăților, dacă nu sunt setate, vor moșteni valorile setate pe elementele părinte, până la body. Există și proprietăți care sunt excepții de la regula aceasta. De asemenea, fiecare broser aplică setul său propriu de proprietăți asupra elementelor generale \(cum ar fi etichete ca `div`, `body` și `input`, în special `body`\), și, dacă nu sunt resetate în mod specific, sunt moștenite.
+* **cascading**: în cei mai simpli termeni, ordinea contează: dacă există reguli cu selectori identici ce conțin aceleași proprietăți, dar valori diferite, cele din blocul care apare mai târziu vor fi aplicate
+* **specificitate**: dacă două reguli diferite se referă la aceleași elemente, regula cu selectorul mai specific va fi aplicată
+* **moștenire**: majoritatea proprietăților, dacă nu sunt setate, vor moșteni valorile setate pe elementele părinte, până la body. Există și proprietăți care sunt excepții de la regula aceasta. De asemenea, fiecare browser aplică setul său propriu de proprietăți asupra elementelor generale \(cum ar fi etichete ca `div`, `body` și `input`, în special `body`\), și, dacă nu sunt resetate în mod specific, sunt moștenite.
 
 ![](../.gitbook/assets/copy-of-logo-techtor-05.png)
 

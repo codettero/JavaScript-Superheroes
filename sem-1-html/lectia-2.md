@@ -98,7 +98,7 @@ Nu putem ști pe dinafară toate combinațiile și ce culori o să iasă. Astfel
 
 ### Format hexazecimal
 
-Culorile pot fi reprezentate și în format **hexazecimal**, adică alcătuite din restul împărțirii la 16 \(cifrele 0-9 și literele a-b\). Restul 10 este reprezentat de litera ‘`a`’, restul 11 de ‘`b`’, …, restul 15 de ‘`f`’. Culorile în hexazecimal încep cu semnul `#` urmat de 6 caractere, primele două pentru roșu, următoarele două pentru verde și ultimele două pentru albastru. 
+Culorile pot fi reprezentate și în format **hexazecimal**, adică alcătuite din restul împărțirii la 16 \(cifrele 0-9 și literele a-f\). Restul 10 este reprezentat de litera `a`, restul 11 de `b`, …, restul 15 de `f`. Culorile în hexazecimal încep cu semnul `#` urmat de 6 caractere, primele două pentru roșu, următoarele două pentru verde și ultimele două pentru albastru. 
 
 Am menționat anterior că aceste trei culori sunt folosite pentru a format orice alte culori și sunt combinate, folosind valori de la 0 la 255. Transformat în format hexazecimal, 0 este 00, iar 255 este ff. Numerele pot fi transformate în format hexazecimal prin împărțirea la 16 și salvarea restului, întocmai ca la conversia binară.
 

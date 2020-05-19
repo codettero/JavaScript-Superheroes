@@ -52,7 +52,7 @@ false === 0 // false
 true === 1 // false
 "" === 0 // false
 "" === false // false
-"Hello" == "Hello" // true
+"Hello" === "Hello" // true
 5 === 5 // true
 "5" === 5 // false
 ```

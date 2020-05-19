@@ -116,7 +116,7 @@ Durată: 15' \| Metode: demonstrație, conversație, exercițiu, dezbatere \| Ma
 
 ### Eticheta de paragraf
 
-Cea mai utilizată etichetă este cea de paragraf. Aceasta e marcată prin `<p>` și se închide cu `</p>`. În cadrul acestei etichete se poate introduce text-ul \(conținutul paginii web\). 
+Cea mai utilizată etichetă este cea de paragraf. Aceasta e marcată prin `<p>` și se închide cu `</p>`. În cadrul acestei etichete se poate introduce textul \(conținutul paginii web\). 
 
 {% hint style="info" %}
 Proprietatea acestei etichete este că adaugă un rând nou după ce a fost închisă, astfel, două paragrafe alăturate sunt despărțite.
