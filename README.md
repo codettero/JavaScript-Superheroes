@@ -2,13 +2,13 @@
 
 ## Ce este această broșură?
 
-Broșura _JavaScript Superheroes_ vine în sprijinul profesorilor de informatică din toată țara și propune predarea unui opțional la clasele de mate-info.
+Broșura _JavaScript Superheroes_ vine în sprijinul profesorilor de informatică din toată țara și propune predarea unui opțional la clasele de generală și liceu.
 
 Broșura este creată și pusă la dispoziție publicului de către [Asociația Codette](https://codette.ro), în urma organizării a 5 workshop-uri de web development în 4 orașe din România. Voluntarii noștri, [Carmen-Gabriela Popa](https://www.linkedin.com/in/carmengpopa/), [Valentin Ionită](https://www.linkedin.com/in/valentin-ionita/), și [Andrei Antal](https://www.linkedin.com/in/andreiantal/), alături de [Silvia Bălan](https://www.linkedin.com/in/silvia-balan-73a30b181/), au lucrat la dezvoltarea, verificarea și îmbunătățirea acesteia.
 
 ## Cunoștințe anterioare
 
-Broșura se adresează elevilor care au cunoștințe de programare și cunosc conceptele de bază \( recomandat clasele a X-a până la a XII-a\).
+Broșura se adresează elevilor care au cunoștințe de programare și cunosc conceptele de bază \(recomandat clasele a VI-a până la a XII-a\).
 
 ## Mod de organizare
 
@@ -76,7 +76,5 @@ Ca rezultat al acestui curs, participanții vor construi o pagină web completă
 
 ![](.gitbook/assets/screencapture-file-users-poppy-desktop-day1-end-index-html-2020-03-17-12_52_42.png)
 
-## 
-
-![](.gitbook/assets/copy-of-logo-techtor-05.png)
+![](.gitbook/assets/logos-02%20%281%29.svg)
 

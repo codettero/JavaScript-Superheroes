@@ -213,5 +213,5 @@ Testați codul de mai sus în pagina HTML în care ați lucrat. Ce observați? A
 alert\(\) este o funcție din JavaScript care afișează pe ecran un pop-up cu un anumit mesaj, pentru a informa utilizatorul
 {% endhint %}
 
-![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+![](../.gitbook/assets/logos-02.svg)
 

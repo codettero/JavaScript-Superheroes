@@ -135,5 +135,5 @@ De asemenea, pentru a găsi o paletă de culori potrivită, puteți încerca fol
 2. Alege cu ajutorul unui color picker codul reprezentant al fiecărei culori a curcubeului \(ROGVAIV\)
 3. Adaugă în pagina ta web 7 linii despărțitoare `hr`, fiecare colorată într-o culoare a curcubeului.
 
-![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+![](../.gitbook/assets/logos-02%20%281%29.svg)
 

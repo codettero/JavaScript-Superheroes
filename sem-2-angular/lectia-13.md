@@ -302,5 +302,5 @@ Hint: puteți transforma un string într-un Array folosind metoda **Array.from\(
 
 Nu uitați ca la finalul lecției să dați git add, git commit și git push pentru a updata proiectul cu noile modificări.
 
-![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+![](../.gitbook/assets/logos-02.svg)
 

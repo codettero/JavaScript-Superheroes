@@ -171,5 +171,5 @@ Folosiți HTML pentru a crea elementele de mai sus și JS pentru funcționalitat
 
 ![Resetarea calculatorului](../.gitbook/assets/screenshot-2020-03-16-at-18.10.07.png)
 
-![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+![](../.gitbook/assets/logos-02.svg)
 

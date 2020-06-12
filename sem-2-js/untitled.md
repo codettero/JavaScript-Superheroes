@@ -287,5 +287,5 @@ Pentru a deschide consola, porniți Chrome, click dreapta și selectați **Inspe
 
 ![](../.gitbook/assets/screenshot-2020-02-17-at-21.22.51.png)
 
-![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+![](../.gitbook/assets/logos-02.svg)
 

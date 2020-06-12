@@ -215,5 +215,5 @@ Eticheta de heading a fost deschisă după eticheta de paragraf și este închis
 Tot conținutul paragrafului, și anume textul acestuia, este acum scris sub forma de heading \(îngroșat și mărit\). Eticheta de heading nu a fost închisă așa că browser-ul consideră că tot conținutul paragrafului este, de fapt, parte a etichetei **h1** și îl formatează ca atare.
 {% endhint %}
 
-![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+![](../.gitbook/assets/logos-02%20%281%29.svg)
 

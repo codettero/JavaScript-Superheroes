@@ -304,5 +304,5 @@ Puteți să alegeți diferite valori pentru a și b la fiecare rulare. Pentru a 
 
 4. Scrieți rezolvarea următoarei probleme: În pauză se joacă 9 elevi. Aceștia formează 3 echipe în mod egal. Pentru a se împărți în echipe, se așează în ordinea numelor lor și primii 3 formează o echipă, următorii 3 a doua și tot așa. Afișați echipele. 
 
-![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+![](../.gitbook/assets/logos-02.svg)
 

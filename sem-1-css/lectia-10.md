@@ -435,5 +435,5 @@ Putem observa că sintaxa unui query este de forma `@media screen and (...) { }`
 
 Pentru a vă crea o serie de layouts utile site-urilor voastre, vă recomandăm să folosiți o combinație de flexbox și media queries. Posibilitățile pe care le oferă împreună sunt diverse și ușor de implementat și vă vor ajuta enorm.
 
-![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+![](../.gitbook/assets/logos-02.svg)
 

@@ -294,5 +294,5 @@ Pentru CSS, există câteva proprietăți foarte importante care definesc limbaj
 * **specificitate**: dacă două reguli diferite se referă la aceleași elemente, regula cu selectorul mai specific va fi aplicată
 * **moștenire**: majoritatea proprietăților, dacă nu sunt setate, vor moșteni valorile setate pe elementele părinte, până la body. Există și proprietăți care sunt excepții de la regula aceasta. De asemenea, fiecare browser aplică setul său propriu de proprietăți asupra elementelor generale \(cum ar fi etichete ca `div`, `body` și `input`, în special `body`\), și, dacă nu sunt resetate în mod specific, sunt moștenite.
 
-![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+![](../.gitbook/assets/logos-02.svg)
 

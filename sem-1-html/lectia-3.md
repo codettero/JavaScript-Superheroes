@@ -205,5 +205,5 @@ Scrieți codul pentru a replica următoarele două tabele.
 
 ![Tabel 2](../.gitbook/assets/screenshot-2020-02-02-at-21.55.09.png)
 
-![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+![](../.gitbook/assets/logos-02.svg)
 

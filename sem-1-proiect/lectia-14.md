@@ -124,5 +124,5 @@ Adăugați animația definită, cu o durată și un număr de repetiții alese d
 Animația se pornește la fiecare refresh, ceea ce ar putea să încurce. Odată implementată, comentați div-ul `flyingHero` pentru a elimina animația cât timp lucrați.
 {% endhint %}
 
-![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+![](../.gitbook/assets/logos-02.svg)
 

@@ -55,7 +55,7 @@ Imaginea de mai jos expune mai expresiv schimbarea de paradigmă:
 
 ![](../.gitbook/assets/untitled_artwork.jpg)
 
-![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+![](../.gitbook/assets/logos-02.svg)
 
 
 

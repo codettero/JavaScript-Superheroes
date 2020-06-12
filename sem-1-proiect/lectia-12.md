@@ -135,5 +135,5 @@ Div-urile adăugate încă nu conțin CSS-ul necesar pentru a fi aranjate ca în
 Dacă imaginile nu merg, verificați ca numele, extensia și calea către acestea să fie scrise corect.
 {% endhint %}
 
-![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+![](../.gitbook/assets/logos-02.svg)
 

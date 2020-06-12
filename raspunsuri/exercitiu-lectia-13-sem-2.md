@@ -26,5 +26,5 @@ export class SpongebobPipe implements PipeTransform {
 
 ```
 
-![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+![](../.gitbook/assets/logos-02.svg)
 

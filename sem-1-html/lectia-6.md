@@ -175,5 +175,5 @@ Creați o pagină web completă cu cât mai multe dintre elementele HTML învă�
 
 Proiectul este la liberă alegere și poate fi terminat acasă și prezentat lecția următoare.
 
-![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+![](../.gitbook/assets/logos-02.svg)
 

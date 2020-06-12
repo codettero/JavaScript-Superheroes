@@ -175,5 +175,5 @@ Dacă nu ați obținut acelasi aspect, verificați CSS-ul și denumirea claselor
 </li>
 ```
 
-![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+![](../.gitbook/assets/logos-02.svg)
 

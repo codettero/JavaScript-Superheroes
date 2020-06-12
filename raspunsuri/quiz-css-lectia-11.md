@@ -92,5 +92,5 @@ p#demo {
 }
 ```
 
-![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+![](../.gitbook/assets/logos-02.svg)
 

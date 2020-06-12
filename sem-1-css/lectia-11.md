@@ -336,5 +336,5 @@ Pe lângă keyframes-urile specifice folosite, puteți observa că am folosit c�
 Delay-ul poate lua și valori negative. Testați pe una dintre animațiile de mai sus pentru a vedea cum se comportă, folosind un delay negativ mai mic decât durata.
 {% endhint %}
 
-![](../.gitbook/assets/copy-of-logo-techtor-05.png)
+![](../.gitbook/assets/logos-02.svg)
 
