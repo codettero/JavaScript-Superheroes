@@ -26,9 +26,9 @@ Lecțiile din cadrul acestei broșuri sunt concepute pentru a fi predate o oră 
 | 6 \(HTML\) | meniu, formular, miniproiect | - |
 | 7 \(HTML\) | elemente semantice, div, span | verificare miniproiect |
 | 8 \(CSS\) | rolul CSS-ului, identificatori \(clase și id-uri\), exemple | - |
-| 9 \(CSS\) |  |  |
-| 10 \(CSS\) |  |  |
-| 11 \(CSS\) |  | QUIZ CSS |
+| 9 \(CSS\) | stilizarea textului, box model, poziționarea elementelor | recapitulare scurtă |
+| 10 \(CSS\) | tranziții, transformări, animații | recapitulare scurtă |
+| 11 \(CSS\) | flexbox, media queries | QUIZ CSS |
 | 12 \(Proiect\) | tutorial proiect | - |
 | 13 \(Proiect\) | tutorial proiect | - |
 | 14 \(Proiect\) | tutorial proiect | - |
