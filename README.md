@@ -8,7 +8,7 @@ Broșura este creată și pusă la dispoziție publicului de către [Asociația 
 
 ## Cunoștințe anterioare
 
-Broșura se adresează elevilor care au cunoștințe de programare și cunosc conceptele de bază \(recomandat clasele a VI-a până la a XII-a\). Nu este nevoie de cunoștințe de dezvoltare web în prealabil \(HTML, CSS, JS și Angular\), deoarece lecțiile conțin informații pentru începători.
+Broșura se adresează elevilor care au cunoștințe de bază în programare \(recomandat clasele a VI-a până la a XII-a\). Nu este nevoie de cunoștințe de dezvoltare web în prealabil \(HTML, CSS, JS și Angular\), deoarece lecțiile conțin informații pentru începători.
 
 ## Mod de organizare
 
