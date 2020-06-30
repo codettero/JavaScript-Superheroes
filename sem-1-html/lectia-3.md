@@ -39,9 +39,13 @@ Durată: 5' \| Metodă: dezbatere, conversație \| Materiale: -
 
    B. jos
 
-   c. stânga
+   3. stânga
 
-   d. dreapta
+   4. dreapta
+
+{% hint style="info" %}
+Este posibil să îmbinați mai multe tipuri de marcatori pentru liste în cadrul aceleiași liste.
+{% endhint %}
 
 ## Activitate 2 - Tabele
 
