@@ -75,7 +75,7 @@ Eticheta `<caption> </caption>` scrisă în interiorul tabelului va adăuga un t
   </tr>
   <tr>
     <td>Peter</td>
-    <td>park</td> 
+    <td>Park</td> 
     <td>28</td>
   </tr>
   <tr>

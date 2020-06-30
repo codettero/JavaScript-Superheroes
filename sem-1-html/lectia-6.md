@@ -131,7 +131,7 @@ Modificați pentru una dintre linii valoarea "grade" în alt text și veți obse
 
 #### Exercițiu:
 
-Adăugați toate elementele menționate mai sus într-un formulat în body-ul unei pagini HTML și testați-le.
+Adăugați toate elementele menționate mai sus într-un formular în body-ul unei pagini HTML și testați-le.
 
 ### Trimiterea unui formular
 
