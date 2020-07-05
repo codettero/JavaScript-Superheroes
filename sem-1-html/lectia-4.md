@@ -126,7 +126,7 @@ project/
             cat.jpg
 ```
 
-2. **\(1.5 pct\)** Scrieți o pagină html, cu toate etichetele necesare, pentru a dispune pe ecran următoarele elemente, ca în imaginea următoare. Pagina voastră trebuie să conțină titlu în tabul browser-ului, un titlu \(heading\) în conținut, și tabelul de mai jos.
+2. **\(1.5 pct\)** Scrieți o pagină html, cu toate etichetele necesare, pentru a obține următorul rezultat, ca în imagine. Pagina voastră trebuie să conțină titlu în tabul browser-ului, un titlu \(heading\) în conținut, și tabelul de mai jos.
 
 ![](../.gitbook/assets/screenshot-2020-02-17-at-11.23.31.png)
 
