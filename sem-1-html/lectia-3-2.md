@@ -169,7 +169,7 @@ Nu am specificat niciun marcator, deci se observă că marcatorii default sunt d
 Acum elementele listei sunt marcate pătrate. Pentru cercuri am fi specificat `<ul type="circle">`, pentru disc-uri `<ul type ="disc">`, iar pentru lipsa marcatorilor `<ul type="none">`.
 
 {% hint style="info" %}
-Tipul liste poate fi poziționat, după cum am văzut până acum, pe întreaga lista, ca atribut al etichetei `ul` sau `ol`. Însă fiecare element al listei poate avea un marcator separat, menționat în cadrul etichetei `li`.
+Tipul listei poate fi poziționat, după cum am văzut până acum, pe întreaga lista, ca atribut al etichetei `ul` sau `ol`. Însă fiecare element al listei poate avea un marcator separat, menționat în cadrul etichetei `li`.
 {% endhint %}
 
 #### Exerciții
