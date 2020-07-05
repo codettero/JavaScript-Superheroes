@@ -4,13 +4,15 @@ description: 'Durată: 50'' | Cuvinte cheie: linkuri, butoane'
 
 # Lecția 5
 
-## Test de evaluare a cunoștințelor - 2 pct oficiu
+## Activitatea 1 - Test de evaluare a cunoștințelor
 
 Durată: 25' \| Metodă: evaluare formativă, observarea sistematică a activității și a comportamentului elevilor \| Materiale: videoproiector
 
 Total: 10 pct \(2 pct din oficiu\)
 
 #### Partea 1 \(4 puncte\) - 8 întrebări grilă a câte 0.5 fiecare
+
+Alegeți răspunsul corect pentru întrebările de mai jos. Există un unic răspuns corect.
 
 1. Ce nu se adaugă în cadrul etichetei `head`?
 
@@ -48,7 +50,7 @@ Total: 10 pct \(2 pct din oficiu\)
 
    e. end
 
-4. Care este valoarea culorii alb în hexazecimal?
+4. Care este valoarea culorii alb în **hexazecimal**?
 
    a. \#000000
 
@@ -92,7 +94,7 @@ Total: 10 pct \(2 pct din oficiu\)
 
    c. \#00ff00
 
-   d. \#rgb\(0, 255, 0\)
+   d. \#rgb\(255, 0, 0\)
 
    e. rgb\(0, 0, 255\)
 
@@ -124,7 +126,7 @@ project/
             cat.jpg
 ```
 
-2. **\(1.5 pct\)** Scrieți o pagină html, cu toate etichetele necesare, pentru a dispune pe ecran următoarele elemente, ca în imaginea de mai jos:
+2. **\(1.5 pct\)** Scrieți o pagină html, cu toate etichetele necesare, pentru a dispune pe ecran următoarele elemente, ca în imaginea următoare. Pagina voastră trebuie să conțină titlu în tabul browser-ului, un titlu \(heading\) în conținut, și tabelul de mai jos.
 
 ![](../.gitbook/assets/screenshot-2020-02-17-at-11.23.31.png)
 
