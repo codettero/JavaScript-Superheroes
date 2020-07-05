@@ -207,7 +207,7 @@ Scrieți codul pentru a replica următoarele două tabele.
 
 ![Tabel 1](../.gitbook/assets/screenshot-2020-02-02-at-21.26.54.png)
 
-![Tabel 2](../.gitbook/assets/screenshot-2020-02-02-at-21.55.09.png)
+![](../.gitbook/assets/group-72.png)
 
 ![](../.gitbook/assets/logos-02.svg)
 

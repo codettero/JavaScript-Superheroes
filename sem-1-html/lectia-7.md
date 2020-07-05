@@ -31,7 +31,7 @@ Durată: 20' \| Metodă: evaluare formativă, orală, autoevaluare \| Materiale:
 
 Se prezintă proiectele începute lecția trecută.
 
-## Activitate 2 - Elemente semantice și nesemantice
+## Activitate 3 - Elemente semantice și nesemantice
 
 Durată: 20' \| Metodă: demonstrație, conversație, exercițiu \| Materiale: videoproiector
 
@@ -104,9 +104,9 @@ Similar, elementele nesemantice nu au un sens în limbajul natural și nu define
 
 #### div
 
-**HTML Content Division element** \(**&lt;div&gt;**\) este un element generic care joacă rolul unui container pentru orice număr de elemente copil. Acesta nu modifică aranjarea în pagină, spațierea sau stilizarea. CSS-ul default din browsere setează modul de afișare al elementului **div** ca `block`, adică două div-uri vor fi afișate unul după altul la fel ca paragrafele în limba documentului \(în Engleză, de exemplu, ele vor fi unul sub altul de sus în jos\). Această proprietate \(ca oricare alta\) poate fi suprascrisă, oferindu-vă posibilitatea de a folosi elementul **div** pentru orice utilizare. O metaforă bună pentru **div** este cea a unei cutii: nefolositoare singură, folositoare pentru că încapsulează alte obiecte.
+**HTML Content Division element** \(**&lt;div&gt;**\) este un element generic care joacă rolul unui container pentru orice număr de elemente copil. Acesta nu modifică aranjarea în pagină, spațierea sau stilizarea. CSS-ul default din browsere setează modul de afișare al elementului **div** ca `block`, adică două div-uri vor fi afișate unul după altul la fel ca paragrafele în limba documentului \(în Engleză, de exemplu, ele vor fi unul sub altul de sus în jos\). Această proprietate \(ca oricare alta\) poate fi suprascrisă, oferindu-vă posibilitatea de a folosi elementul **div** pentru orice utilizare. O metaforă bună pentru **div** este cea a unei cutii: nefolositoare singură, folositoare pentru că încapsulează alte obiecte. Un **div** poate chiar să conțină alte **div-uri**.
 
-![](../.gitbook/assets/group-8.png)
+![](../.gitbook/assets/frame-25.png)
 
 #### span
 

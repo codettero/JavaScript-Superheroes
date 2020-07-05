@@ -100,7 +100,7 @@ Nu putem ști pe dinafară toate combinațiile și ce culori o să iasă. Astfel
 
 Culorile pot fi reprezentate și în format **hexazecimal**, adică alcătuite din restul împărțirii la 16 \(cifrele 0-9 și literele a-f\). Restul 10 este reprezentat de litera `a`, restul 11 de `b`, …, restul 15 de `f`. Culorile în hexazecimal încep cu semnul `#` urmat de 6 caractere, primele două pentru roșu, următoarele două pentru verde și ultimele două pentru albastru. 
 
-Am menționat anterior că aceste trei culori sunt folosite pentru a format orice alte culori și sunt combinate, folosind valori de la 0 la 255. Transformat în format hexazecimal, 0 este 00, iar 255 este ff. Numerele pot fi transformate în format hexazecimal prin împărțirea la 16 și salvarea restului, întocmai ca la conversia binară.
+Am menționat anterior că aceste trei culori sunt folosite pentru a forma orice alte culori și sunt combinate, folosind valori de la 0 la 255. Transformat în format hexazecimal, 0 este 00, iar 255 este ff. Numerele pot fi transformate în format hexazecimal prin împărțirea la 16 și salvarea restului, întocmai ca la conversia binară.
 
 #### Exemplu: **rgb\(90, 111, 7\) devine \#5a6f07 după următorul algoritm:**
 
@@ -119,7 +119,7 @@ Am menționat anterior că aceste trei culori sunt folosite pentru a format oric
 {% hint style="info" %}
 Nu trebuie să faceți aceste calcule de fiecare dată când formați o culoare, pentru că există o multitudine de site-uri care vă ajută la formarea culorilor și calculează automat codul pentru culoarea respectivă \([Colors picker](https://www.w3schools.com/colors/colors_picker.asp)\).
 
-De asemenea, pentru a găsi o paletă de culori potrivită, puteți încerca folosirea aplicațiilor precum [coolors.co](https://coolors.co/) sau altele asemenea pe care le găsiți pe Google căutând "color scheme genera"
+De asemenea, pentru a găsi o paletă de culori potrivită, puteți încerca folosirea aplicațiilor precum [coolors.co](https://coolors.co/) sau altele asemenea pe care le găsiți pe Google căutând _color scheme generator_.
 {% endhint %}
 
 #### Exerciții

@@ -10,7 +10,7 @@ Durată: 10' \| Metode: explicație \| Materiale: -
 
 ### Definiții
 
-> **Designul web** este domeniul care integrează o multitudine de tehnici și platforme cu scopul final de a realiza un site web. Prin web design înțelegem toți pașii pe care îi parcurgem, de la momentul conceperii structurii, a interfeței grafice până la finalizarea programării și introducerea propriu-zisă a conținutul site-ului.
+> **Designul web** este domeniul care integrează o multitudine de tehnici și platforme cu scopul final de a realiza un site web. Prin web design înțelegem toți pașii pe care îi parcurgem, de la momentul conceperii structurii, a interfeței grafice până la finalizarea programării și introducerea propriu-zisă a conținutului site-ului.
 
 > **HTML \(Hyper Text Markup Language\)** este limbajul care stă la baza paginilor web și cu ajutorul căruia este adăugat conținutul paginii web. Putem recunoaște un fișier ce conține cod HTML după extensia ****`.html`
 

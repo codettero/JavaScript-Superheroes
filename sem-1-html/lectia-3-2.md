@@ -66,11 +66,17 @@ project/
 Pentru a adăuga poza cat.png în fișierul **index.html**, calea relativă a pozei la fișierul html este `./cat.png` \(poza și fișierul html se află în același folder\), deci eticheta va arăta `<img src="cat.png">`.
 
 {% hint style="info" %}
-./cat.jpg este același lucru cu cat.jpg, ambele arătând că se află în fișierul curent \(notat cu punct\)
+./cat.jpg este același lucru cu cat.jpg, ambele arătând că se află în fișierul curent, care este denumit de simbolul punctului.
 {% endhint %}
 
 {% hint style="info" %}
-Dacă poza nu apare, asigurați-vă că ați scris calea corect și numele pozei, cu tot cu extensie, sunt corecte.
+Dacă poza pe care dotiți să o introduceți nu apare, atunci trebuie să verificați următoarele lucruri:
+
+* numele pozei să fie scris corect \(atât denumirea, cât și extensia\); `cat.jpg` este diferit față de `cat.png`
+* calea către poză să fie scrisă corect \(fără typo-uri în adresa la care se află poza\)
+* poza să existe la calea menționată
+
+Dacă nu sunt respectate acestea, poza nu va fi găsită.
 {% endhint %}
 
 ### Atributele imaginilor
