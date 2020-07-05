@@ -176,6 +176,8 @@ Dacă dorim ca o celulă sa ocupe spațiul mai multor rânduri consecutive, atun
 </table>
 ```
 
+#### Exemple
+
 Putem combina celulele pe mai multe rânduri cu cele pe mai multe coloane, ca în imaginea de mai jos. Încercați să scrieți codul corespunzător tabelului următor, iar la final vă puteți verifica.
 
 ![](../.gitbook/assets/screenshot-2020-07-05-at-14.41.29.png)
