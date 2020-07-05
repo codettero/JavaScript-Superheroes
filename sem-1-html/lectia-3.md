@@ -110,7 +110,7 @@ Forma standard pentru a adăuga un atribut este astfel:
 
 ### Celule care se întind pe mai multe coloane
 
-Dacă dorim ca o celulă sa ocupe spațiul mai multor coloane consecutive, atunci folosim atributul `colspan`. Acesta este utilizat în cadrul etichetelor &lt;td&gt; și primește ca valoare un număr între ghilimele, arătând lungimea noii celulei în raport cu celelalte \(numărul de coloane pe care se întinde celula\).
+Dacă dorim ca o celulă sa ocupe spațiul mai multor coloane consecutive, atunci folosim atributul `colspan`. Acesta este utilizat în cadrul etichetelor &lt;td&gt; și primește ca valoare un număr între ghilimele, arătând lungimea noii celule în raport cu celelalte \(numărul de coloane pe care se întinde celula\).
 
 ```markup
 <table>
