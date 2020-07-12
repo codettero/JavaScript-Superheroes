@@ -55,7 +55,7 @@ Durată: 25' \| Metodă: demonstrație, conversație, exercițiu, dezbatere \| M
 
 Acestea sunt definite de eticheta `<table>` care este pereche `</table>`.
 
-Pentru a crea un rând intr-un tabel, folosim etichetele pereche &lt;tr&gt; &lt;/tr&gt; \(table row\), iar pentru o celulă `<td> <td>` \(table data\). Celulele pot fi create în cadrul rândurilor.
+Pentru a crea un rând intr-un tabel, folosim etichetele pereche &lt;tr&gt; &lt;/tr&gt; \(table row\), iar pentru o celulă `<td> </td>` \(table data\). Celulele pot fi create în cadrul rândurilor.
 
 În plus, există și etichetele `<th> </th>` \(table head\) care denumesc capul de tabel. Folosind aceaste etichete, primul rând al tabelului va avea textul îngroșat și centrat în celule, denuntând numele coloanelor.
 

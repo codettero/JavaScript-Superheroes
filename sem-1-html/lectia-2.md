@@ -77,7 +77,7 @@ Durată: 20' \| Metodă: demonstrație, conversație, exercițiu \| Materiale: v
 
 Deși HTML înțelege specificarea culorilor în limba engleză, acestea au un format standard de reprezentare numit RGB \(red, green, blue\). Prin intermediul acestui format putem obține orice culoare, combinând în toate modurile posibile cele trei culori de bază.
 
-Formatul are trei parametrii, câte unul pentru fiecare culoare. Dacă ne gândim la nuanțe ca la niște amestecuri de trei culori de bază - **roșu**, **verde** și **albastru**, atunci acești parametrii reprezintă cantitatea din fiecare culoare de bază pe care o adăugăm în amestec, cu scopul obținerii unei noi culori. Fiecare parametru poate să ia o valoare între 0 \(nul\) și 255 \(maximul din culoarea respectivă\).
+Formatul are trei parametri, câte unul pentru fiecare culoare. Dacă ne gândim la nuanțe ca la niște amestecuri de trei culori de bază - **roșu**, **verde** și **albastru**, atunci acești parametrii reprezintă cantitatea din fiecare culoare de bază pe care o adăugăm în amestec, cu scopul obținerii unei noi culori. Fiecare parametru poate să ia o valoare între 0 \(nul\) și 255 \(maximul din culoarea respectivă\).
 
 #### Exemplu
 
