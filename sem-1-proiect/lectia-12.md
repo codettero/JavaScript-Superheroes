@@ -44,7 +44,7 @@ Până acum, pagina web arată astfel, doar titlul din browser și un header în
 
 ![](../.gitbook/assets/screenshot-2020-03-16-at-21.12.02.png)
 
-În acest tutorial vom adăuga doar 3 supereroi, dar se pot adăuga cu ușurință oricâți doriți, de îndată ce scheletul este terminat. Pozele folosite în acest tutorial au dimensiunea de 480x640px. Pozele folosite în cadrul acestui tutorial pot fi găsite [aici](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/codettero/JavaScript-Superheroes/tree/Carmen/Day1_FirstHeroApp/Day1_end/img). Descărcați-le și salvațile în folderul `img`. Puteți folosi alte poze, de preferat în mod portrait \(înălțimea mai mare decât lățimea\).
+În acest tutorial vom adăuga doar 3 supereroi, dar se pot adăuga cu ușurință oricâți doriți, de îndată ce scheletul este terminat. Pozele folosite în acest tutorial au dimensiunea de 480x640px. Pozele folosite în cadrul acestui tutorial pot fi găsite [aici](https://drive.google.com/drive/folders/13HaFjMi-kIylGltjB2j5AMx_NFPgoP2R?usp=sharing). Descărcați-le și salvațile în folderul `img`. Puteți folosi alte poze, de preferat în mod portrait \(înălțimea mai mare decât lățimea\).
 
 ## Pasul 2 - schițarea paginii
 
