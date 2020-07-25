@@ -78,7 +78,7 @@ selector {
 
 ### Ce este un selector?
 
-Un selector este o parte din eticheta HTML \(un atribut\) care identifică în mod unic un element sau arată apartenența acelui element în cadrul unei clasei comune. Putem identifica elemente HTML prin mai multe metode în CSS, dintre care două sunt atribute specifice HTML: `id` și `class`.
+Un selector este o parte din eticheta HTML \(un atribut\) care identifică în mod unic un element sau arată apartenența acelui element în cadrul unei clase comune. Putem identifica elemente HTML prin mai multe metode în CSS, dintre care două sunt atribute specifice HTML: `id` și `class`.
 
 Aceste două atribute HTML pot identifica orice element HTML din body \(inclusiv eticheta body\) și, deși pot fi folosite interschimbabil, există câteva reguli generale folosite în industrie:
 
