@@ -188,8 +188,8 @@ Să considerăm că avem următoarele etichete în HTML, identificate prin id-ur
     <p class="specialDivParagraph"> Text gri, 20px </p>
     <div>
         <p class="specialDivParagraph"> Text galben, dar roșu când e hover. </p>
-    <div>
-    <div class="commonDivParagraph"> Paragraf cu text galben </div>
+    </div>
+    <div> Paragraf cu text galben </div>
     <input type="text" value="High font size"/> 
     <label class="container">Checkbox
       <input type="checkbox">

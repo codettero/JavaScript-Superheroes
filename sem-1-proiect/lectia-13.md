@@ -63,7 +63,6 @@ Adăugați codul următor în fișierul CSS și testati ce se întâmplă. La ho
   top: 115px; /* spațiere sus */
 }
 
-
 .hero--right {
   width: 60%; /* ocupă 60% din părinte, adică din div-ul hero */
   position: absolute;
@@ -79,18 +78,18 @@ Adăugați codul următor în fișierul CSS și testati ce se întâmplă. La ho
   float:;
 }
 
-/* de completta */
+/* de completat */
 .hero--details-right {
   width:%;
   float:;
 }
 ```
 
-Copiați codul de mai sus și completați liniile `11, 12, 16 și 17`. Cele două div-uri, **hero--details-left** și **hero--details-right** identifică secțiunea de Allies și Enemies și trebuie să fie dispuse ca două coloane. Astel, folosiți proprietatea `float` pentru a poziționa unul dintre ele în partea stângă, iar pe celălalt în partea dreaptă. În plus, cele două nu au dimensiuni egale, de aceea folosiți width exprimat în procente. Cel din stânga este mai mare \(70%\), iar cel din dreapta mai mic și ocupă restul spațiului rămas. Puteți să modificați aceste numere să vedeți cum se schimbă.
+Copiați codul de mai sus și completați liniile `21, 22, 27 și 28`. Cele două div-uri, **hero--details-left** și **hero--details-right** identifică secțiunea de Allies și Enemies și trebuie să fie dispuse ca două coloane. Astel, folosiți proprietatea `float` pentru a poziționa unul dintre ele în partea stângă, iar pe celălalt în partea dreaptă. În plus, cele două nu au dimensiuni egale, de aceea folosiți width exprimat în procente. Cel din stânga este mai mare \(70%\), iar cel din dreapta mai mic și ocupă restul spațiului rămas. Puteți să modificați aceste numere să vedeți cum se schimbă.
 
 De asemenea, div-urile **hero--right** și **hero-left** se comportă similar, pe două coloane. **hero--left** a fost deja adăugat la pasul anterior, cu o lățime de 40% din dimensiunea paginii. Astfel, menționând `left:40%;` pentru **hero--right**, va fi poziționat să aibă în partea stângă 40% din pagina web, adică suficient loc pentru div-ul **hero--left**. S-a obținut efectul de `float:left; și float:right;` într-un alt mod.
 
-Div-ul **hero** se referă la uîntreagă zona în care afisăm conținut despre supererou. Acesta conține înauntrul său toate celelalte div-uri \(image, details left, details right etc\). Folosind `width:70%; și left:15%;`, acest div va fi mereu centrat în pagină, deoarece are la stânga o spațiere de 15% din lățimea paginii, are o dimensiune de 70% din lățimea paginii și implicit o spațiere de 15% în partea dreaptă, deci este centrat.
+Div-ul **hero** se referă la întreaga zona în care afisăm conținut despre supererou. Acesta conține înauntrul său toate celelalte div-uri \(image, details left, details right etc\). Folosind `width:70%; și left:15%;`, acest div va fi mereu centrat în pagină, deoarece are la stânga o spațiere de 15% din lățimea paginii, are o dimensiune de 70% din lățimea paginii și implicit o spațiere de 15% în partea dreaptă, deci este centrat.
 
 După ce ați completat cele 4 linii cu valorile corecte și ați salvat modificările, pagina ar trebui să arate astfel:
 

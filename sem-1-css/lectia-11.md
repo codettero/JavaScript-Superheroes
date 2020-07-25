@@ -17,7 +17,7 @@ Durată: 5' \| Metodă: prelegere \| Materiale: videoproiector
 
 Durată: 15' \| Metodă: prelegere \| Materiale: videoproiector
 
-Tranzițiile CSS permit să schimbați în mod gradual valorile unor proprietăți, într-un timp specificat. Asta înseamnă că, dacă schimbați valoarea unei proprietăți a unui element, fie folosind JavaScript, fie folosind selectorul :hover \(mai multe despre hover mai jos\), schimbarea va fi, în mod default, instantă. Tranzițiile vă permit să treceți prin toate stările intermediare pentru a avea o schimbare fluidă.
+Tranzițiile CSS permit să schimbați în mod gradual valorile unor proprietăți, într-un timp specificat. Asta înseamnă că, dacă schimbați valoarea unei proprietăți a unui element, fie folosind JavaScript, fie folosind selectorul :hover \(mai multe despre hover mai jos\), schimbarea va fi, în mod implicit, instantă. Tranzițiile vă permit să treceți prin toate stările intermediare pentru a avea o schimbare fluidă.
 
 În exemplele următoare vom trece de la o valoare la alta folosind selectorul `:hover`. Acesta specifică o stare a elementului selectat, aceea când te afli cu mouse-ul deasupra elementului. Browserul detectează când treci cu mouse-ul de pe un element pe altul și pornește acest eveniment. Acest moment va fi și începutul tranziției noastre.
 
@@ -69,7 +69,7 @@ O tranziție CSS poate fi scrisă fie folosind cele 4 proprietăți specifice, f
 
 * **transition-delay**: opțional, specifică după câte secunde să înceapă tranziția
 * **transition-duration**: specifică câte secunde să dureze tranziția
-* **transition-property**: opțional, specifică ce pe proprietate să fie aplicată, default fiind `all`
+* **transition-property**: opțional, specifică ce pe proprietate să fie aplicată, implicit fiind `all`
 * **transition-timing-function**: opțional, specifică ce fel de interpolare să fie folosită între cele două valori între care se face tranziția, câteva valori pe care le poate lua fiind: **linear**, **ease-in**, **ease-out**, **steps\(\)**, **cubic-bezier\(\)**. Pentru a vedea mai bine cum funcționează aceste timing functions, puteți să folosiți consola pentru a edita funcția de interpolare.
 * **transition**: cuprinde cele patru proprietăți de mai sus, în ordinea: `(property) duration (timing-function) (delay)`, unde \(\) înseamnă opțional
 

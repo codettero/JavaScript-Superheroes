@@ -186,7 +186,7 @@ var empty = []; // un array gol
 // Alt mod de declarare
 var culori2 = new Array("rosu", "verde", "gri"); // ["rosu", "verde", "gri"]
 var empty2 = new Array(); // [];
-var empty2 = new Array(3); // [undefined, undefined, undefiened];
+var empty2 = new Array(3); // [undefined, undefined, undefiened]
 ```
 
 {% hint style="success" %}
@@ -275,7 +275,7 @@ Pentru a testa următoarele exerciții, creați un fișier HTML \(.html\) și un
 Rezultatele se vor vedea în consolă, care poate fi accesată dând click dreapta -&gt; Inspect -&gt; Console.
 {% endhint %}
 
-1. Creați o pagină .html și una .js în același fișier. Introduceți următorul cod în pagina .html pentru a crea o legătura la cea JS. Nu este nevoie să adăugați nimic în body. Eticheta `script` din head este cea care se ocupă de realizarea legăturii. Fișierul JS ar trebui să se numească "myscript.js", conform codului de mai jos. Dacă îl numiți altfel, aveți grijă să modificați în `<script>`.
+1. Creați o pagină .html și una .js în același folder Introduceți următorul cod în pagina .html pentru a crea o legătura la cea JS. Nu este nevoie să adăugați nimic în body. Eticheta `script` din head este cea care se ocupă de realizarea legăturii. Fișierul JS ar trebui să se numească "myscript.js", conform codului de mai jos. Dacă îl numiți altfel, aveți grijă să modificați în `<script>`.
 
 ```javascript
 <html>

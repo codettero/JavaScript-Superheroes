@@ -397,7 +397,7 @@ Când părintele este mai mare pe axa secundară \(direcția perpendiculară dir
 
 Durată: 5' \| Metodă: prelegere \| Materiale: videoproiector
 
-Media queries sunt o tehnică CSS care permite să definim CSS care va fi aplicat doar în cazul în care anumite proprietăți ale ecranului sunt aplicabile. Folosirea dea media queries stă la baza designului responsive prin care puteți crea un layout pentru desktop și unul pentru mobile \(sau oricâte layouturi intermediare\).
+Media queries sunt o tehnică CSS care permite să definim CSS care va fi aplicat doar în cazul în care anumite proprietăți ale ecranului sunt aplicabile. Folosirea de media queries stă la baza designului responsive prin care puteți crea un layout pentru desktop și unul pentru mobile \(sau oricâte layouturi intermediare\).
 
 Pentru a exemplifica utilizarea lor, vom utiliza acelasi markup ca la activitatea trecută, alături de CSS-ul de mai jos.
 

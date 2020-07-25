@@ -10,7 +10,7 @@ description: MySuperheroApp - part 1
 
 ![](../.gitbook/assets/screenshot-2020-03-15-at-19.24.07.png)
 
-Creați un folder care să conțină 2 fișiere \(.html, și .css\) și un fișier numit img în care vom salva imaginile folosite pentru proiect. Structura folderului este următoarea:
+Creați un folder care să conțină 2 fișiere \(.html, și .css\) și un folder numit img în care vom salva imaginile folosite pentru proiect. Structura folderului este următoarea:
 
 ```text
 myProject/
@@ -25,7 +25,7 @@ myProject/
 
 ## Pasul 1 - scheletul HTML
 
-Deschideți fișierul HTML și scrieți scheletul de bază al unei pagini web. Tematica aleasă este despre supereroi, așa că alegeți un titlu sugestiv. Adăugați și în conținutul paginii un header.
+Deschideți fișierul HTML și scrieți scheletul de bază al unei pagini web. Tematica aleasă este despre supereroi, așa că alegeți un titlu sugestiv. Adăugați și în conținutul paginii un header h1.
 
 În head, adăugați următoarele linii de cod. Eticheta `meta` definește metadate pentru pagina web, iar `link` face legătura către fișiere externe, de care vom avea nevoie mai târziu \(când adăugam CSS și JS\).
 
@@ -48,7 +48,7 @@ Până acum, pagina web arată astfel, doar titlul din browser și un header în
 
 ## Pasul 2 - schițarea paginii
 
-Înainte de a adăuga conținutul propriu-zis, vom stabili o structură a paginii web, și anume un șablon pentru fiecare supererou. Această structură, realizată prin div-uri cu clase diferite, paote fi observată în figura de mai jos.
+Înainte de a adăuga conținutul propriu-zis, vom stabili o structură a paginii web, și anume un șablon pentru fiecare supererou. Această structură, realizată prin div-uri cu clase diferite, poate fi observată în figura de mai jos.
 
 ![Structura paginii web](../.gitbook/assets/group-6.png)
 
@@ -115,7 +115,7 @@ Până acum, pagina conține niște div-uri goale. În continuare, vom adăuga c
 
 În div-ul **hero--image-container,** adăugați cele două imagini portret salvate pentru supererou.
 
-În div-ul **hero--right-inner**, adăugați un header h2 cu clasa **hero--name**, care să conțină cu numele supereroului, și un header h4 **hero--power** cu clasa, care să conțină nivelul de putere al supereroului. Tot aici adăugați și un header h4 fără clasă care să conțină titlul paragrafului ce îl urmează, și un paragraf cu clasa **hero--description**, care va conține un text cu o scurtă descriere despre supererou.
+În div-ul **hero--right-inner**, adăugați un header h2 cu clasa **hero--name**, care să conțină numele supereroului, și un header h4 **hero--power** cu clasa, care să conțină nivelul de putere al supereroului. Tot aici adăugați și un header h4 fără clasă care să conțină titlul paragrafului ce îl urmează, și un paragraf cu clasa **hero--description**, care va conține un text cu o scurtă descriere despre supererou.
 
 În div-ul **hero--details**, adăugați un header h4 care să conțină titlul secțiunii \(de exemplu, Abilities\), urmat de 3 abilități, fiecare scrisă într-un span separat. Fiecare abilitate va fi stilizată în CSS în lecția următoare.
 

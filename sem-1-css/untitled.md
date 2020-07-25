@@ -59,7 +59,7 @@ Una din capabilitățile cele mai utilizate în CSS este stilizarea textului în
 Începem prin a adăuga într-o pagină HTML paragraful de mai jos și a-l stiliza \(fie într-un fișier extern `.css` fie într-o etichetă `<style>`\) cu regula pentru `.classy-text`.
 
 ```markup
-<p class="classy-style">
+<p class="classy-text">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vitae minima facere cum
     molestiae dolor libero! Ut sit similique reiciendis odio in assumenda, quod aliquid
     explicabo, atque eos, facilis delectus.
@@ -117,11 +117,11 @@ Proprietățile folosite în exemplu sunt:
 * **font-style**: **normal** sau **italic**
 * **letter-spacing**: distanța dintre două litere consecutive
 * **text-align**: alinierea textului, după cum puteți intui, poate fi **left**, **right**, **center** sau **justify**
-* **text-ident**: identarea paragrafului \(spațiul de la începutul blocului până la începutul primel litere a primului rând\)
+* **text-indent**: identarea paragrafului \(spațiul de la începutul blocului până la începutul primel litere a primului rând\)
 * **text-transform**: transformări ale textului, precum **capitalize** \(prima literă a fiecărui cuvânt e majusculă\), **uppercase**, **lowercase**
 
 {% hint style="info" %}
-Puteți explora mai multe proprietăți CSS prin a edita exemplele date direct în broswer, prin consolă. Pentru a deschide consola, dați click dreapta &gt; Inspect element. Puteți vedea în exemplul de mai jos.
+Puteți explora mai multe proprietăți CSS prin a edita exemplele date direct în broswer, prin consolă. Pentru a deschide consola, dați click dreapta &gt; Inspect element. Puteți vedea cum în exemplul de mai jos. De asemenea, modificările făcute astfel nu se salvează în codul sursă \(nu sunt permanente, ci apar local în browser\).
 {% endhint %}
 
 ![](../.gitbook/assets/screencast-from-23-03-20-21_37_38.gif)
@@ -183,7 +183,18 @@ margin-top: 1px;
 margin-right: 2px;
 margin-bottom: 3px;
 margin-left: 2px;
+
+/* Exemplul 5 */
+margin: 10px;
 ```
+
+{% hint style="info" %}
+Se observă în exemplul 3 că atunci când sunt doar două valori oferite, se consideră că top = bottom și left = right.
+
+De asemenea, când e specificată o singură valoare \(exemplul 5\), atunci top = bottom = left = right = valoarea respectivă.
+
+Toate acestea sunt valable si pentru atributul `position`.
+{% endhint %}
 
 ## Activitatea 4 - Poziționarea elementelor în pagină
 
