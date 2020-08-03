@@ -91,7 +91,7 @@ Citim identificatorii de mai sus astfel:
 ```
 
 {% hint style="info" %}
-Supereroii nu mai sunt suprapuși, deoarece acum div-ul unui erou are și clasa jean, menționând care erou este în prim plan, deci cel văzut pe ecran la momentul inițial. Acest lucr se întâmplă datorită CSS-ului discutat la pasul 1.
+Supereroii nu mai sunt suprapuși, deoarece acum div-ul unui erou are și clasa jean, menționând care erou este în prim plan, deci cel văzut pe ecran la momentul inițial. Acest lucru se întâmplă datorită CSS-ului discutat la pasul 1.
 {% endhint %}
 
 În continuare, vom stabili convenția că fiecare supererou are un id care îl identifică, și anume: 0 - Jean Grey, 1 - Cyclops, 2 - Doctor Strange

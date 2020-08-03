@@ -10,9 +10,9 @@ description: >-
 
 [GitHub](https://github.com) este o platformă online de versionare a proiectelor. În următoarele lecții, aveți nevoie de un cont de GitHub. Nu vom lucra foarte mult cu git, dar pentru cei curioși, puteți citi mai multe [aici](https://guides.github.com/activities/hello-world/).
 
-Vom foloși și [Gitpod](https://www.gitpod.io) pentru a utiliza un editor online care funcționează în cloud și permite instalarea ușoară a dependințelor necesare.
+Vom folosi și [Gitpod](https://www.gitpod.io) pentru a utiliza un editor online care funcționează în cloud și permite instalarea ușoară a dependințelor necesare.
 
-1.Creați cont pe GitHub, accesați pagina Gitpod, dați click pe _**Let's try**_ și în continaure vă va autentifica cu contul de GitHub.
+1.Creați cont pe GitHub, accesați pagina Gitpod, dați click pe _**Let's try**_ și în continuare vă va autentifica cu contul de GitHub.
 
 2. Dupa aceasta, puteți închide tab-ul Gitpod și accesați următorul [link](https://gitpod.io#https://github.com/codettero/angular-starter). Va deschide un proiect deja creat în Gitpod.
 
@@ -52,11 +52,11 @@ Ca semn că totul a mers bine, veți observa în partea din stânga jos a pagini
 
 ![](../.gitbook/assets/screenshot-2020-03-19-at-16.21.04.png)
 
-8. Tot în status bar, dați click pe a doua opțiune \(nume/gitpod-setup\) și va apărea în partea de sus meniul din poza următoare. Selectați **origin/master**.
+7. Tot în status bar, dați click pe a doua opțiune \(nume/gitpod-setup\) și va apărea în partea de sus meniul din poza următoare. Selectați **origin/master**.
 
 ![](../.gitbook/assets/screenshot-2020-03-19-at-17.27.37.png)
 
-9. Vom activa setarea de salvare automată prin a folosi shortcutul **Ctrl + Shift + P,** vom scrie în meniul apărut "**autosave**" și vom selecta singura opțiune, la fel ca în poza de mai jos.
+8. Vom activa setarea de salvare automată prin a folosi shortcutul **Ctrl + Shift + P,** vom scrie în meniul apărut "**autosave**" și vom selecta singura opțiune, la fel ca în poza de mai jos.
 
 ![](../.gitbook/assets/screenshot-2020-03-19-at-17.50.27.png)
 
@@ -93,7 +93,7 @@ npm install --dev
 ```
 
 {% hint style="danger" %}
-Prima comandă va trebui dată de fiecare dată când deschideți proiectul. Gitpod lucrează cu cpntainere în spate și nu rămâne Angular CLI instalat. Dacă întâmpinați eroarea că ng nu este găsit \(`bash: ng: command not found`\), atunci înseamnă că trebuie să rulați prima comandă \(`npm install -g @angula/cli`\)
+Prima comandă va trebui dată de fiecare dată când deschideți proiectul. Gitpod lucrează cu containere în spate și nu rămâne Angular CLI instalat. Dacă întâmpinați eroarea că ng nu este găsit \(`bash: ng: command not found`\), atunci înseamnă că trebuie să rulați prima comandă \(`npm install -g @angular/cli`\)
 {% endhint %}
 
 ## Pasul 2 - Salvarea modificărilor
@@ -136,7 +136,7 @@ Puteți lăsa comanda să ruleze în mod continuu, însă, când vom avea nevoie
 
 ![](../.gitbook/assets/screenshot-2020-03-19-at-18.03.52.png)
 
-Site-ul arată acum astfel. De unde vine acest text? Deschideți `src/app/app.component/html` și veți vedea.
+Site-ul arată acum astfel. De unde vine acest text? Deschideți `src/app/app.component.html` și veți vedea.
 
 ![](../.gitbook/assets/screenshot-2020-03-19-at-18.07.22.png)
 
