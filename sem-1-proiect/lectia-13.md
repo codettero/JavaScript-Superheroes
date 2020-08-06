@@ -10,7 +10,7 @@ description: MySuperHeroApp - part 2
 
 Clasele celor două imagini sunt **hero--image** \(cea vizibilă mereu\) și **hero--image-back** \(cea vizibilă la hover\). Vom lucra cu aceste clase asociate imaginilor, dar și cu div-urile **hero--left** și **hero--image-container**.
 
-Adăugați codul următor în fișierul CSS și testati ce se întâmplă. La hover, imaginea trebuie să se schimbe.
+Adăugați în HTML cele două etichete pentru imagini cu clase menționate mai sus, în div-ul hero--image-container. Alegeți imaginile corespunzătoare din folderul de imagini ca sursă. Adăugați codul următor în fișierul CSS și testati ce se întâmplă. La hover, imaginea trebuie să se schimbe.
 
 ```css
 .hero--left {
