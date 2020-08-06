@@ -116,9 +116,9 @@ Până acum, pagina conține niște div-uri goale. În continuare, vom adăuga c
 
 În div-ul **hero--image-container,** adăugați cele două imagini portret salvate pentru supererou.
 
-În div-ul **hero--right-inner**, adăugați un header h2 cu clasa **hero--name**, care să conțină numele supereroului, și un header h4 **hero--power** cu clasa, care să conțină nivelul de putere al supereroului. Tot aici adăugați și un header h4 fără clasă care să conțină titlul paragrafului ce îl urmează, și un paragraf cu clasa **hero--description**, care va conține un text cu o scurtă descriere despre supererou.
+În div-ul **hero--right-inner**, adăugați un header h2 cu clasa **hero--name**, care să conțină numele supereroului, și un header h4 cu clasa **hero--power**, care să conțină nivelul de putere al supereroului. Tot aici adăugați și un header h4 fără clasă care să conțină titlul paragrafului ce îl urmează, și un paragraf cu clasa **hero--description**, care va conține un text cu o scurtă descriere despre supererou.
 
-În div-ul **hero--details**, adăugați un header h4 care să conțină titlul secțiunii \(de exemplu, Abilities\), urmat de 3 abilități, fiecare scrisă într-un span separat. Fiecare abilitate va fi stilizată în CSS în lecția următoare.
+În div-ul **hero--details**, adăugați un header h4 care să conțină titlul secțiunii \(de exemplu, Abilities\), urmat de 3 abilități \(la alegere\), fiecare scrisă într-un span separat. Fiecare abilitate va fi stilizată în CSS în lecția următoare, deci nu este nevoie să specificați nicio clasă momentan.
 
 În div-ul **hero--details-left** adăugați un header h4 fără clasă care să conțină  titlul secțiunii \(de exemplu, Allies\).  Header-ul este urmat de o listă neordonată cu clasa **hero--allies**, care conține 4 elemente. Fiecare element al listei conține un header h5 cu numele unui supererou și o imagine asociată acestuia cu clasa **img-round**.
 
