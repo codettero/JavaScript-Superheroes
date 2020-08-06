@@ -8,10 +8,10 @@ description: MySuperHeroApp - part 4
 
 În lecțiile anterioare am creat și stilizat un supererou. Am stabilit structura paginii, am construit div-urile, am adăugat și stilizat conținutul. În continuare, urmați aceiași pași pentru a adăuga încă 2 supereroi.
 
-Căutați pe net informații despre aceștia. Supereroii adăugați de noi sunt Cyclops și Doctor Strange, iar Jean Grey a fost prima adăugată.
+Căutați pe net informații despre aceștia și adăugați un conținut asemănător ca la Jean Grey \(poză largă față-verso, nume, power level, descriere, 3 abilități, listă de 4 aliați, listă de 4 inamici\). Supereroii adăugați de noi sunt Cyclops și Doctor Strange, iar Jean Grey a fost prima adăugată.
 
 {% hint style="info" %}
-În realizarea celor doi noi supereroi, cel mai probabil veți da copy paste de la div-urile ce conțin informații despre Jean Grey. În acest caz, nu uitați să schimbați id-ul și clasa div-ului mare, care să conțină numele noilor eroi.
+În realizarea celor doi noi supereroi, cel mai probabil veți da copy paste de la div-urile ce conțin informații despre Jean Grey. În acest caz, nu uitați să schimbați id-ul și clasa div-ului mare, care să conțină numele noilor eroi. Id-urile vor fi folosite în semestrul 2, la partea de JavaScript.
 
 `<div class="hero jean" id="jean">` trebuie schimbat în `<div class="hero cyclops" id="cyclops">` pentru Cyclops și în `<div class="hero strange" id="strange">` pentru Doctor Strange.
 {% endhint %}
