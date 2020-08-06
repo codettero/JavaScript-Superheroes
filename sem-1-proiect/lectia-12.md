@@ -52,7 +52,7 @@ Până acum, pagina web arată astfel, doar titlul din browser și un header în
 
 ![Structura paginii web](../.gitbook/assets/group-6.png)
 
-Fiecare supererou este adăugat într-un div numit **hero**. Acesta e împărțit în două div-uri, **hero--left** și **hero--right**. Hero--left conține **hero--image-container,** unde se află imaginea de profil a supereroului. Hero--right conține **hero--right-inner,** unde sunt incluse informații despre supererou \(nume, descriere etc\) și **hero-details**, unde sunt include detalii cum ar fi abilitățile, aliații și inamicii. Hero--details conține alte două div-uri, **hero--details-left** și **hero--details-right**, pentru a poziționa informațiile pe două coloane, ca în imagine.
+Fiecare supererou este adăugat într-un div numit **hero**. Acesta e împărțit în două div-uri, **hero--left** și **hero--right**. Hero--left conține **hero--image-container,** unde se află imaginea de profil a supereroului. Hero--right conține **hero--right-inner,** unde sunt incluse informații despre supererou \(nume, descriere etc\) și **hero-details**, unde sunt incluse detalii cum ar fi abilitățile, aliații și inamicii. Hero--details conține alte două div-uri, **hero--details-left** și **hero--details-right**, pentru a poziționa informațiile pe două coloane, ca în imagine.
 
 Această structură este propusă și va fi folosită în cadrul lecțiilor, însă voi puteți sa alegeți alta sau să încludeți alte elemente.
 
@@ -61,28 +61,29 @@ Cu alte cuvinte, șablonul pentru un supererou este următorul. Chiar dacă vom 
 ```javascript
 <div class="hero" id="jean">
 
-    <div class="hero--left">
-      <div class="hero--image-container">
-
-      </div>
+  <div class="hero--left">
+    <div class="hero--image-container">
+      <!-- aici vor fi incluse imaginile mari cu supereroul -->
     </div>
-    <div class="hero--right">
-      <div class="hero--right-inner">
-
-        <div class="hero--details">
-          
-          <div class="hero--details-left">
-            
-          </div>
-          <div class="hero--details-right">
-            
-          </div>
-          <div class="clearfix"></div>
-        </div>
-      </div>
-    </div>
-    <div class="clearfix"></div>
   </div>
+
+  <div class="hero--right">
+    <div class="hero--right-inner">
+      <!-- aici e inclus un header cu numele eroului, power level si hero description -->
+      <div class="hero--details">
+        <!-- aici vor fi incluse abilitatile supereroului -->
+        <div class="hero--details-left">
+          <!-- aici va fi inclusa lista cu aliati -->
+        </div>
+        <div class="hero--details-right">
+          <!-- aici va fi inclusa lista cu inamici -->
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+</div>
 ```
 
 {% hint style="success" %}

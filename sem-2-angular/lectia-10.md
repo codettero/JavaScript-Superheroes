@@ -73,7 +73,7 @@ Cu alte cuvinte: `index.html` conține selectorul lui **app component** care con
 De asemenea, proiectul are, pe lângă `index.html`, și un fișier `stylesheet.css`, unde deja sunt incluse niște stilizări pentru elementele pe care le vom folosi. Stilizarea de aici se aplică asupra tuturor componentelor \(este globală\). Pentru stilizări particulare, vom scrie în `nume-componentă.component.css` codul CSS necesar.
 {% endhint %}
 
-## Activitate 2 - Binding de proprietăți
+## Activitate 2 - Legare de proprietăți \(property binding\)
 
 Durată: 5' \| Metodă: prelegere \| Materiale: -
 
@@ -100,7 +100,7 @@ Pentru a afișa valoarea variabilei, în template-ul componentei `HeroComponent`
 
 Porniți serverul cu `ng serve` \(dacă era închis\). Dați refresh paginii pentru a vedea modificările.
 
-## Activitate 3 - Event binding
+## Activitate 3 - Legare de evenimente \(event binding\)
 
 Durată: 10' \| Metodă: prelegere \| Materiale: -
 
@@ -137,7 +137,9 @@ Dacă rulați din nou aplicația veți vedea că în momentul în care veți da 
 
 ![](../.gitbook/assets/screenshot-2020-03-19-at-19.29.28.png)
 
-
+{% hint style="info" %}
+Termenul de **proprietăți** se referă la **variabilele** definite într-o clasă, iar **evenimentele** pot fi văzute ca **funcții \(metode\)**.
+{% endhint %}
 
 ## Activitate 4 - Exercițiu
 
@@ -151,7 +153,7 @@ Durată: 10' \| Metodă: prelegere \| Materiale: -
 
 Am descoperit că există 2 modalități de comunicare între template-ul unei componente \(.html\) și clasa sa \(.ts\), și anume property binding și event binding. 
 
-Property binding: afișarea în template a proprietăților din clasa \(deci de la clasă la tempalte\)
+Property binding: afișarea în template a proprietăților din clasa \(deci de la clasă la template\)
 
 Event binding: semnalarea evenimentelor din template către clasă \(deci de la template la clasă\). 
 
