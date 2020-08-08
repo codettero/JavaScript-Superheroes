@@ -161,7 +161,7 @@ Testați codul de mai sus în browser.
 
 Durată: 15' \| Metodă: exercițiu \| Materiale: -
 
-Creați un calculator care efectuează calcule cu exact doi termeni. Pagina conține titlu, instructiuni, un input field în care să fie introdusă operația, un buton pentru a calcula și un paragraf la final în care să fie afișat rezultatul. Rezultatul ar trebui sa fie însotit de explicații, ca în exemplele de mai jos \(textul se modifică în funcție de operația executată. Butonul "Resetează" este folosit pentru a șterge rezultatul anterior și a goli input-ul.
+Creați un calculator care efectuează calcule cu exact doi termeni. Pagina conține titlu, instructiuni, un input field în care să fie introdusă operația, un buton pentru a calcula și un paragraf la final în care să fie afișat rezultatul. Rezultatul ar trebui sa fie însoțit de explicații, ca în exemplele de mai jos \(textul se modifică în funcție de operația executată. Butonul "Resetează" este folosit pentru a șterge rezultatul anterior și a goli input-ul.
 
 Folosiți HTML pentru a crea elementele de mai sus și JS pentru funcționalitate. Input-ul va fi un string, din care va trebui să separați operatorul și termenii.
 
