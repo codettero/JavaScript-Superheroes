@@ -135,22 +135,26 @@ Codul vostru scris în JavaScript poate interacționa cu pagina HTML din care fa
 ```javascript
 // in fisierul JS linkat catre pagina HTML
 
-// Gasim referinte la elemente folosind id-urile din HTML
-let getNameElement = document.getElementById("getName");
-let insertNameElement = document.getElementById("insertName");
-let setNameElement = document.getElementById("setName");
+function getAndPrintName() {
+	// Gasim referinte la elemente folosind id-urile din HTML
+	let getNameElement = document.getElementById("getName");
+	let insertNameElement = document.getElementById("insertName");
+	let setNameElement = document.getElementById("setName");
 
-// Cand se da click pe buton, apelam functia arrow
-setNameElement.addEventListener("click", () => {
-    // Selectam valoarea inputului
-    let name = getNameElement.value;
-    
-    // Inseram in elementul span valoarea variabilei name ca string.
-    // Putem insera un intreg element HTML, dar, pentru ca
-    // variabila name contine un string, elementul inserat
-    // va fi de tip text (TextNode).
-    insertNameElement.innerHTML = name;
-});
+	// Cand se da click pe buton, apelam functia arrow
+	setNameElement.addEventListener("click", () => {
+	    // Selectam valoarea inputului
+	    let name = getNameElement.value;
+	    
+	    // Inseram in elementul span valoarea variabilei name ca string.
+	    // Putem insera un intreg element HTML, dar, pentru ca
+	    // variabila name contine un string, elementul inserat
+	    // va fi de tip text (TextNode).
+	    insertNameElement.innerHTML = name;
+	}); 
+	
+// incarcam functia de mai sus odata cu intreaga pagina
+window.addEventListener("load", getAndPrintName);
 ```
 
 În exemplul de mai sus, folosim 4 modalități de manipulare a DOM-ului pentru a lua valoarea unui input și a o introduce într-un heading când se dă click pe un buton.
