@@ -14,7 +14,7 @@ Durată: 10' \| Metodă: explicație \| Materiale: videoproiector
 
 Exact ca în C/C++, structura decizională `if` ne permite să verificăm valoarea de adevăr a unei condiții și să executăm operații diferite în funcție de aceasta. Condiția din interiorul `if`-ului poate fi o variabilă booleană \(true/false\) sau o operație care poate fi evaluată la o variabilă booleană \(folosind operatorii =, &lt;, &gt;, &lt;=, &gt;=, != etc\).
 
-Structura acestei operații este: `if (condiție) {caz_adevărat;}` Acoladele sunt necesare dacă se execută mai mult de două operații, și pot fi omise dacă se execută doar una. În cadrul acestor lectii, le vom folosi chiar dacă avem doar o operație de executat.
+Structura acestei operații este: `if (condiție) {caz_adevărat;}` Acoladele sunt necesare dacă se execută cel puțin două operații, și pot fi omise dacă se execută doar una. În cadrul acestor lectii, le vom folosi chiar dacă avem doar o operație de executat.
 
 ```javascript
 isSnowing = true;
