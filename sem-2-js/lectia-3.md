@@ -151,7 +151,8 @@ function getAndPrintName() {
 	    // variabila name contine un string, elementul inserat
 	    // va fi de tip text (TextNode).
 	    insertNameElement.innerHTML = name;
-	}); 
+	});
+} 
 	
 // incarcam functia de mai sus odata cu intreaga pagina
 window.addEventListener("load", getAndPrintName);

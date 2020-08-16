@@ -78,7 +78,7 @@ Adăugați următorul cod în CSS, referitor la elementele din clasa **hero--btn
 ```
 
 {% hint style="info" %}
-Ultimele 3 linii fac același lucru: adaugă umbră butonului, de o anumită dimensiunea în cele 4 părti \(sus, jos, stânga, drepta\) și de o anumita culoare. Deși fac același lucru, le-am scris pe toate 3 pentru eventualitatea în care un browser nu înțelege proprietatea.
+Liniile 5, 6 și 7 fac același lucru: adaugă umbră butonului, de o anumită dimensiune, în cele 4 părti \(sus, jos, stânga, drepta\) și de o anumită culoare. Deși fac același lucru, le-am scris pe toate 3 pentru eventualitatea în care un browser nu înțelege proprietatea.
 {% endhint %}
 
 {% hint style="danger" %}

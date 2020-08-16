@@ -119,7 +119,7 @@ let nextHero = function() {
 };
 ```
 
-Funcția verifică ce supererou este în prim plan \(cele 3 if-uri\) pentru a putea ști ce erou urmează. În interiprul fiecărui if avem un forEach care iterează printr-un array cu numele id-urile supereroilor folosiți și pentru fiecare, caută acel element în pagina HTML după id-ul dat \(folosind document.getElementById\) și îi adaugă clasa eroului următor și o elimină pe cea a eroului curent \(care nu va mai fi pe ecran\). Avem nevoie de această adăugare și eliminare de clasă întocmai pentru CSS-ul discutat la pasul 2, pentru că fiecare div cu un supererou își schimbă poziția în funcție de cine este în prim plan.
+Funcția verifică ce supererou este în prim plan \(cele 3 if-uri\) pentru a putea ști ce erou urmează. În interiorul fiecărui if avem un forEach care iterează printr-un array cu numele id-urile supereroilor folosiți și pentru fiecare, caută acel element în pagina HTML după id-ul dat \(folosind document.getElementById\) și îi adaugă clasa eroului următor și o elimină pe cea a eroului curent \(care nu va mai fi pe ecran\). Avem nevoie de această adăugare și eliminare de clasă întocmai pentru CSS-ul discutat la pasul 2, pentru că fiecare div cu un supererou își schimbă poziția în funcție de cine este în prim plan.
 
 La final, se updatează noul erou în prim plan. Fără această linie, butonul de next nu ar funcționa mai mult de o dată.
 
