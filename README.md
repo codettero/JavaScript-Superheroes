@@ -112,7 +112,5 @@ Ca rezultat al acestui curs, participanții vor construi o pagină web completă
 
 **Aldea Cristina**, Liceul Toretic "Alexandru Ioan Cuza", București
 
-
-
 ![](.gitbook/assets/logos-02%20%281%29.svg)
 
