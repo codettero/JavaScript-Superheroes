@@ -4,7 +4,7 @@
 
 Broșura _JavaScript Superheroes_ vine în sprijinul profesorilor de informatică din toată țara și propune predarea unui opțional la clasele de generală și liceu.
 
-Broșura este creată și pusă la dispoziție publicului de către [Asociația Codette](https://codette.ro), în urma organizării a 5 workshop-uri de web development în 4 orașe din România. Voluntarii noștri, [Carmen-Gabriela Popa](https://www.linkedin.com/in/carmengpopa/), [Valentin Ionită](https://www.linkedin.com/in/valentin-ionita/), și [Andrei Antal](https://www.linkedin.com/in/andreiantal/), alături de [Silvia Bălan](https://www.linkedin.com/in/silvia-balan-73a30b181/), au lucrat la dezvoltarea, verificarea și îmbunătățirea acesteia.
+Broșura este creată și pusă la dispoziție publicului de către [Asociația Codette](https://codette.ro), în urma organizării a 5 workshop-uri de web development în 5 licee din România. Voluntarii noștri, [Carmen-Gabriela Popa](https://www.linkedin.com/in/carmengpopa/), [Valentin Ionită](https://www.linkedin.com/in/valentin-ionita/), și [Andrei Antal](https://www.linkedin.com/in/andreiantal/), alături de [Silvia Bălan](https://www.linkedin.com/in/silvia-balan-73a30b181/), au lucrat la dezvoltarea, verificarea și îmbunătățirea acesteia. 
 
 ## Cunoștințe anterioare
 
@@ -74,7 +74,45 @@ Proiectele pot fi realizate în echipe de câte 2 și se pot efectua atât în c
 
 Ca rezultat al acestui curs, participanții vor construi o pagină web completă în care afișează informații despre 3 supereroi. Vor fi realizate două proiecte, unul folosind HTML, CSS si JS, iar celalalt folosind framework-ul Angular. Tematica celor două proiecte este aceeași.
 
-![](.gitbook/assets/screencapture-file-users-poppy-desktop-day1-end-index-html-2020-03-17-12_52_42.png)
+![vizual din primul proiect propus](.gitbook/assets/screencapture-file-users-poppy-desktop-day1-end-index-html-2020-03-17-12_52_42.png)
+
+## Mulțumiri
+
+### Autori
+
+**Popa Carmen-Gabriela**, lead Codette, studentă la Facultatea de Automatică și Calculatoare
+
+**Ioniță Valentin**, student la Facultatea de Automatică și Calculatoare
+
+### Contribuitori
+
+**Andrei Antal**
+
+**Diana Miron**
+
+### Revizuitori
+
+**Bălan Silvia**, Facultatea de Automatică și Calculatoare
+
+**Corneanu Nicoleta**, Facultatea de Automatică și Calculatoare
+
+**Horga Daria**, Colegiul Național "Mihai Viteazu"
+
+**Pruș Paul**, Colegiul Național "Gh. Munteanu Murgoci", Brăila
+
+**Păcurar Felicia**, Colegiul Național "DR. IOAN MEȘOTĂ", Brașov
+
+**Căprăriu Alina**, Colegiul Național "Matei Basarab", București
+
+**Voica Cornelia Nicoleta**, Colegiul Național "Ion C. Brătianu”, Pitești
+
+**Voica Adrian**, Liceul Teoretic "Ion Barbu", Pitești
+
+**Chirita Valentina**, Liceul Toretic "Alexandru Ioan Cuza", București
+
+**Aldea Cristina**, Liceul Toretic "Alexandru Ioan Cuza", București
+
+
 
 ![](.gitbook/assets/logos-02%20%281%29.svg)
 
