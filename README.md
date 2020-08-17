@@ -80,15 +80,15 @@ Ca rezultat al acestui curs, participanții vor construi o pagină web completă
 
 ### Autori
 
-**Popa Carmen-Gabriela**, lead Codette, studentă la Facultatea de Automatică și Calculatoare
+\*\*\*\*[**Popa Carmen-Gabriela**](https://www.linkedin.com/in/carmengpopa/), lead [Codette](https://codette.ro), studentă la Facultatea de Automatică și Calculatoare
 
-**Ioniță Valentin**, student la Facultatea de Automatică și Calculatoare
+\*\*\*\*[**Ioniță Valentin**](https://www.linkedin.com/in/valentin-ionita/), student la Facultatea de Automatică și Calculatoare
 
 ### Contribuitori
 
 **Andrei Antal**
 
-**Diana Miron**
+\*\*\*\*[**Diana Miron**](https://www.linkedin.com/in/diana-miron/)**,** CEO [JSLeague](https://www.jsleague.ro) & [JSKids](https://www.jskids.ro), Front-End Developer
 
 ### Revizuitori
 
@@ -96,7 +96,7 @@ Ca rezultat al acestui curs, participanții vor construi o pagină web completă
 
 **Corneanu Nicoleta**, Facultatea de Automatică și Calculatoare
 
-**Horga Daria**, Colegiul Național "Mihai Viteazu"
+**Horga Daria**, Colegiul Național "Mihai Viteazu", București
 
 **Pruș Paul**, Colegiul Național "Gh. Munteanu Murgoci", Brăila
 
