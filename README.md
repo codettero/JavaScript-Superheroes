@@ -86,9 +86,9 @@ Ca rezultat al acestui curs, participanții vor construi o pagină web completă
 
 ### Contribuitori pentru materialele de la workshop
 
-**Andrei Antal,** Senior Front-End Engineer, Co-founder JSLeague, a creat  materialele despre Angular
+\*\*\*\*[**Andrei Antal**](https://www.linkedin.com/in/andreiantal/)**,** Frontend developer & consultant @Qualitance, Co-founder & web technologies trainer @JSLeague - a creat  materialele despre Angular
 
-\*\*\*\*[**Diana Miron**](https://www.linkedin.com/in/diana-miron/)**,** Front-End Developer, CEO [JSLeague](https://www.jsleague.ro) & [JSKids](https://www.jskids.ro), a contribuit la proiectul de pe primul semestru, stilizând pagina web
+\*\*\*\*[**Diana Miron**](https://www.linkedin.com/in/diana-miron/)**,** Front-End Developer, CEO [JSLeague](https://www.jsleague.ro) & [JSKids](https://www.jskids.ro) - a contribuit la proiectul de pe primul semestru, stilizând pagina web
 
 ### Revizuitori
 
