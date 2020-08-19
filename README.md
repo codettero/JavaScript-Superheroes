@@ -4,7 +4,7 @@
 
 Broșura _JavaScript Superheroes_ vine în sprijinul profesorilor de informatică din toată țara și propune predarea unui opțional la clasele de generală și liceu.
 
-Broșura este creată și pusă la dispoziție publicului de către [Asociația Codette](https://codette.ro), în urma organizării a 5 workshop-uri de web development în 5 licee din România. Voluntarii noștri, [Carmen-Gabriela Popa](https://www.linkedin.com/in/carmengpopa/), [Valentin Ionită](https://www.linkedin.com/in/valentin-ionita/), și [Andrei Antal](https://www.linkedin.com/in/andreiantal/), alături de [Silvia Bălan](https://www.linkedin.com/in/silvia-balan-73a30b181/), au lucrat la dezvoltarea, verificarea și îmbunătățirea acesteia. 
+Broșura este creată și pusă la dispoziție publicului de către [Asociația Codette](https://codette.ro), în urma organizării a 5 workshop-uri de web development în 5 orașe din România. Voluntarii noștri \(menționați la finalul acestei pagini\) au lucrat la dezvoltarea, verificarea și îmbunătățirea acesteia. 
 
 ## Cunoștințe anterioare
 
@@ -78,39 +78,39 @@ Ca rezultat al acestui curs, participanții vor construi o pagină web completă
 
 ## Mulțumiri
 
-### Autori
+### Autorii lecțiilor
 
 \*\*\*\*[**Popa Carmen-Gabriela**](https://www.linkedin.com/in/carmengpopa/), lead [Codette](https://codette.ro), studentă la Facultatea de Automatică și Calculatoare
 
-\*\*\*\*[**Ioniță Valentin**](https://www.linkedin.com/in/valentin-ionita/), student la Facultatea de Automatică și Calculatoare
+\*\*\*\*[**Ioniță Valentin**](https://www.linkedin.com/in/valentin-ionita/), lead [Codette](https://codette.ro), student la Facultatea de Automatică și Calculatoare
 
-### Contribuitori
+### Contribuitori pentru materialele de la workshop
 
-**Andrei Antal**
+**Andrei Antal,** Senior Front-End Engineer, Co-founder JSLeague, a creat  materialele despre Angular
 
-\*\*\*\*[**Diana Miron**](https://www.linkedin.com/in/diana-miron/)**,** CEO [JSLeague](https://www.jsleague.ro) & [JSKids](https://www.jskids.ro), Front-End Developer
+\*\*\*\*[**Diana Miron**](https://www.linkedin.com/in/diana-miron/)**,** Front-End Developer, CEO [JSLeague](https://www.jsleague.ro) & [JSKids](https://www.jskids.ro), a contribuit la proiectul de pe primul semestru, stilizând pagina web
 
 ### Revizuitori
 
-**Bălan Silvia**, Facultatea de Automatică și Calculatoare
+**Bălan Silvia**, voluntar Codette și studentă la Facultatea de Automatică și Calculatoare
 
-**Corneanu Nicoleta**, Facultatea de Automatică și Calculatoare
+**Corneanu Nicoleta**, studentă la Facultatea de Automatică și Calculatoare
 
-**Horga Daria**, Colegiul Național "Mihai Viteazu", București
+**Horga Daria**, elevă la Colegiul Național "Mihai Viteazu", București
 
-**Pruș Paul**, Colegiul Național "Gh. Munteanu Murgoci", Brăila
+**Prof. Pruș Paul**, Colegiul Național "Gh. Munteanu Murgoci", Brăila
 
-**Păcurar Felicia**, Colegiul Național "DR. IOAN MEȘOTĂ", Brașov
+**Prof. Păcurar Felicia**, Colegiul Național "DR. IOAN MEȘOTĂ", Brașov
 
-**Căprăriu Alina**, Colegiul Național "Matei Basarab", București
+**Prof. Căprăriu Alina**, Colegiul Național "Matei Basarab", București
 
-**Voica Cornelia Nicoleta**, Colegiul Național "Ion C. Brătianu”, Pitești
+**Prof. Voica Cornelia Nicoleta**, Colegiul Național "Ion C. Brătianu”, Pitești
 
-**Voica Adrian**, Liceul Teoretic "Ion Barbu", Pitești
+**Prof. Voica Adrian**, Liceul Teoretic "Ion Barbu", Pitești
 
-**Chirita Valentina**, Liceul Toretic "Alexandru Ioan Cuza", București
+**Prof. Chirita Valentina**, Liceul Toretic "Alexandru Ioan Cuza", București
 
-**Aldea Cristina**, Liceul Toretic "Alexandru Ioan Cuza", București
+**Prof. Aldea Cristina**, Liceul Toretic "Alexandru Ioan Cuza", București
 
 ![](.gitbook/assets/logos-02%20%281%29.svg)
 
