@@ -102,15 +102,15 @@ Ca rezultat al acestui curs, participanții vor construi o pagină web completă
 
 **Prof. Păcurar Felicia**, Colegiul Național "DR. IOAN MEȘOTĂ", Brașov
 
+**Prof. Chiriță Valentina**, Liceul Toretic "Alexandru Ioan Cuza", București
+
+**Prof. Aldea Cristina**, Liceul Toretic "Alexandru Ioan Cuza", București
+
 **Prof. Căprăriu Alina**, Colegiul Național "Matei Basarab", București
 
 **Prof. Voica Cornelia Nicoleta**, Colegiul Național "Ion C. Brătianu”, Pitești
 
 **Prof. Voica Adrian**, Liceul Teoretic "Ion Barbu", Pitești
-
-**Prof. Chirita Valentina**, Liceul Toretic "Alexandru Ioan Cuza", București
-
-**Prof. Aldea Cristina**, Liceul Toretic "Alexandru Ioan Cuza", București
 
 ![](.gitbook/assets/logos-02%20%281%29.svg)
 
