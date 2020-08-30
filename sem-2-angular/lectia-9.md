@@ -35,7 +35,7 @@ Vom folosi și [Gitpod](https://www.gitpod.io) pentru a utiliza un editor online
 ![](../.gitbook/assets/screenshot-2020-03-19-at-16.20.14.png)
 
 {% hint style="warning" %}
-În caz că nu există această opțiune în meniu, ca în imaginea de mai sus, dați click pe icon-ul vostru din colțul din dreapta sus, unde va apărea un drop-down cu niște opțiuni. Selectați **Open Access Control**, ca în imaginea de mai jos, și apoi se va deschide un nou tab unde bifați **read/write private repos**.
+În caz că nu există această opțiune în meniu, ca în imaginea de mai sus, dați click pe iconul vostru din colțul din dreapta sus, unde va apărea un drop-down cu niște opțiuni. Selectați **Open Access Control**, ca în imaginea de mai jos, și apoi se va deschide un nou tab unde bifați **read/write private repos**.
 {% endhint %}
 
 ![](../.gitbook/assets/screenshot-2020-03-19-at-16.28.22.png)
