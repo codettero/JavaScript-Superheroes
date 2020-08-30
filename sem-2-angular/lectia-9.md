@@ -12,7 +12,7 @@ description: >-
 
 Vom folosi și [Gitpod](https://www.gitpod.io) pentru a utiliza un editor online care funcționează în cloud și permite instalarea ușoară a dependințelor necesare.
 
-1.Creați cont pe GitHub, accesați pagina Gitpod, dați click pe _**Try now -&gt; Start workspace**_ și în continuare vă va autentifica cu contul de GitHub.
+1.Creați cont pe GitHub, dacă nu aveți deja, accesați pagina [Gitpod](https://www.gitpod.io), dați click pe _**Try now -&gt; Start workspace**_ și în continuare vă va autentifica cu contul de GitHub.
 
 2. Dupa aceasta, puteți închide tab-ul Gitpod și accesați următorul [link](https://gitpod.io#https://github.com/codettero/angular-starter). Va deschide un proiect deja creat în Gitpod.
 
