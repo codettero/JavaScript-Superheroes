@@ -31,7 +31,7 @@ Rularea acestei comenzi are 2 efecte:
 Folderul **hero** conține:
 
 * `hero.component.ts` -  fișier în care definim logica componentei \(cum se comportă\); ts este prescurtare de la Typescript, părintele JavaScript-ului, deci putem scrie cod JS cum am învățat
-* `hero.component.html` - fișier ce conține ce elementele vizuale ale componentei \(structura vizuală și conținutul\)
+* `hero.component.html` - fișier ce conține elementele vizuale ale componentei \(structura vizuală și conținutul\)
 * `hero.component.css` - fișier ce conține detalii despre cum arata elementele vizuale din componenta \(stilurile componentei\)
 * `hero.component.spec.ts` - fișier pentru testare cu care nu vom lucra
 

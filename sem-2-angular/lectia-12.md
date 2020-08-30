@@ -99,7 +99,7 @@ public hero2: Hero = {
   name: 'Black Widdow',
   alterEgo: 'Natalia Alianovna Romanova',
   description: 'About Black Widow',
-  photo: 'assets/black-widow.jpg'
+  photo: 'assets/black-widow.png'
 };
 
 public hero3: Hero = {

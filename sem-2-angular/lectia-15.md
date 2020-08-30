@@ -170,7 +170,7 @@ import { HeroService } from '../hero.service'; // importul adaugat
 export class EditHeroComponent implements OnInit {
   ...
   // injectati serviciul HeroService
-  constructor(private heroSevice: HeroService) { }
+  constructor(private heroService: HeroService) { }
 
 }
 ```

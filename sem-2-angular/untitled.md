@@ -110,11 +110,11 @@ class Parrot {
     }
     
     getName() {
-        return this.name();
+        return this.name;
     }
     
     getColor() {
-        return this.color();
+        return this.color;
     }
     
     setName(newName) {
