@@ -234,7 +234,7 @@ Mai rămâne să modificăm binding-urile din template, astfel încât fiecare c
 <jsh-hero [hero]="heros[3]"></jsh-hero>
 ```
 
-Dacă dați refresh, lucururile ar trebui să funcționeze ca înainte.
+Dacă dați refresh, lucrurile ar trebui să funcționeze ca înainte.
 
 Pentru rezolvarea și celei de-a doua probleme, ar trebui să găsim o modalitate prin care să putem să folosim array-ul din componenta și să afișăm exact numărul de componente pe care îl are acesta, fără a mai modifica template-ul. Din fericire, Angular vine în ajutorul nostru cu o directivă care adresează exact această problema, numită `ngFor`. Sintaxa generala pentru aceasta este:
 
@@ -246,7 +246,7 @@ unde:
 
 * **`<jsh-hero>`** - vrem să repetam componenta `Hero` de un numar de ori egal cu lungimea array-ului `heros` din componenta `HeroListComponent`
 * **`*ngFor`** - este numele directivei, precedat de un `*` care semnalizează ca este o directivă structurală , adică modifică structura template-ului \(în cazul de față adaugă elemente `<jsh-hero>`\)
-* **`"let h of heros"`** - este o micro-sintaxă a directivei care ne permite să avem acces la fiecare element al array-ului pentru fiecare iterație; `h` este variabila care definește un erou \(un element al array-ului\), iar `heroes` este numele array-ului
+* **`"let h of heros"`** - este o micro-sintaxă a directivei care ne permite să avem acces la fiecare element al array-ului pentru fiecare iterație; `h` este variabila care definește un erou \(un element al array-ului\), iar `heros` este numele array-ului
 
 În cazul nostru, directiva îndeplinește exact rolul de care aveam nevoie: iterează și adaugă componente `Hero` în funcție de lungimea array-ului `heros` și la fiecare adăugare pasează pentru binding fiecare element al aray-ului componentei.
 

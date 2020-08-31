@@ -134,6 +134,7 @@ console.log(p.getName()); // Mango
 Durată: 5' \| Metodă: prelegere \| Materiale: -
 
 ```javascript
+// definirea clasei, scrisă într-un fișier JS
 class Rectangle {
   constructor(height, width) {
     this.height = height;
@@ -153,6 +154,7 @@ class Rectangle {
   
 }
 
+// instrucțiuni de scris în consola browser-ului pentru a testa clasa
 const square = new Rectangle(10, 10);
 const rectangle = new Rectangle(25, 4);
 console.log(rectangle.isEqual(square)); // true
@@ -173,7 +175,15 @@ console.log(square.isEqual(square2)); // true
 
 Durată: 10' \| Metodă: prelegere \| Materiale: -
 
-Conform exemplului de mai sus, instanțiați o clasă pentru numere complexe. Clasa are numele **ComplexNumber** și primește prin constructor două proprietăți, **real și imaginar**. Implementați o metodă care adună două numere complexe și una care le înmulțește și testați codul în consolă, linkându-l la o pagină HTML.
+\[Liceu\] Conform exemplului de mai sus, instanțiați o clasă pentru numere complexe. Clasa are numele **ComplexNumber** și primește prin constructor două proprietăți, **real și imaginar**. Implementați o metodă care adună două numere complexe și una care le înmulțește și testați codul în consolă, linkându-l la o pagină HTML.
+
+\[Generală\] Conform exemplului de mai sus, instanțiați o clasă pentru un adăpost de pisici. Clasa are numele **CatShelter** și primește prin constructor o proprietate, și anume numărul de pisici. Implementați următoarele metode:
+
+* inventar\(\): printează câte pisici sunt la adăpost, sub forma "La adăpost locuiesc x pisici."
+* adoptare\(int x\): marchează ca x pisici au fost adoptate, și ține evidența numărului de pisici rămase la adăpost
+* venire\(int x\): marchează ca x pisici au fost salvate de pe strada și aduse la adăpost, și ține evidența numărului de pisici care sunt în total la adăpost
+
+Testați codul în consolă, linkându-l la o pagină HTML.
 
 ![](../.gitbook/assets/logos-02.svg)
 
