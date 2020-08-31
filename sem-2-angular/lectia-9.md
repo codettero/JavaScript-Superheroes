@@ -44,7 +44,7 @@ Vom folosi și [Gitpod](https://www.gitpod.io) pentru a utiliza un editor online
 
 #### Rezultat
 
-Ca semn că totul a mers bine, veți observa în partea din stânga jos a paginii \(status bar\) faptul că acum apare numele vostru de pe GitHub/angular-starter.
+Ca semn că totul a mers bine, veți observa în partea din stânga jos a paginii, în meniul albastru \(status bar\) faptul că acum apare numele vostru de pe GitHub/angular-starter.
 
 ![](../.gitbook/assets/screenshot-2020-03-19-at-16.20.39.png)
 
@@ -52,7 +52,11 @@ Ca semn că totul a mers bine, veți observa în partea din stânga jos a pagini
 
 ![](../.gitbook/assets/screenshot-2020-03-19-at-16.21.04.png)
 
-7. Tot în status bar, dați click pe a doua opțiune \(nume/gitpod-setup\) și va apărea în partea de sus meniul din poza următoare. Selectați **origin/master**.
+7. Tot în status bar \(zona albastră\), dați click pe a doua opțiune \(nume/gitpod-setup\).
+
+![](../.gitbook/assets/group-1.png)
+
+Va apărea în partea de sus meniul din poza următoare. Selectați **origin/master**.
 
 ![](../.gitbook/assets/screenshot-2020-03-19-at-17.27.37.png)
 

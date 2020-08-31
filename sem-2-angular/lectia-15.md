@@ -28,7 +28,7 @@ export class AppComponent {
 }
 ```
 
-În template-ul componentei \(fișierul `src/app/app.component.html`\) adăugăm directiva `*ngIf`cu valoarea prorietății pe care tocmai am creat-o, pe componenta `<jsh-edit-hero>`
+În template-ul componentei \(fișierul `src/app/app.component.html`\) adăugăm directiva `*ngIf`cu valoarea proprietății pe care tocmai am creat-o, pe componenta `<jsh-edit-hero>`
 
 ```markup
 <h2>Angular super heroes</h2>
