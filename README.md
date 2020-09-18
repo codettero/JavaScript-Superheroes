@@ -92,7 +92,7 @@ Ca rezultat al acestui curs, participanții vor construi o pagină web completă
 
 ### Revizuitori
 
-**Mihalcea Alexandra-Maria**, membru în consiliul director Codette
+**Mihalcea Alexandra-Maria**, Vice-Președinte Codette
 
 **Bălan Silvia**, voluntar Codette și studentă la Facultatea de Automatică și Calculatoare
 
